@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "libmogra"
+version = "0.1.1"
+description = "\"A Python Toolbox for Indian (Classical) Music\""
+authors = ["Neeraja Abhyankar <neeraja.abhyankar@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+homepage = "https://github.com/neerajaabhyankar/libmogra"
+repository = "https://github.com/neerajaabhyankar/libmogra"
+keywords=["music", "indian classical music", "raga", "raag", "taal", "swar", "indian music", "classical music", "hindustani classical music"]
+classifiers=[
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+include = ["LICENSE"]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
