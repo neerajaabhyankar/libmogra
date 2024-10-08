@@ -56,6 +56,14 @@ class SSwar(object):
             if swar_name in "ps":
                 print(f"trying {swar_name.upper()}")
                 self.swar = Swar[swar_name.upper()]
+    
+    @staticmethod
+    def from_string(string):
+        string = string.strip()
+        if len(string) > 1:
+            return SSwar(string[:-1], string[-1])
+        else:
+            return SSwar("", string)
 
     def __str__(self):
         return list(SAPTAK_MARKS)[self.saptak.value + 2] + self.swar.name
