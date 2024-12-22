@@ -1,14 +1,35 @@
 import argparse
+import io
+from PIL import Image
 import libmogra as lm
 from libmogra.raagfinder.parse import RAAG_DB, RAAG_DB_BY_SWAR, best_match, print_table
 
 
-def info(raag):
+IMAGE_VIEWER = "window"  # either of "browser"/"window"
+IMAGE_SCALE = 1.5
+
+
+def info(raag, show_tonnetz=False):
     raag_name = raag.lower()
     if raag_name not in RAAG_DB:
         raag_name = best_match(raag_name)
 
     print_table(RAAG_DB[raag_name])
+
+    if show_tonnetz:
+        tn = lm.tonnetz.Tonnetz()
+        figure = tn.plot_raag(raag_name)
+        if figure is None:
+            return
+
+        if IMAGE_VIEWER == "browser":
+            figure.show(scale=IMAGE_SCALE)
+        elif IMAGE_VIEWER == "window":
+            image_buffer = io.BytesIO()
+            figure.write_image(image_buffer, format="png", scale=IMAGE_SCALE)
+            image_buffer.seek(0)
+            image = Image.open(image_buffer)
+            image.show()
 
 
 def search(swar):
@@ -16,7 +37,9 @@ def search(swar):
     swar_set = sorted(swar_set, key=lambda x: lm.datatypes.Swar[x].value)
     swar_set = list(dict.fromkeys(swar_set))
     print("Looking for raags with notes", " ".join(swar_set), " ...")
-    results = RAAG_DB_BY_SWAR[tuple(swar_set)]
+    results = RAAG_DB_BY_SWAR.get(tuple(swar_set), [])
+    if len(results) == 0:
+        print("... none found.")
     for res in results:
         print_table(RAAG_DB[res])
 
@@ -32,6 +55,9 @@ def main():
         "info", help="Look up basic information by Raag"
     )
     parser_info.add_argument("raag", type=str, help="Raag name")
+    parser_info.add_argument(
+        "--tonnetz", action="store_true", help="Show tonnetz diagram"
+    )
 
     # search subparser
     parser_search = subparsers.add_parser(
@@ -46,7 +72,7 @@ def main():
     args = parser.parse_args()
 
     if args.function == "info":
-        info(args.raag)
+        info(args.raag, args.tonnetz)
 
     if args.function == "search":
         search(args.swar)

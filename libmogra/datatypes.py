@@ -1,8 +1,9 @@
+import math
+import bisect
 from dataclasses import dataclass
 from collections import OrderedDict
 from enum import Enum
 from typing import List, Dict, Tuple, Optional
-import bisect
 
 
 PRIMES = [3, 5, 7, 11]
@@ -83,12 +84,20 @@ def normalize_frequency(ff):
     return float(ff)
 
 
-def ratio_to_swar(ff: float):
+def ratio_to_swar(ff: float) -> Swar:
     """
     Per the swar boundaries, returns the coarse-grained Swar symbol that ff may map to
     """
     si = bisect.bisect_left(SWAR_BOUNDARIES, ff)
     return Swar(si % 12).name
+
+
+def ratio_to_swarval(ff: float):
+    """
+    With the octave represented as [0, 12), and equal-temperament-tuned notes as integers,
+    returns the real-valued "note value" given a ratio between [1, 2)
+    """
+    return math.log2(ff) * 12
 
 
 class Shruti:
