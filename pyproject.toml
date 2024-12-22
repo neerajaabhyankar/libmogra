@@ -14,9 +14,18 @@ classifiers=[
 ]
 include = ["LICENSE"]
 
+[tool.poetry.scripts]
+mogra = "libmogra.raagfinder.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+dill = "^0.3.9"
+pandas = "^2.2.3"
+ipykernel = "^6.29.5"
+rich = "^13.9.4"
+pytest = "^8.3.4"
+argparse = "^1.4.0"
+rapidfuzz = "^3.11.0"
 
 
 [tool.poetry.group.dev.dependencies]
