@@ -7,9 +7,9 @@ def info(raag):
     raag_name = raag.lower()
     if raag_name not in RAAG_DB:
         raag_name = best_match(raag_name)
-    
+
     print_table(RAAG_DB[raag_name])
-    
+
 
 def search(swar):
     swar_set = [char for char in swar if char in lm.datatypes.Swar._member_names_]
@@ -28,18 +28,26 @@ def main():
     subparsers = parser.add_subparsers(dest="function")
 
     # info subparser
-    parser_info = subparsers.add_parser("info", help="Look up basic information by Raag")
+    parser_info = subparsers.add_parser(
+        "info", help="Look up basic information by Raag"
+    )
     parser_info.add_argument("raag", type=str, help="Raag name")
 
     # search subparser
-    parser_search = subparsers.add_parser("search", help="Find a Raag from a set of notes")
-    parser_search.add_argument("swar", type=str, help="Provide a set of notes among SrRgGmMPdDnN (m = shuddha, M = teevra)")
+    parser_search = subparsers.add_parser(
+        "search", help="Find a Raag from a set of notes"
+    )
+    parser_search.add_argument(
+        "swar",
+        type=str,
+        help="Provide a set of notes among SrRgGmMPdDnN (m = shuddha, M = teevra)",
+    )
 
     args = parser.parse_args()
 
     if args.function == "info":
         info(args.raag)
-    
+
     if args.function == "search":
         search(args.swar)
 

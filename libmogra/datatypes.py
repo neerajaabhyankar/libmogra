@@ -56,7 +56,7 @@ class SSwar(object):
             if swar_name in "ps":
                 print(f"trying {swar_name.upper()}")
                 self.swar = Swar[swar_name.upper()]
-    
+
     @staticmethod
     def from_string(string):
         string = string.strip()
