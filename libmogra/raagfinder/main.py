@@ -22,20 +22,26 @@ def search(swar):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="A CLI tool for looking up basic Raag information")
-    parser.add_argument(
-        "function", choices=["info", "search"],
-        help="print Raag info or search for a Raag based on a set of notes"
+    parser = argparse.ArgumentParser(
+        # description="A CLI tool for looking up basic Raag information"
     )
-    
-    parser.add_argument("arg2", type=str, help="Set of notes in Raag OR Raag name to look up")
+    subparsers = parser.add_subparsers(dest="function")
+
+    # info subparser
+    parser_info = subparsers.add_parser("info", help="Look up basic information by Raag")
+    parser_info.add_argument("raag", type=str, help="Raag name")
+
+    # search subparser
+    parser_search = subparsers.add_parser("search", help="Find a Raag from a set of notes")
+    parser_search.add_argument("swar", type=str, help="Provide a set of notes among SrRgGmMPdDnN (m = shuddha, M = teevra)")
+
     args = parser.parse_args()
 
     if args.function == "info":
-        info(args.arg2)
+        info(args.raag)
     
     if args.function == "search":
-        search(args.arg2)
+        search(args.swar)
 
 
 """
