@@ -7,6 +7,7 @@ import libmogra as lm
 
 """ setup """
 
+
 def index_by_set(raag_db):
     # TODO: instead of an exact match, allow for a subset/one-away match
     # TODO: use a different data structure for this
@@ -20,12 +21,14 @@ def index_by_set(raag_db):
             raag_db_by_set[tuple(swar_set)].append(raag_name)
         else:
             raag_db_by_set.update({tuple(swar_set): [raag_name]})
-        
+
     return raag_db_by_set
 
 
 def read_pickle():
-    raag_db = pickle.load(open(os.path.join(os.path.dirname(__file__), "raags.pkl"), "rb"))
+    raag_db = pickle.load(
+        open(os.path.join(os.path.dirname(__file__), "raags.pkl"), "rb")
+    )
     return raag_db, index_by_set(raag_db)
 
 
@@ -49,9 +52,11 @@ def print_table(raag_entry):
     # rows
     for key, value in raag_entry.items():
         if key == "mukhyanga":
-            value = '\n'.join('-- ' + ', '.join(map(str, sublist)) for sublist in value)[:-4]
+            value = "\n".join(
+                "-- " + ", ".join(map(str, sublist)) for sublist in value
+            )[:-4]
         elif isinstance(value, list):
-            value = ', '.join(map(str, value))
+            value = ", ".join(map(str, value))
         rich_table.add_row(key, str(value))
 
     # print
