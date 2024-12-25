@@ -18,16 +18,15 @@ from libmogra.datatypes import (
 DOT_SIZE = 21
 DOT_LABEL_SIZE = 13
 ANNOTATION_OFFSET = 0.5
-FIG_WIDTH = 820
-FIG_HEIGHT = 500
-FIG_MARGIN = dict(l=60, r=30, t=30, b=60)
-FIG_SCALE = 1.5
+FIG_WIDTH = 800
+FIG_HEIGHT = 600
+FIG_MARGIN = dict(l=60, r=40, t=40, b=200)
+FIG_SCALE = 1
 
 NODE_ORANGE = "#f08b65"
 NODE_YELLOW = "#f4c05b"
 NODE_GREY = "#323539"
-# NODE_PURPLE = lambda x: f"#{int(40-x*20)}25{int(40+x*20)}"
-NODE_PURPLE = lambda x: f"#{int(50+min(0,-x)*40)}30{int(50+min(0,x)*40)}"
+NODE_PURPLE = lambda x: f"#{int(70+min(0,-x)*120)}20{int(70+min(0,x)*120)}"
 
 LIGHT_GREY = "#dcd8cf"
 BG_GREY = "#f3f3f3"
@@ -199,7 +198,23 @@ class Tonnetz:
         fig.update_xaxes(tickvals=np.arange(-self.powers[0], self.powers[0] + 1))
         fig.update_yaxes(tickvals=np.arange(-self.powers[1], self.powers[1] + 1))
         fig.update_layout(margin=FIG_MARGIN)
-
+        
+        fig.add_annotation(
+            text="Note: m = shuddha, M = teevra",
+            xref="paper", yref="paper", xanchor="left", yanchor="top",
+            x=0.05, y=-0.2, showarrow=False, font=dict(size=DOT_LABEL_SIZE-2)
+        )
+        fig.add_annotation(
+            text="Disclaimer: The selection of these shrutis is merely a hypothesis based on my limited knowledge and reading.",
+            xref="paper", yref="paper", xanchor="left", yanchor="top",
+            x=0.05, y=-0.3, showarrow=False, font=dict(size=DOT_LABEL_SIZE-2)
+        )
+        fig.add_annotation(
+            text="Please use this as a mere guidance for visualization.",
+            xref="paper", yref="paper", xanchor="left", yanchor="top",
+            x=0.05, y=-0.35, showarrow=False, font=dict(size=DOT_LABEL_SIZE-2)
+        )
+        
         # fig.write_image(f"images/raag_{raag.lower()}.png", scale=FIG_SCALE)
         # fig.show(scale=FIG_SCALE)
         return fig
