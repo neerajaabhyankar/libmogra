@@ -1,3 +1,4 @@
+import os
 import argparse
 import io
 from PIL import Image
@@ -5,7 +6,6 @@ import libmogra as lm
 from libmogra.raagfinder.parse import RAAG_DB, RAAG_DB_BY_SWAR, best_match, print_table
 
 
-IMAGE_VIEWER = "window"  # either of "browser"/"window"
 IMAGE_SCALE = 1.5
 
 
@@ -16,20 +16,24 @@ def info(raag, show_tonnetz=False):
 
     print_table(RAAG_DB[raag_name])
 
-    if show_tonnetz:
+    if show_tonnetz != "none":
         tn = lm.tonnetz.Tonnetz()
         figure = tn.plot_raag(raag_name)
         if figure is None:
             return
 
-        if IMAGE_VIEWER == "browser":
+        if show_tonnetz == "browser":
             figure.show(scale=IMAGE_SCALE)
-        elif IMAGE_VIEWER == "window":
+        elif show_tonnetz == "window":
             image_buffer = io.BytesIO()
             figure.write_image(image_buffer, format="png", scale=IMAGE_SCALE)
             image_buffer.seek(0)
             image = Image.open(image_buffer)
             image.show()
+        elif os.path.exists("/".join(show_tonnetz.split("/")[:-1])):
+            figure.write_image(show_tonnetz, scale=IMAGE_SCALE)
+        else:
+            print("invalid display arg passed to --tonnetz")
 
 
 def search(swar):
@@ -56,7 +60,9 @@ def main():
     )
     parser_info.add_argument("raag", type=str, help="Raag name")
     parser_info.add_argument(
-        "--tonnetz", action="store_true", help="Show tonnetz diagram"
+        "--tonnetz",
+        default="none",
+        help="How to display the tonnetz diagram (none/window/browser/save_path)",
     )
 
     # search subparser
