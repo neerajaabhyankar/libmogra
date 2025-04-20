@@ -53,11 +53,15 @@ class EFGenus:
     """
 
     def __init__(self, primes=[3, 5, 7], powers=[0, 0, 0]) -> None:
+        assert len(primes) == len(powers), "the number of primes should match the number of corresponding specified powers"
         self.primes = primes
         self.powers = powers
 
     @classmethod
     def from_list(cls, genus_list: List):
+        """ Initializes the genus from a non-decreasing list of prime numbers.
+            The number of occurences of a prime number in this list = the max allowable power of that prime.
+        """
         primes = []
         powers = []
         for new_prime in genus_list:
@@ -81,15 +85,15 @@ class Tonnetz:
             print("cannot handle more than 3 dimensions")
             return
 
-        self.primes = genus.primes
-        self.powers = genus.powers
+        self.primes: List = genus.primes
+        self.powers: List = genus.powers
 
         ranges = []
         for prime, power in zip(genus.primes, genus.powers):
             ranges.append(range(-power, power + 1))
-        self.node_coordinates = list(itertools.product(*ranges))
+        self.node_coordinates: List[Tuple] = list(itertools.product(*ranges))
 
-        self.assign_coords3d()
+        # self.assign_coords3d()
         self.assign_notes()
 
     def coord_to_frequency(self, coords):
@@ -98,13 +102,14 @@ class Tonnetz:
             ff *= self.primes[ii] ** cc
         return ff
 
-    def assign_coords3d(self):
-        coords = list(zip(*self.node_coordinates))
-        # Coordinates for Plotly Scatter3d
-        self.coords3d = {i: [0] * len(self.node_coordinates) for i in range(3)}
-        for i, coords in enumerate(coords):
-            if i < len(coords):
-                self.coords3d[i] = coords
+    # def assign_coords3d(self):
+    #     """ TODO(neeraja): remove redundant variable"""
+    #     coords = list(zip(*self.node_coordinates))
+    #     # Coordinates for Plotly Scatter3d
+    #     self.coords3d = {i: [0] * len(self.node_coordinates) for i in range(3)}
+    #     for i, coords in enumerate(coords):
+    #         if i < len(coords):
+    #             self.coords3d[i] = coords
 
     def assign_notes(self):
         self.node_frequencies = [
@@ -166,8 +171,8 @@ class Tonnetz:
         fig = go.Figure(
             data=[
                 go.Scatter(
-                    x=self.coords3d[0],
-                    y=self.coords3d[1],
+                    x = [nc[0] for nc in self.node_coordinates],
+                    y = [nc[1] for nc in self.node_coordinates],
                     mode="text+markers",
                     marker=dict(
                         size=DOT_SIZE,
@@ -182,7 +187,8 @@ class Tonnetz:
                     textfont=dict(
                         family="Overpass", size=DOT_LABEL_SIZE, color="white"
                     ),
-                )
+                    showlegend=False,
+                ),
             ]
         )
 

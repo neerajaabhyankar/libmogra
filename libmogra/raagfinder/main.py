@@ -25,6 +25,7 @@ def info(raag, show_tonnetz=False):
         if show_tonnetz == "browser":
             figure.show(scale=IMAGE_SCALE)
         elif show_tonnetz == "window":
+            raise NotImplementedError("kaleido is broken")
             image_buffer = io.BytesIO()
             figure.write_image(image_buffer, format="png", scale=IMAGE_SCALE)
             image_buffer.seek(0)
