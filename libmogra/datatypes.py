@@ -1,9 +1,10 @@
 import math
+from fractions import Fraction
 import bisect
 from dataclasses import dataclass
 from collections import OrderedDict
 from enum import Enum
-from typing import List, Dict, Tuple, Optional
+from typing import List, Dict, Tuple, Optional, Union
 
 
 PRIMES = [3, 5, 7, 11]
@@ -76,28 +77,29 @@ class SSwar(object):
         return self.swar == other.swar
 
 
-def normalize_frequency(ff):
+def normalize_frequency(ff: Union[float, Fraction]):
+    """Bring any relative frequency within the primary octave"""
     while ff < 1:
         ff *= 2
     while ff >= 2:
         ff /= 2
-    return float(ff)
+    return ff
 
 
-def ratio_to_swar(ff: float) -> Swar:
+def ratio_to_swar(ff: Union[float, Fraction]) -> Swar:
     """
     Per the swar boundaries, returns the coarse-grained Swar symbol that ff may map to
     """
-    si = bisect.bisect_left(SWAR_BOUNDARIES, ff)
+    si = bisect.bisect_left(SWAR_BOUNDARIES, float(ff))
     return Swar(si % 12).name
 
 
-def ratio_to_swarval(ff: float):
+def ratio_to_swarval(ff: Union[float, Fraction]):
     """
     With the octave represented as [0, 12), and equal-temperament-tuned notes as integers,
     returns the real-valued "note value" given a ratio between [1, 2)
     """
-    return math.log2(ff) * 12
+    return math.log2(float(ff)) * 12
 
 
 class Shruti:
@@ -106,9 +108,9 @@ class Shruti:
         num_denom: Optional[Tuple[int, int]] = None,
         powers: Optional[Tuple] = None,
     ) -> None:
-        self.ratio = 1
+        self.ratio = Fraction(1)
         if num_denom is not None:
-            self.ratio = num_denom[0] / num_denom[1]
+            self.ratio = Fraction(num_denom[0], num_denom[1])
         elif powers is not None:
             for ii, pp in enumerate(powers):
                 self.ratio *= PRIMES[ii] ** pp
