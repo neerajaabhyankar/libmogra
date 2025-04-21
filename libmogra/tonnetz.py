@@ -1,4 +1,5 @@
 import os
+from fractions import Fraction
 import numpy as np
 import plotly.graph_objects as go
 import itertools
@@ -17,7 +18,8 @@ from libmogra.datatypes import (
 
 DOT_SIZE = 21
 DOT_LABEL_SIZE = 13
-ANNOTATION_OFFSET = 0.5
+ANNOTATION_OFFSET_X = 0.25
+ANNOTATION_OFFSET_Y = 0.2
 FIG_WIDTH = 800
 FIG_HEIGHT = 550
 FIG_MARGIN = dict(l=60, r=40, t=40, b=150)
@@ -53,11 +55,17 @@ class EFGenus:
     """
 
     def __init__(self, primes=[3, 5, 7], powers=[0, 0, 0]) -> None:
+        assert len(primes) == len(
+            powers
+        ), "the number of primes should match the number of corresponding specified powers"
         self.primes = primes
         self.powers = powers
 
     @classmethod
     def from_list(cls, genus_list: List):
+        """Initializes the genus from a non-decreasing list of prime numbers.
+        The number of occurences of a prime number in this list = the max allowable power of that prime.
+        """
         primes = []
         powers = []
         for new_prime in genus_list:
@@ -81,44 +89,57 @@ class Tonnetz:
             print("cannot handle more than 3 dimensions")
             return
 
-        self.primes = genus.primes
-        self.powers = genus.powers
+        self.primes: List = genus.primes
+        self.powers: List = genus.powers
 
         ranges = []
         for prime, power in zip(genus.primes, genus.powers):
             ranges.append(range(-power, power + 1))
-        self.node_coordinates = list(itertools.product(*ranges))
+        self.node_coordinates: List[Tuple] = list(itertools.product(*ranges))
 
-        self.assign_coords3d()
+        # self.assign_coords3d()  # deprecated
         self.assign_notes()
 
-    def coord_to_frequency(self, coords):
-        ff = 1
+    def coord_to_ratio(self, coords) -> Fraction:
+        """Given a coordinate in the tonnetz net, find
+        the octave-normalized relative frequency ratio that it represents.
+        """
+        ff = Fraction(1)
         for ii, cc in enumerate(coords):
-            ff *= self.primes[ii] ** cc
-        return ff
+            if cc >= 0:
+                ff *= self.primes[ii] ** cc
+            else:
+                ff /= self.primes[ii] ** (-cc)
+        return normalize_frequency(ff)
 
-    def assign_coords3d(self):
-        coords = list(zip(*self.node_coordinates))
-        # Coordinates for Plotly Scatter3d
-        self.coords3d = {i: [0] * len(self.node_coordinates) for i in range(3)}
-        for i, coords in enumerate(coords):
-            if i < len(coords):
-                self.coords3d[i] = coords
+    # def assign_coords3d(self):
+    #     """ TODO(neeraja): remove redundant variable"""
+    #     coords = list(zip(*self.node_coordinates))
+    #     # Coordinates for Plotly Scatter3d
+    #     self.coords3d = {i: [0] * len(self.node_coordinates) for i in range(3)}
+    #     for i, coords in enumerate(coords):
+    #         if i < len(coords):
+    #             self.coords3d[i] = coords
 
     def assign_notes(self):
-        self.node_frequencies = [
-            normalize_frequency(self.coord_to_frequency(nc))
-            for nc in self.node_coordinates
+        self.node_ratios: List[Fraction] = [
+            self.coord_to_ratio(nc) for nc in self.node_coordinates
         ]
-        self.node_names = [ratio_to_swar(nf) for nf in self.node_frequencies]
+        self.node_names: List[str] = [ratio_to_swar(nf) for nf in self.node_ratios]
 
-    def get_swar_options(self, swar):
+    def get_swar_options(self, swar) -> List[Tuple]:
+        """Given a Swar, return a list of coordinates
+        where the Swar appears in this Tonnetz net
+        """
         swar_node_indices = [nn == swar for nn in self.node_names]
         swar_node_coordinates = np.array(self.node_coordinates)[swar_node_indices]
         return [tuple(nc) for nc in swar_node_coordinates.tolist()], self.primes
 
-    def get_neighbors(self, node: List):
+    def get_neighbors(self, node: List) -> (List, List[Tuple]):
+        """Indices in the self.node_coordinates list
+        and coordinates in the net
+        of neighbors of a given node
+        """
         neighbor_indices = []
         for ii, nc in enumerate(self.node_coordinates):
             if sum(abs(np.array(nc) - np.array(node))) == 1:
@@ -158,16 +179,14 @@ class Tonnetz:
         raag_nodes = GT_NODES[raag_name]
 
         def node_purple(coord):
-            swarval = ratio_to_swarval(
-                normalize_frequency(self.coord_to_frequency(coord))
-            )
+            swarval = ratio_to_swarval(self.coord_to_ratio(coord))
             return NODE_PURPLE(swarval - round(swarval))
 
         fig = go.Figure(
             data=[
                 go.Scatter(
-                    x=self.coords3d[0],
-                    y=self.coords3d[1],
+                    x=[nc[0] for nc in self.node_coordinates],
+                    y=[nc[1] for nc in self.node_coordinates],
                     mode="text+markers",
                     marker=dict(
                         size=DOT_SIZE,
@@ -179,10 +198,19 @@ class Tonnetz:
                     ),
                     text=self.node_names,
                     textposition="middle center",
-                    textfont=dict(
-                        family="Overpass", size=DOT_LABEL_SIZE, color="white"
-                    ),
-                )
+                    textfont=dict(size=DOT_LABEL_SIZE, color="white"),
+                    showlegend=False,
+                ),
+                # ratios
+                go.Scatter(
+                    x=[nc[0] + ANNOTATION_OFFSET_X for nc in self.node_coordinates],
+                    y=[nc[1] + ANNOTATION_OFFSET_Y for nc in self.node_coordinates],
+                    mode="text",
+                    text=[str(nr) for nr in self.node_ratios],
+                    textposition="middle center",
+                    textfont=dict(size=0.75 * DOT_LABEL_SIZE, color=ANNOTATION_GREEN),
+                    showlegend=False,
+                ),
             ]
         )
 

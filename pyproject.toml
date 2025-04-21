@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "libmogra"
-version = "0.2.2"
+version = "0.3.0"
 description = "\"A Python Toolbox for Indian (Classical) Music\""
 authors = ["Neeraja Abhyankar <neeraja.abhyankar@gmail.com>"]
 license = "MIT License"
@@ -28,7 +28,7 @@ argparse = "^1.4.0"
 rapidfuzz = "^3.11.0"
 plotly = "^5.24.1"
 pillow = "^11.0.0"
-kaleido = "1.0.0rc0"
+kaleido = "1.0.0rc11"
 
 
 [tool.poetry.group.dev.dependencies]
