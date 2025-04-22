@@ -2,9 +2,10 @@ import os
 import argparse
 import io
 from PIL import Image
+import kaleido
+import asyncio
 import libmogra as lm
 from libmogra.raagfinder.parse import RAAG_DB, RAAG_DB_BY_SWAR, best_match, print_table
-
 
 IMAGE_SCALE = 1.5
 
@@ -25,14 +26,16 @@ def info(raag, show_tonnetz=False):
         if show_tonnetz == "browser":
             figure.show(scale=IMAGE_SCALE)
         elif show_tonnetz == "window":
-            raise NotImplementedError("kaleido is broken")
-            image_buffer = io.BytesIO()
-            figure.write_image(image_buffer, format="png", scale=IMAGE_SCALE)
-            image_buffer.seek(0)
-            image = Image.open(image_buffer)
-            image.show()
+            raise NotImplementedError("kaleido doesn't work for a window anymore")
+            # image_buffer = io.BytesIO()
+            # figure.write_image(image_buffer, format="png", scale=IMAGE_SCALE)
+            # image_buffer.seek(0)
+            # image = Image.open(image_buffer)
+            # image.show()
         elif os.path.exists("/".join(show_tonnetz.split("/")[:-1])):
-            figure.write_image(show_tonnetz, scale=IMAGE_SCALE)
+            asyncio.run(kaleido.write_fig(
+                figure, show_tonnetz,
+            ))
         else:
             print("invalid display arg passed to --tonnetz")
 
