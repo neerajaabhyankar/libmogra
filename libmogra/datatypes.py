@@ -61,7 +61,7 @@ class SSwar(object):
 
     @staticmethod
     def from_classes(saptak: Saptak, swar: Swar):
-        sswar = SSwar("S")
+        sswar = SSwar("", "S")
         sswar.saptak = saptak
         sswar.swar = swar
         return sswar
@@ -75,7 +75,7 @@ class SSwar(object):
             return SSwar("", string)
 
     def __str__(self):
-        return list(SAPTAK_MARKS)[self.saptak.value + 2] + self.swar
+        return list(SAPTAK_MARKS)[self.saptak.value + 2] + self.swar.name
 
     def __repr__(self) -> str:
         return self.__str__()
@@ -101,17 +101,17 @@ def ratio_to_swar(ff: Union[float, Fraction]) -> Swar:
     return Swar(si % 12).name
 
 
-def ratio_to_sswar(ff: Union[float, Fraction]) -> Swar:
+def ratio_to_sswar(ff: Union[float, Fraction]) -> SSwar:
     """
     Given an unnormalized frequency,
     Per the swar boundaries, returns the coarse-grained Swar symbol that ff may map to
     """
     nf = normalize_frequency(ff)
     si = bisect.bisect_left(SWAR_BOUNDARIES, float(nf))
-    return Saptak.from_classes(Saptak(int(math.log2(ff / nf))), Swar(si % 12).name)
+    return SSwar.from_classes(Saptak(int(math.log2(ff / nf))), Swar(si % 12))
 
 
-def ratio_to_swarval(ff: Union[float, Fraction]):
+def ratio_to_swarval(ff: Union[float, Fraction]) -> float:
     """
     With the octave represented as [0, 12), and equal-temperament-tuned notes as integers,
     returns the real-valued "note value" given a ratio between [1, 2)

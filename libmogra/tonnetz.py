@@ -97,7 +97,6 @@ class Tonnetz:
             ranges.append(range(-power, power + 1))
         self.node_coordinates: List[Tuple] = list(itertools.product(*ranges))
 
-        # self.assign_coords3d()  # deprecated
         self.assign_notes()
 
     def coord_to_ratio(self, coords) -> Fraction:
@@ -112,15 +111,6 @@ class Tonnetz:
                 ff /= self.primes[ii] ** (-cc)
         return normalize_frequency(ff)
 
-    # def assign_coords3d(self):
-    #     """ TODO(neeraja): remove redundant variable"""
-    #     coords = list(zip(*self.node_coordinates))
-    #     # Coordinates for Plotly Scatter3d
-    #     self.coords3d = {i: [0] * len(self.node_coordinates) for i in range(3)}
-    #     for i, coords in enumerate(coords):
-    #         if i < len(coords):
-    #             self.coords3d[i] = coords
-
     def assign_notes(self):
         self.node_ratios: List[Fraction] = [
             self.coord_to_ratio(nc) for nc in self.node_coordinates
@@ -133,7 +123,7 @@ class Tonnetz:
         """
         swar_node_indices = [nn == swar for nn in self.node_names]
         swar_node_coordinates = np.array(self.node_coordinates)[swar_node_indices]
-        return [tuple(nc) for nc in swar_node_coordinates.tolist()], self.primes
+        return [tuple(nc) for nc in swar_node_coordinates.tolist()]
 
     def get_neighbors(self, node: List) -> (List, List[Tuple]):
         """Indices in the self.node_coordinates list
@@ -171,16 +161,29 @@ class Tonnetz:
                 mat[jj, ss] = 1
         return mat
 
+    def get_node_color(self, coord):
+        """
+        Gives a warmer color for tones lower than the corresponding ET tone,
+        and a cooler color for tones higher than the corresponding ET tone.
+        The color is a shade of purple, with the hue determined by the distance
+        """
+        swarval = ratio_to_swarval(self.coord_to_ratio(coord))
+        return NODE_PURPLE(swarval - round(swarval))
+
     def plot_raag(self, raag_name) -> Optional[go.Figure]:
+        """Returns a figure based on the Ground Truth dataset"""
+        assert self.primes == list(
+            set(GT_GENUS)
+        ), "raags undefined for the current genus"
+        assert self.powers == [
+            GT_GENUS.count(p) for p in self.primes
+        ], "raags undefined for the current genus"
+
         if raag_name not in GT_NODES:
             print("cannot find tonnetz diagram for", raag_name)
             return None
 
         raag_nodes = GT_NODES[raag_name]
-
-        def node_purple(coord):
-            swarval = ratio_to_swarval(self.coord_to_ratio(coord))
-            return NODE_PURPLE(swarval - round(swarval))
 
         fig = go.Figure(
             data=[
@@ -192,7 +195,11 @@ class Tonnetz:
                         size=DOT_SIZE,
                         symbol="circle",
                         color=[
-                            node_purple(coord) if coord in raag_nodes else NODE_ORANGE
+                            (
+                                self.get_node_color(coord)
+                                if coord in raag_nodes
+                                else NODE_ORANGE
+                            )
                             for coord in self.node_coordinates
                         ],
                     ),

@@ -33,9 +33,12 @@ def info(raag, show_tonnetz=False):
             # image = Image.open(image_buffer)
             # image.show()
         elif os.path.exists("/".join(show_tonnetz.split("/")[:-1])):
-            asyncio.run(kaleido.write_fig(
-                figure, show_tonnetz,
-            ))
+            asyncio.run(
+                kaleido.write_fig(
+                    figure,
+                    show_tonnetz,
+                )
+            )
         else:
             print("invalid display arg passed to --tonnetz")
 
