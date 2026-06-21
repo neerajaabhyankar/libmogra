@@ -96,7 +96,9 @@ class Tonnetz:
         ranges = []
         for prime, power in zip(genus.primes, genus.powers):
             ranges.append(range(-power, power + 1))
-        self.node_coordinates: np.ndarray[Tuple] = np.array(list(itertools.product(*ranges)))
+        self.node_coordinates: np.ndarray[Tuple] = np.array(
+            list(itertools.product(*ranges))
+        )
 
         self.assign_notes()
 
@@ -114,10 +116,12 @@ class Tonnetz:
         return normalize_frequency(ff)
 
     def assign_notes(self):
-        self.node_ratios: np.ndarray[Fraction] = np.array([
-            self.coord_to_ratio(nc) for nc in self.node_coordinates
-        ])
-        self.node_names: np.ndarray[str] = np.array([ratio_to_swar(nf) for nf in self.node_ratios])
+        self.node_ratios: np.ndarray[Fraction] = np.array(
+            [self.coord_to_ratio(nc) for nc in self.node_coordinates]
+        )
+        self.node_names: np.ndarray[str] = np.array(
+            [ratio_to_swar(nf) for nf in self.node_ratios]
+        )
 
     def get_swar_options(self, swar) -> List[Tuple]:
         """
@@ -174,7 +178,9 @@ class Tonnetz:
         swarval = ratio_to_swarval(self.coord_to_ratio(coord))
         return NODE_PURPLE(swarval - round(swarval))
 
-    def plot_raag(self, raag_name, show_ratios=True, show_chords=False) -> Optional[go.Figure]:
+    def plot_raag(
+        self, raag_name, show_ratios=True, show_chords=False
+    ) -> Optional[go.Figure]:
         """
         Returns a figure based on the Ground Truth dataset
         """
@@ -216,7 +222,7 @@ class Tonnetz:
                 ),
             ]
         )
-        
+
         # ratios
         if show_ratios:
             fig.add_trace(
@@ -230,12 +236,12 @@ class Tonnetz:
                     showlegend=False,
                 )
             )
-        
+
         # chords
         if show_chords:
-            ao = 0.7*ANNOTATION_OFFSET_Y
-            aot = 1 - 1.4*ANNOTATION_OFFSET_Y
-            
+            ao = 0.7 * ANNOTATION_OFFSET_Y
+            aot = 1 - 1.4 * ANNOTATION_OFFSET_Y
+
             # major triads
             # draw triangles between (ii,jj), (ii+1,jj), (jj+1,ii)
             max_ii = max([ii for ii, _ in self.node_coordinates])
@@ -245,8 +251,8 @@ class Tonnetz:
                     continue
                 fig.add_trace(
                     go.Scatter(
-                        x=[ii+ao, ii+aot, ii+ao, ii+ao],
-                        y=[jj+ao, jj+ao, jj+aot, jj+ao],
+                        x=[ii + ao, ii + aot, ii + ao, ii + ao],
+                        y=[jj + ao, jj + ao, jj + aot, jj + ao],
                         mode="lines",
                         line=dict(color=NODE_ORANGE, width=2),
                         fill="toself",
@@ -255,7 +261,7 @@ class Tonnetz:
                         hoverinfo="none",
                     )
                 )
-            
+
             # minor triads
             # draw triangles between (ii,jj), (ii-1,jj), (jj-1,ii)
             min_ii = min([ii for ii, _ in self.node_coordinates])
@@ -265,8 +271,8 @@ class Tonnetz:
                     continue
                 fig.add_trace(
                     go.Scatter(
-                        x=[ii-ao, ii-aot, ii-ao, ii-ao],
-                        y=[jj-ao, jj-ao, jj-aot, jj-ao],
+                        x=[ii - ao, ii - aot, ii - ao, ii - ao],
+                        y=[jj - ao, jj - ao, jj - aot, jj - ao],
                         mode="lines",
                         line=dict(color=NODE_YELLOW, width=2),
                         fill="toself",
