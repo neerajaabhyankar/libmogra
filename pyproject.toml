@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "libmogra"
-version = "0.3.4"
+version = "0.4.0"
 description = "\"A Python Toolbox for Indian (Classical) Music\""
 authors = ["Neeraja Abhyankar <neeraja.abhyankar@gmail.com>"]
 license = "MIT License"

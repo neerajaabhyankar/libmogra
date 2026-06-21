@@ -96,7 +96,7 @@ class Tonnetz:
         ranges = []
         for prime, power in zip(genus.primes, genus.powers):
             ranges.append(range(-power, power + 1))
-        self.node_coordinates: List[Tuple] = list(itertools.product(*ranges))
+        self.node_coordinates: np.ndarray[Tuple] = np.array(list(itertools.product(*ranges)))
 
         self.assign_notes()
 
@@ -114,10 +114,10 @@ class Tonnetz:
         return normalize_frequency(ff)
 
     def assign_notes(self):
-        self.node_ratios: List[Fraction] = [
+        self.node_ratios: np.ndarray[Fraction] = np.array([
             self.coord_to_ratio(nc) for nc in self.node_coordinates
-        ]
-        self.node_names: List[str] = [ratio_to_swar(nf) for nf in self.node_ratios]
+        ])
+        self.node_names: np.ndarray[str] = np.array([ratio_to_swar(nf) for nf in self.node_ratios])
 
     def get_swar_options(self, swar) -> List[Tuple]:
         """
@@ -125,7 +125,7 @@ class Tonnetz:
         where the Swar appears in this Tonnetz net
         """
         swar_node_indices = [nn == swar for nn in self.node_names]
-        swar_node_coordinates = np.array(self.node_coordinates)[swar_node_indices]
+        swar_node_coordinates = self.node_coordinates[swar_node_indices]
         return [tuple(nc) for nc in swar_node_coordinates.tolist()]
 
     def get_neighbors(self, node: List) -> (List, List[Tuple]):
@@ -160,7 +160,7 @@ class Tonnetz:
         mat = np.zeros((len(tn.node_coordinates), 12), dtype=int)
         for ss in range(12):
             swar = Swar(ss).name
-            swar_node_indices = [nn == swar for nn in tn.node_names]
+            swar_node_indices = np.array([nn == swar for nn in tn.node_names])
             for jj in np.where(swar_node_indices)[0]:
                 mat[jj, ss] = 1
         return mat
