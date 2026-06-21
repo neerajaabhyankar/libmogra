@@ -63,7 +63,8 @@ class EFGenus:
 
     @classmethod
     def from_list(cls, genus_list: List):
-        """Initializes the genus from a non-decreasing list of prime numbers.
+        """
+        Initializes the genus from a non-decreasing list of prime numbers.
         The number of occurences of a prime number in this list = the max allowable power of that prime.
         """
         primes = []
@@ -100,7 +101,8 @@ class Tonnetz:
         self.assign_notes()
 
     def coord_to_ratio(self, coords) -> Fraction:
-        """Given a coordinate in the tonnetz net, find
+        """
+        Given a coordinate in the tonnetz net, find
         the octave-normalized relative frequency ratio that it represents.
         """
         ff = Fraction(1)
@@ -118,7 +120,8 @@ class Tonnetz:
         self.node_names: List[str] = [ratio_to_swar(nf) for nf in self.node_ratios]
 
     def get_swar_options(self, swar) -> List[Tuple]:
-        """Given a Swar, return a list of coordinates
+        """
+        Given a Swar, return a list of coordinates
         where the Swar appears in this Tonnetz net
         """
         swar_node_indices = [nn == swar for nn in self.node_names]
@@ -126,7 +129,8 @@ class Tonnetz:
         return [tuple(nc) for nc in swar_node_coordinates.tolist()]
 
     def get_neighbors(self, node: List) -> (List, List[Tuple]):
-        """Indices in the self.node_coordinates list
+        """
+        Indices in the self.node_coordinates list
         and coordinates in the net
         of neighbors of a given node
         """
@@ -170,8 +174,10 @@ class Tonnetz:
         swarval = ratio_to_swarval(self.coord_to_ratio(coord))
         return NODE_PURPLE(swarval - round(swarval))
 
-    def plot_raag(self, raag_name) -> Optional[go.Figure]:
-        """Returns a figure based on the Ground Truth dataset"""
+    def plot_raag(self, raag_name, show_ratios=True, show_chords=False) -> Optional[go.Figure]:
+        """
+        Returns a figure based on the Ground Truth dataset
+        """
         assert self.primes == list(
             set(GT_GENUS)
         ), "raags undefined for the current genus"
@@ -208,7 +214,12 @@ class Tonnetz:
                     textfont=dict(size=DOT_LABEL_SIZE, color="white"),
                     showlegend=False,
                 ),
-                # ratios
+            ]
+        )
+        
+        # ratios
+        if show_ratios:
+            fig.add_trace(
                 go.Scatter(
                     x=[nc[0] + ANNOTATION_OFFSET_X for nc in self.node_coordinates],
                     y=[nc[1] + ANNOTATION_OFFSET_Y for nc in self.node_coordinates],
@@ -217,9 +228,53 @@ class Tonnetz:
                     textposition="middle center",
                     textfont=dict(size=0.75 * DOT_LABEL_SIZE, color=ANNOTATION_GREEN),
                     showlegend=False,
-                ),
-            ]
-        )
+                )
+            )
+        
+        # chords
+        if show_chords:
+            ao = 0.7*ANNOTATION_OFFSET_Y
+            aot = 1 - 1.4*ANNOTATION_OFFSET_Y
+            
+            # major triads
+            # draw triangles between (ii,jj), (ii+1,jj), (jj+1,ii)
+            max_ii = max([ii for ii, _ in self.node_coordinates])
+            max_jj = max([jj for _, jj in self.node_coordinates])
+            for ii, jj in self.node_coordinates:
+                if ii >= max_ii or jj >= max_jj:
+                    continue
+                fig.add_trace(
+                    go.Scatter(
+                        x=[ii+ao, ii+aot, ii+ao, ii+ao],
+                        y=[jj+ao, jj+ao, jj+aot, jj+ao],
+                        mode="lines",
+                        line=dict(color=NODE_ORANGE, width=2),
+                        fill="toself",
+                        fillcolor=NODE_ORANGE,
+                        showlegend=False,
+                        hoverinfo="none",
+                    )
+                )
+            
+            # minor triads
+            # draw triangles between (ii,jj), (ii-1,jj), (jj-1,ii)
+            min_ii = min([ii for ii, _ in self.node_coordinates])
+            min_jj = min([jj for _, jj in self.node_coordinates])
+            for ii, jj in self.node_coordinates:
+                if ii == min_ii or jj == min_jj:
+                    continue
+                fig.add_trace(
+                    go.Scatter(
+                        x=[ii-ao, ii-aot, ii-ao, ii-ao],
+                        y=[jj-ao, jj-ao, jj-aot, jj-ao],
+                        mode="lines",
+                        line=dict(color=NODE_YELLOW, width=2),
+                        fill="toself",
+                        fillcolor=NODE_YELLOW,
+                        showlegend=False,
+                        hoverinfo="none",
+                    )
+                )
 
         # axes
         fig.update_layout(
