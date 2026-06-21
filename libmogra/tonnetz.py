@@ -4,6 +4,7 @@ import numpy as np
 import plotly.graph_objects as go
 import itertools
 import pickle
+from sympy.ntheory import factorint
 from typing import List, Dict, Tuple, Optional
 
 from libmogra.datatypes import (
@@ -114,6 +115,36 @@ class Tonnetz:
             else:
                 ff /= self.primes[ii] ** (-cc)
         return normalize_frequency(ff)
+
+    def ratio_to_coord(self, ratio: Fraction) -> Tuple:
+        """
+        Given a frequency ratio, if comprised of the primes in the tonnetz,
+        find the coordinate in the tonnetz net that it corresponds to.
+        """
+        ratio = Fraction(ratio)
+        coord = [
+            0,
+        ] * len(self.primes)
+
+        for kk, vv in factorint(ratio.numerator).items():
+            if kk == 2:
+                continue
+            if kk not in self.primes:
+                return ValueError(
+                    "ratio includes prime factors not in the tonnetz genus"
+                )
+            coord[self.primes.index(kk)] += vv
+
+        for kk, vv in factorint(ratio.denominator).items():
+            if kk == 2:
+                continue
+            if kk not in self.primes:
+                return ValueError(
+                    "ratio includes prime factors not in the tonnetz genus"
+                )
+            coord[self.primes.index(kk)] -= vv
+
+        return tuple(coord)
 
     def assign_notes(self):
         self.node_ratios: np.ndarray[Fraction] = np.array(
