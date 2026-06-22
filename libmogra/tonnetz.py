@@ -26,15 +26,24 @@ FIG_HEIGHT = 550
 FIG_MARGIN = dict(l=60, r=40, t=40, b=150)
 FIG_SCALE = 1
 
+# old colors
 NODE_ORANGE = "#f08b65"
 NODE_YELLOW = "#f4c05b"
 NODE_GREY = "#323539"
-NODE_PURPLE = lambda x: f"#{int(70+min(0,-x)*120)}20{int(70+min(0,x)*120)}"
+NODE_COLOR = lambda x: f"#{int(70+min(0,-x)*120)}20{int(70+min(0,x)*120)}"
+ANNOTATION = "#3e7a32"
+
+# new colors
+CHORD_MAJOR = "#d14d60"
+CHORD_MINOR = "#960b41"
+NODE_BLANK = "#A5A9BB"
+# assuming x in (-0.5, 0.5)
+NODE_COLOR = lambda x: f"#{int(45-420*min(x,0)-90*max(x,0)):02x}99{int(45+90*min(x,0)+420*max(x,0)):02x}"
+ANNOTATION = "#8D8DA4"
 
 LIGHT_GREY = "#dcd8cf"
 BG_GREY = "#f3f3f3"
 WRONG_RED = "#a83232"
-ANNOTATION_GREEN = "#3e7a32"
 
 
 """ shruti data """
@@ -207,7 +216,7 @@ class Tonnetz:
         The color is a shade of purple, with the hue determined by the distance
         """
         swarval = ratio_to_swarval(self.coord_to_ratio(coord))
-        return NODE_PURPLE(swarval - round(swarval))
+        return NODE_COLOR(swarval - round(swarval))
 
     def plot_raag(
         self, raag_name, show_ratios=True, show_chords=False
@@ -240,8 +249,8 @@ class Tonnetz:
                         color=[
                             (
                                 self.get_node_color(coord)
-                                if coord in raag_nodes
-                                else NODE_ORANGE
+                                if tuple(coord) in raag_nodes
+                                else NODE_BLANK
                             )
                             for coord in self.node_coordinates
                         ],
@@ -263,7 +272,7 @@ class Tonnetz:
                     mode="text",
                     text=[str(nr) for nr in self.node_ratios],
                     textposition="middle center",
-                    textfont=dict(size=0.75 * DOT_LABEL_SIZE, color=ANNOTATION_GREEN),
+                    textfont=dict(size=0.75 * DOT_LABEL_SIZE, color=ANNOTATION),
                     showlegend=False,
                 )
             )
@@ -285,9 +294,9 @@ class Tonnetz:
                         x=[ii + ao, ii + aot, ii + ao, ii + ao],
                         y=[jj + ao, jj + ao, jj + aot, jj + ao],
                         mode="lines",
-                        line=dict(color=NODE_ORANGE, width=2),
+                        line=dict(color=CHORD_MAJOR, width=2),
                         fill="toself",
-                        fillcolor=NODE_ORANGE,
+                        fillcolor=CHORD_MAJOR,
                         showlegend=False,
                         hoverinfo="none",
                     )
@@ -305,9 +314,9 @@ class Tonnetz:
                         x=[ii - ao, ii - aot, ii - ao, ii - ao],
                         y=[jj - ao, jj - ao, jj - aot, jj - ao],
                         mode="lines",
-                        line=dict(color=NODE_YELLOW, width=2),
+                        line=dict(color=CHORD_MINOR, width=2),
                         fill="toself",
-                        fillcolor=NODE_YELLOW,
+                        fillcolor=CHORD_MINOR,
                         showlegend=False,
                         hoverinfo="none",
                     )
