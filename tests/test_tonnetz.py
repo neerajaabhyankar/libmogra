@@ -24,8 +24,12 @@ def test_ratios():
     assert tn.coord_to_ratio((0, 1)) == Fraction(5, 4)
     assert tn.coord_to_ratio((1, -1)) == Fraction(6, 5)
 
-    assert tn.get_node_color((0, 0)) == "#702070"
-    assert tn.get_node_color((-1, -1)) == "#552070"
+    assert tn.ratio_to_coord(1) == (0, 0)
+    assert tn.ratio_to_coord(Fraction(5, 4)) == (0, 1)
+    assert tn.ratio_to_coord(Fraction(48, 9)) == (-1, 0)
+
+    assert tn.get_node_color((0, 0)) == "#2d992d"
+    assert tn.get_node_color((-1, -1)) == "#22995e"
 
 
 def test_node_assignments():
