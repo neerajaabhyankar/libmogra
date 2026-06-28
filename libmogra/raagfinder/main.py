@@ -10,7 +10,7 @@ from libmogra.raagfinder.parse import RAAG_DB, RAAG_DB_BY_SWAR, best_match, prin
 IMAGE_SCALE = 1.5
 
 
-def info(raag, show_tonnetz=False):
+def info(raag, theme, show_tonnetz=False):
     raag_name = raag.lower()
     if raag_name not in RAAG_DB:
         raag_name = best_match(raag_name)
@@ -19,7 +19,7 @@ def info(raag, show_tonnetz=False):
 
     if show_tonnetz != "none":
         tn = lm.tonnetz.Tonnetz()
-        figure = tn.plot_raag(raag_name)
+        figure = tn.plot_raag(raag_name, show_ratios=False, show_chords=True, theme=theme)
         if figure is None:
             return
 
@@ -71,6 +71,11 @@ def main():
         default="none",
         help="How to display the tonnetz diagram (none/window/browser/save_path)",
     )
+    parser_info.add_argument(
+        "--theme",
+        default="daylight",
+        help="Theme for tonnetz diagram (daylight/twilight)"
+    )
 
     # search subparser
     parser_search = subparsers.add_parser(
@@ -85,7 +90,7 @@ def main():
     args = parser.parse_args()
 
     if args.function == "info":
-        info(args.raag, args.tonnetz)
+        info(args.raag, args.theme, args.tonnetz)
 
     if args.function == "search":
         search(args.swar)
