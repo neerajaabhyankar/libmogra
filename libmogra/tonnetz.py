@@ -26,24 +26,27 @@ FIG_HEIGHT = 550
 FIG_MARGIN = dict(l=60, r=40, t=40, b=150)
 FIG_SCALE = 1
 
-# old colors
-NODE_ORANGE = "#f08b65"
-NODE_YELLOW = "#f4c05b"
-NODE_GREY = "#323539"
-NODE_COLOR = lambda x: f"#{int(70+min(0,-x)*120)}20{int(70+min(0,x)*120)}"
-ANNOTATION = "#3e7a32"
 
-# new colors
-CHORD_MAJOR = "#d14d60"
-CHORD_MINOR = "#960b41"
-NODE_BLANK = "#A5A9BB"
-# assuming x in (-0.5, 0.5)
-NODE_COLOR = lambda x: f"#{int(45-420*min(x,0)-90*max(x,0)):02x}99{int(45+90*min(x,0)+420*max(x,0)):02x}"
-ANNOTATION = "#8D8DA4"
-
-LIGHT_GREY = "#dcd8cf"
-BG_GREY = "#f3f3f3"
-WRONG_RED = "#a83232"
+class TonnetzColorScheme:
+    def __init__(self, theme="daylight"):
+        self.annotation = "#8D8DA4"
+        self.light_grey = "#dcd8cf"
+        self.bg_grey = "#f3f3f3"
+        if theme == "twilight":
+            self.chord_major = "#F08B65"
+            self.chord_minor = "#F4C05B"
+            self.node_blank = "#A5A9BB"
+            # assuming x in (-0.5, 0.5)
+            self.node_color = lambda x: f"#{int(70+min(0,-x)*120)}20{int(70+min(0,x)*120)}"
+        elif theme == "daylight":
+            self.chord_major = "#BA8FAD"
+            self.chord_minor = "#9B8DC7"
+            self.node_blank = "#A5A9BB"
+            # assuming x in (-0.5, 0.5)
+            concf = lambda x: np.sqrt(abs(x) / 2) * np.sign(x)
+            self.node_color = lambda x: f"#{int(45-420*min(concf(x),0)-90*max(concf(x),0)):02x}99{int(45+90*min(concf(x),0)+420*max(concf(x),0)):02x}"
+        else:
+            raise ValueError(f"unknown theme: {theme}")
 
 
 """ shruti data """
@@ -111,6 +114,10 @@ class Tonnetz:
         )
 
         self.assign_notes()
+        self.color_scheme = TonnetzColorScheme()
+
+    def set_color_scheme(self, theme):
+        self.color_scheme = TonnetzColorScheme(theme)
 
     def coord_to_ratio(self, coords) -> Fraction:
         """
@@ -216,10 +223,10 @@ class Tonnetz:
         The color is a shade of purple, with the hue determined by the distance
         """
         swarval = ratio_to_swarval(self.coord_to_ratio(coord))
-        return NODE_COLOR(swarval - round(swarval))
+        return self.color_scheme.node_color(swarval - round(swarval))
 
     def plot_raag(
-        self, raag_name, show_ratios=True, show_chords=False
+        self, raag_name, show_ratios=True, show_chords=False, theme="daylight"
     ) -> Optional[go.Figure]:
         """
         Returns a figure based on the Ground Truth dataset
@@ -236,6 +243,7 @@ class Tonnetz:
             return None
 
         raag_nodes = GT_NODES[raag_name]
+        self.set_color_scheme(theme)
 
         fig = go.Figure(
             data=[
@@ -250,7 +258,7 @@ class Tonnetz:
                             (
                                 self.get_node_color(coord)
                                 if tuple(coord) in raag_nodes
-                                else NODE_BLANK
+                                else self.color_scheme.node_blank
                             )
                             for coord in self.node_coordinates
                         ],
@@ -262,6 +270,10 @@ class Tonnetz:
                 ),
             ]
         )
+        
+        if show_chords and show_ratios:
+            print("cannot show both ratios and chords; only showing ratios")
+            show_chords = False
 
         # ratios
         if show_ratios:
@@ -272,7 +284,7 @@ class Tonnetz:
                     mode="text",
                     text=[str(nr) for nr in self.node_ratios],
                     textposition="middle center",
-                    textfont=dict(size=0.75 * DOT_LABEL_SIZE, color=ANNOTATION),
+                    textfont=dict(size=0.75 * DOT_LABEL_SIZE, color=self.color_scheme.annotation),
                     showlegend=False,
                 )
             )
@@ -294,9 +306,9 @@ class Tonnetz:
                         x=[ii + ao, ii + aot, ii + ao, ii + ao],
                         y=[jj + ao, jj + ao, jj + aot, jj + ao],
                         mode="lines",
-                        line=dict(color=CHORD_MAJOR, width=2),
+                        line=dict(color=self.color_scheme.chord_major, width=2),
                         fill="toself",
-                        fillcolor=CHORD_MAJOR,
+                        fillcolor=self.color_scheme.chord_major,
                         showlegend=False,
                         hoverinfo="none",
                     )
@@ -314,9 +326,9 @@ class Tonnetz:
                         x=[ii - ao, ii - aot, ii - ao, ii - ao],
                         y=[jj - ao, jj - ao, jj - aot, jj - ao],
                         mode="lines",
-                        line=dict(color=CHORD_MINOR, width=2),
+                        line=dict(color=self.color_scheme.chord_minor, width=2),
                         fill="toself",
-                        fillcolor=CHORD_MINOR,
+                        fillcolor=self.color_scheme.chord_minor,
                         showlegend=False,
                         hoverinfo="none",
                     )
@@ -327,7 +339,7 @@ class Tonnetz:
             title=f"raag {raag_name}",
             xaxis_title=f"powers of {self.primes[0]}",
             yaxis_title=f"powers of {self.primes[1]}",
-            plot_bgcolor=BG_GREY,
+            plot_bgcolor=self.color_scheme.bg_grey,
             width=FIG_WIDTH,
             height=FIG_HEIGHT,
         )
