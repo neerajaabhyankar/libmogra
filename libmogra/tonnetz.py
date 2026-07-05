@@ -37,14 +37,18 @@ class TonnetzColorScheme:
             self.chord_minor = "#F4C05B"
             self.node_blank = "#A5A9BB"
             # assuming x in (-0.5, 0.5)
-            self.node_color = lambda x: f"#{int(70+min(0,-x)*120)}20{int(70+min(0,x)*120)}"
+            self.node_color = (
+                lambda x: f"#{int(70+min(0,-x)*120)}20{int(70+min(0,x)*120)}"
+            )
         elif theme == "daylight":
             self.chord_major = "#BA8FAD"
             self.chord_minor = "#9B8DC7"
             self.node_blank = "#A5A9BB"
             # assuming x in (-0.5, 0.5)
             concf = lambda x: np.sqrt(abs(x) / 2) * np.sign(x)
-            self.node_color = lambda x: f"#{int(45-420*min(concf(x),0)-90*max(concf(x),0)):02x}99{int(45+90*min(concf(x),0)+420*max(concf(x),0)):02x}"
+            self.node_color = (
+                lambda x: f"#{int(45-420*min(concf(x),0)-90*max(concf(x),0)):02x}99{int(45+90*min(concf(x),0)+420*max(concf(x),0)):02x}"
+            )
         else:
             raise ValueError(f"unknown theme: {theme}")
 
@@ -270,7 +274,7 @@ class Tonnetz:
                 ),
             ]
         )
-        
+
         if show_chords and show_ratios:
             print("cannot show both ratios and chords; only showing ratios")
             show_chords = False
@@ -284,7 +288,9 @@ class Tonnetz:
                     mode="text",
                     text=[str(nr) for nr in self.node_ratios],
                     textposition="middle center",
-                    textfont=dict(size=0.75 * DOT_LABEL_SIZE, color=self.color_scheme.annotation),
+                    textfont=dict(
+                        size=0.75 * DOT_LABEL_SIZE, color=self.color_scheme.annotation
+                    ),
                     showlegend=False,
                 )
             )

@@ -1,0 +1,8682 @@
+{
+  "abhogi kanada": {
+    "name": "Abhogi Kanada",
+    "aaroha": [
+      "S",
+      "R",
+      "g",
+      "m",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "D",
+      "m",
+      "g",
+      "R",
+      "g",
+      "m",
+      "R",
+      "S",
+      "R",
+      ",D",
+      ",D",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "R",
+        ",D",
+        "S"
+      ],
+      [
+        "R",
+        "g",
+        "m"
+      ],
+      [
+        "g",
+        "m",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "R",
+      "m",
+      "D",
+      "S"
+    ],
+    "avarohi_nyas": [
+      "R",
+      "m",
+      "D",
+      "S"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 2nd"
+  },
+  "adana": {
+    "name": "Adana",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "P",
+      "d",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "d",
+      "n",
+      "P",
+      "m",
+      "P",
+      "g",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "m",
+        "P",
+        "d",
+        "n",
+        "`S"
+      ],
+      [
+        "`S",
+        "d",
+        "n",
+        "`S"
+      ],
+      [
+        "`S",
+        "d",
+        "n",
+        "P"
+      ],
+      [
+        "m",
+        "P"
+      ],
+      [
+        "g",
+        "m",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "P",
+      "n"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "R"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Asawari",
+    "prahar": "day 2nd"
+  },
+  "aheer bhairav": {
+    "name": "Aheer Bhairav",
+    "aaroha": [
+      "S",
+      "r",
+      "G",
+      "m",
+      "P",
+      "D",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "m",
+        "P"
+      ],
+      [
+        "D",
+        "n",
+        "D"
+      ],
+      [
+        "P",
+        "D",
+        "P"
+      ],
+      [
+        "`S",
+        "n",
+        "D"
+      ],
+      [
+        "n",
+        "D",
+        "P",
+        "m",
+        "G",
+        "m"
+      ],
+      [
+        "G",
+        "m",
+        "P",
+        "m",
+        "r",
+        "r",
+        "S"
+      ],
+      [
+        ",n",
+        ",D",
+        ",n",
+        "r",
+        "r",
+        "S"
+      ]
+    ],
+    "aarohi_nyas": [
+      "S",
+      "r",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "m",
+      "r"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bhairav",
+    "prahar": "day 1st"
+  },
+  "alhaiya bilawal": {
+    "name": "Alhaiya Bilawal",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "P",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "D",
+      "n",
+      "D",
+      "P",
+      "m",
+      "G",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "R",
+        "G",
+        "P"
+      ],
+      [
+        "D",
+        "n",
+        "D",
+        "P"
+      ],
+      [
+        "m",
+        "G",
+        "R"
+      ],
+      [
+        "G",
+        "P",
+        "D",
+        "N",
+        "`S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "G"
+    ],
+    "vaadi": "D",
+    "samvaadi": "G",
+    "thaat": "Bilawal",
+    "prahar": "day 1st"
+  },
+  "bageshree": {
+    "name": "Bageshree",
+    "aaroha": [
+      "S",
+      "R",
+      "g",
+      "m",
+      "D",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "m",
+      "P",
+      "D",
+      "m",
+      "g",
+      "R",
+      "S",
+      ",n",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",n",
+        "S",
+        "m"
+      ],
+      [
+        "S",
+        "g",
+        "m"
+      ],
+      [
+        "g",
+        "R",
+        "S"
+      ],
+      [
+        ",n",
+        ",D"
+      ],
+      [
+        "m",
+        "D",
+        "n",
+        "D"
+      ],
+      [
+        "m",
+        "g",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "D",
+      "m",
+      "g"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 2nd"
+  },
+  "bahar": {
+    "name": "Bahar",
+    "aaroha": [
+      "S",
+      "R",
+      "S",
+      "m",
+      "P",
+      "m",
+      "g",
+      "m",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "P",
+      "m",
+      "g",
+      "m",
+      "R",
+      "S",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "m"
+      ],
+      [
+        "P",
+        "m",
+        "g",
+        "m"
+      ],
+      [
+        "n",
+        "P",
+        "m"
+      ],
+      [
+        "m",
+        "n",
+        "D",
+        "N",
+        "`S"
+      ],
+      [
+        "n",
+        "P",
+        "m"
+      ],
+      [
+        "P",
+        "m"
+      ],
+      [
+        "g",
+        "m",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "m",
+      "R"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 2nd"
+  },
+  "bairagi": {
+    "name": "Bairagi",
+    "aaroha": [
+      "S",
+      "r",
+      "m",
+      "P",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "P",
+      "m",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "m",
+        "P",
+        "n",
+        "P",
+        "m",
+        "r"
+      ],
+      [
+        "r",
+        "P",
+        "m",
+        "r",
+        "S"
+      ],
+      [
+        ",n",
+        "S",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "r",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "S",
+      "r",
+      "m",
+      "P"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bhairav",
+    "prahar": "day 1st"
+  },
+  "bairagi todi": {
+    "name": "Bairagi Todi",
+    "aaroha": [
+      "S",
+      "r",
+      "g",
+      "P",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "P",
+      "g",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",n",
+        "S",
+        "r",
+        "g"
+      ],
+      [
+        "g",
+        "r",
+        ",n",
+        ",P"
+      ],
+      [
+        ",n",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "r",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "S",
+      "r",
+      "P"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Todi",
+    "prahar": "day 1st"
+  },
+  "basant": {
+    "name": "Basant",
+    "aaroha": [
+      "S",
+      "G",
+      "M",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "P",
+      "M",
+      "G",
+      "M",
+      "N",
+      "d",
+      "M",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "M",
+        "d",
+        "`r",
+        "`S"
+      ],
+      [
+        "N",
+        "`S",
+        "`r",
+        "N",
+        "d",
+        "P"
+      ],
+      [
+        "G",
+        "M",
+        "d",
+        "N",
+        "M",
+        "G"
+      ],
+      [
+        "M",
+        "d",
+        "G",
+        "M",
+        "G"
+      ],
+      [
+        "M",
+        "G",
+        "M",
+        "G",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "G"
+    ],
+    "vaadi": "`S",
+    "samvaadi": "P",
+    "thaat": "Poorvi",
+    "prahar": "day 1st"
+  },
+  "basant mukhari": {
+    "name": "Basant Mukhari",
+    "aaroha": [
+      "S",
+      "r",
+      "G",
+      "m",
+      "P",
+      "d",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "d",
+      "P",
+      "m",
+      "G",
+      "r",
+      "S",
+      ",n",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "r",
+        "G"
+      ],
+      [
+        "G",
+        "m"
+      ],
+      [
+        "P",
+        "m"
+      ],
+      [
+        "P",
+        "d",
+        "n",
+        "d",
+        "P",
+        "m"
+      ],
+      [
+        "P",
+        "m",
+        "G",
+        "m"
+      ],
+      [
+        "G",
+        "r"
+      ],
+      [
+        "r",
+        "S"
+      ],
+      [
+        ",n",
+        ",d",
+        ",n",
+        "S",
+        "r"
+      ],
+      [
+        "r",
+        "G",
+        "m"
+      ],
+      [
+        "G",
+        "r",
+        "S"
+      ],
+      [
+        "G",
+        "m",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "m"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "m",
+      "r"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Bhairav",
+    "prahar": "day 2nd"
+  },
+  "bhairav": {
+    "name": "Bhairav",
+    "aaroha": [
+      "S",
+      "r",
+      "G",
+      "m",
+      "P",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "P",
+      "m",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "r",
+        "r",
+        "S"
+      ],
+      [
+        "d",
+        "d",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "d",
+        "d",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "r",
+        "r",
+        "S"
+      ],
+      [
+        ",N",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P",
+      "d"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "d",
+      "P",
+      "r"
+    ],
+    "vaadi": "d",
+    "samvaadi": "r",
+    "thaat": "Bhairav",
+    "prahar": "day 1st"
+  },
+  "bhairavi": {
+    "name": "Bhairavi",
+    "aaroha": [
+      "S",
+      "r",
+      "g",
+      "m",
+      "P",
+      "d",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "d",
+      "P",
+      "m",
+      "g",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "g",
+        "S",
+        "r",
+        "S"
+      ],
+      [
+        "g",
+        "m",
+        "P"
+      ],
+      [
+        "d",
+        "m",
+        "d",
+        "n",
+        "`S"
+      ],
+      [
+        "`r",
+        "`S",
+        "d",
+        "P",
+        "g",
+        "m",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "m"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bhairavi",
+    "prahar": "day 1st"
+  },
+  "bhatiyar": {
+    "name": "Bhatiyar",
+    "aaroha": [
+      "S",
+      "r",
+      "S",
+      "S",
+      "m",
+      "m",
+      "D",
+      "P",
+      "S",
+      "D",
+      "D",
+      "N",
+      "P",
+      "m",
+      "P",
+      "G",
+      "M",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "`r",
+      "N",
+      "D",
+      "P",
+      "D",
+      "N",
+      "P",
+      "m",
+      "P",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "m",
+        "P"
+      ],
+      [
+        "P",
+        "G",
+        "r",
+        "S"
+      ],
+      [
+        "S",
+        "D",
+        "N",
+        "D"
+      ],
+      [
+        "N",
+        "P"
+      ],
+      [
+        "D",
+        "m"
+      ],
+      [
+        "P",
+        "G"
+      ],
+      [
+        "P",
+        "G",
+        "r",
+        "S"
+      ],
+      [
+        "M",
+        "D",
+        "`S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "m",
+      "S"
+    ],
+    "vaadi": "S",
+    "samvaadi": "S",
+    "thaat": "Marwa",
+    "prahar": "day 4th"
+  },
+  "bheem": {
+    "name": "Bheem",
+    "aaroha": [
+      ",n",
+      "S",
+      "G",
+      "m",
+      "P",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "G",
+      "P",
+      "m",
+      "G",
+      "m",
+      "R",
+      "S",
+      ",n",
+      "S",
+      ",P",
+      ",n",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",n",
+        "S",
+        "G",
+        "m",
+        "P",
+        "`S",
+        "n"
+      ],
+      [
+        "P",
+        "`S",
+        "n",
+        "`S"
+      ],
+      [
+        "`S",
+        "P",
+        "D",
+        "P"
+      ],
+      [
+        "D",
+        "m",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "R",
+        ",n",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "G"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Kafi",
+    "prahar": "day 1st"
+  },
+  "bheempalasi": {
+    "name": "Bheempalasi",
+    "aaroha": [
+      ",n",
+      "S",
+      "g",
+      "m",
+      "P",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "g",
+      "R",
+      "S",
+      ",n",
+      "S",
+      ",P",
+      ",n",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",n",
+        "S",
+        "g",
+        "m",
+        "P"
+      ],
+      [
+        "n",
+        "D",
+        "P"
+      ],
+      [
+        "`S"
+      ],
+      [
+        "n",
+        "D",
+        "P"
+      ],
+      [
+        "m",
+        "g",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "m"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 3rd"
+  },
+  "bhoopali": {
+    "name": "Bhoopali",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "P",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "D",
+      "P",
+      "G",
+      "R",
+      "S",
+      "R",
+      ",D",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "R",
+        "G"
+      ],
+      [
+        "P",
+        "G"
+      ],
+      [
+        "D",
+        "P"
+      ],
+      [
+        "`S",
+        "D",
+        "P",
+        "G"
+      ],
+      [
+        "P",
+        "G",
+        "R",
+        "G"
+      ],
+      [
+        "G",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "R",
+      "G",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "P",
+      "G",
+      "R",
+      "S"
+    ],
+    "vaadi": "G",
+    "samvaadi": "D",
+    "thaat": "Kalyan",
+    "prahar": "night 1st"
+  },
+  "bhupal todi": {
+    "name": "Bhupal Todi",
+    "aaroha": [
+      "S",
+      "r",
+      "g",
+      "P",
+      "d",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "d",
+      "P",
+      "g",
+      "r",
+      "S",
+      ",d",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        ",d",
+        "S",
+        "r",
+        "g"
+      ],
+      [
+        "d",
+        "P",
+        "g",
+        "r",
+        "g",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "g",
+      "P",
+      "d"
+    ],
+    "avarohi_nyas": [
+      "d",
+      "P",
+      "g",
+      "S"
+    ],
+    "vaadi": "d",
+    "samvaadi": "g",
+    "thaat": "Bhairavi",
+    "prahar": "day 1st"
+  },
+  "bihag": {
+    "name": "Bihag",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "P",
+      "G",
+      "m",
+      "G",
+      "R",
+      "S",
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "G",
+      "m",
+      "G",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",N",
+        "S",
+        "G"
+      ],
+      [
+        "G",
+        "m",
+        "G"
+      ],
+      [
+        "P",
+        "M",
+        "P",
+        "G",
+        "m",
+        "G"
+      ],
+      [
+        "P",
+        "M",
+        "G",
+        "m",
+        "G",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "N",
+      "P",
+      "G"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Kalyan",
+    "prahar": "day 2nd"
+  },
+  "bihagda": {
+    "name": "Bihagda",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "P",
+      "D",
+      "n",
+      "D",
+      "P",
+      "G",
+      "m",
+      "G",
+      "P",
+      "m",
+      "G",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "G",
+        "m",
+        "P"
+      ],
+      [
+        "m",
+        "P",
+        "G",
+        "R",
+        "S"
+      ],
+      [
+        "G",
+        "m",
+        "n",
+        "D",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "G"
+      ],
+      [
+        "G",
+        "m",
+        "P",
+        "N",
+        "`S"
+      ],
+      [
+        "`S",
+        "N",
+        "P"
+      ],
+      [
+        "D",
+        "n",
+        "D",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "G"
+      ],
+      [
+        "m",
+        "P",
+        "m",
+        "P",
+        "G",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "G",
+      "m",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "G",
+      "m",
+      "N"
+    ],
+    "vaadi": "G",
+    "samvaadi": "S",
+    "thaat": "Bilawal",
+    "prahar": "day 2nd"
+  },
+  "bilaskhani todi": {
+    "name": "Bilaskhani Todi",
+    "aaroha": [
+      "S",
+      "r",
+      "g",
+      "P",
+      "d",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "`r",
+      "n",
+      "d",
+      "P",
+      "P",
+      "d",
+      "n",
+      "d",
+      "m",
+      "g",
+      "r",
+      "r",
+      "g",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "r",
+        ",n",
+        ",d",
+        "S"
+      ],
+      [
+        "S",
+        "r",
+        "g"
+      ],
+      [
+        "r",
+        "g",
+        "P"
+      ],
+      [
+        "P",
+        "d",
+        "n",
+        "d"
+      ],
+      [
+        "d",
+        "m",
+        "g",
+        "r"
+      ],
+      [
+        "g",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "g",
+      "P",
+      "d"
+    ],
+    "avarohi_nyas": [
+      "d",
+      "P",
+      "g",
+      "S"
+    ],
+    "vaadi": "d",
+    "samvaadi": "g",
+    "thaat": "Bhairavi",
+    "prahar": "day 2nd"
+  },
+  "chandrakauns": {
+    "name": "Chandrakauns",
+    "aaroha": [
+      "S",
+      "g",
+      "m",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "m",
+      "g",
+      "m",
+      "g",
+      "S",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "g",
+        "m",
+        "g",
+        "S",
+        ",N"
+      ],
+      [
+        ",N",
+        "S"
+      ],
+      [
+        "g",
+        "m",
+        "d",
+        "N",
+        "`S"
+      ],
+      [
+        "N",
+        "d",
+        "`S"
+      ],
+      [
+        "N",
+        "d",
+        "m",
+        "g",
+        "m",
+        "g",
+        "S",
+        ",N",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "N",
+      "m"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Not Defined",
+    "prahar": "night 2nd"
+  },
+  "charukeshi": {
+    "name": "Charukeshi",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "m",
+      "P",
+      "d",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "d",
+      "P",
+      "m",
+      "G",
+      "R",
+      "S",
+      ",d",
+      ",n",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",d",
+        ",n",
+        "S",
+        "R",
+        "G",
+        "m",
+        "G",
+        "R"
+      ],
+      [
+        "R",
+        "G",
+        "m",
+        "d",
+        "P"
+      ],
+      [
+        "R",
+        "G",
+        "m",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "R",
+      "G",
+      "m",
+      "P",
+      "d"
+    ],
+    "avarohi_nyas": [
+      "R",
+      "G",
+      "m",
+      "P",
+      "d"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Not Defined",
+    "prahar": "day 2nd"
+  },
+  "chhayanut": {
+    "name": "Chhayanut",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "R",
+      "G",
+      "P",
+      "m",
+      "G",
+      "R",
+      "S",
+      "S",
+      "R",
+      "G",
+      "m",
+      "P",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "P",
+      "D",
+      "P",
+      "R",
+      "G",
+      "m",
+      "P",
+      "m",
+      "G",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",P",
+        "R",
+        "R"
+      ],
+      [
+        "R",
+        "G",
+        "m",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "R",
+        "S"
+      ],
+      [
+        "`S",
+        "P",
+        "R",
+        "G"
+      ],
+      [
+        "m",
+        "G",
+        "m",
+        "R",
+        "S",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "R",
+      "G",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "R",
+    "thaat": "Kalyan",
+    "prahar": "day 2nd"
+  },
+  "darbari kanada": {
+    "name": "Darbari Kanada",
+    "aaroha": [
+      "S",
+      "R",
+      "g",
+      "m",
+      "P",
+      "d",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "d",
+      "n",
+      "P",
+      "m",
+      "P",
+      "g",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "R",
+        "g",
+        "R",
+        "g"
+      ],
+      [
+        "m",
+        "P",
+        "d",
+        "P",
+        "d",
+        "n",
+        "P"
+      ],
+      [
+        "n",
+        "m",
+        "P",
+        "`S"
+      ],
+      [
+        "`S",
+        "n",
+        "d",
+        "n",
+        "P",
+        "m",
+        "P",
+        "m",
+        "g",
+        "m",
+        "R",
+        "S"
+      ],
+      [
+        ",d",
+        ",n",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "R",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "R"
+    ],
+    "vaadi": "R",
+    "samvaadi": "P",
+    "thaat": "Asawari",
+    "prahar": "day 3rd"
+  },
+  "des": {
+    "name": "Des",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "D",
+      "m",
+      "G",
+      "R",
+      "G",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "D",
+        "S",
+        "m",
+        "G",
+        "R"
+      ],
+      [
+        "G",
+        ",N",
+        "S",
+        "S"
+      ],
+      [
+        "R",
+        "m",
+        "P",
+        "N"
+      ],
+      [
+        "`S",
+        "`R",
+        "n",
+        "D",
+        "P"
+      ]
+    ],
+    "aarohi_nyas": [
+      "R",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "R"
+    ],
+    "vaadi": "R",
+    "samvaadi": "P",
+    "thaat": "Khamaj",
+    "prahar": "night 2nd"
+  },
+  "deshkar": {
+    "name": "Deshkar",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "P",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "D",
+      "P",
+      "D",
+      "G",
+      "P",
+      "G",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "R",
+        "G",
+        "P",
+        "D"
+      ],
+      [
+        "D",
+        "G",
+        "P"
+      ],
+      [
+        "`S",
+        "D"
+      ],
+      [
+        "P",
+        "D",
+        "G",
+        "P"
+      ],
+      [
+        "G",
+        "R",
+        "S"
+      ],
+      [
+        ",D",
+        "S"
+      ]
+    ],
+    "aarohi_nyas": [
+      "P",
+      "D",
+      "`S"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "D",
+      "P"
+    ],
+    "vaadi": "D",
+    "samvaadi": "G",
+    "thaat": "Bilawal",
+    "prahar": "day 1st"
+  },
+  "desi": {
+    "name": "Desi",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "P",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "P",
+      "D",
+      "m",
+      "P",
+      "R",
+      "g",
+      "S",
+      "R",
+      ",n",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "R",
+        "m",
+        "P"
+      ],
+      [
+        "D",
+        "m",
+        "P",
+        "`S"
+      ],
+      [
+        "`S",
+        "P",
+        "D",
+        "m",
+        "P"
+      ],
+      [
+        "R",
+        "g",
+        "S",
+        "R",
+        ",n",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "R",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "P",
+      "R",
+      "S"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 1st"
+  },
+  "dev gandhar": {
+    "name": "Dev Gandhar",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "m",
+      "P",
+      "m",
+      "g",
+      "R",
+      "G",
+      "m",
+      "P",
+      "d",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "d",
+      "P",
+      "m",
+      "P",
+      "g",
+      "R",
+      "G",
+      "m",
+      "g",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",d",
+        ",n",
+        "S",
+        "R",
+        "G",
+        "m",
+        "G",
+        "m"
+      ],
+      [
+        "d",
+        "m",
+        "P",
+        "n",
+        "d",
+        "P"
+      ],
+      [
+        "d",
+        "m",
+        "P",
+        "g",
+        "R",
+        "S"
+      ],
+      [
+        "R",
+        "G",
+        "m"
+      ],
+      [
+        "P",
+        "g",
+        "R",
+        "S"
+      ],
+      [
+        "d",
+        "m",
+        "P",
+        "g",
+        "R",
+        "G",
+        "m",
+        "g",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "G",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "R"
+    ],
+    "vaadi": "d",
+    "samvaadi": "G",
+    "thaat": "Asawari",
+    "prahar": "day 2nd"
+  },
+  "devgiri bilawal": {
+    "name": "Devgiri Bilawal",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "P",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "D",
+      "n",
+      "D",
+      "P",
+      "m",
+      "G",
+      "R",
+      "S",
+      ",N",
+      "S",
+      ",D",
+      ",P",
+      "G",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S"
+      ],
+      [
+        ",D",
+        ",N",
+        ",D",
+        "S",
+        "R",
+        "G"
+      ],
+      [
+        "G",
+        "R",
+        "S"
+      ],
+      [
+        ",D",
+        ",P",
+        "G"
+      ],
+      [
+        ",N",
+        "R",
+        "G",
+        "m",
+        "G"
+      ],
+      [
+        "G",
+        "P",
+        "m"
+      ],
+      [
+        "G",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "P",
+      "G",
+      "`S"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Bilawal",
+    "prahar": "day 1st"
+  },
+  "devshree": {
+    "name": "Devshree",
+    "aaroha": [
+      "S",
+      "R",
+      "M",
+      "P",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "P",
+      "M",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "R",
+        "M",
+        "P"
+      ],
+      [
+        "M",
+        "P",
+        "n",
+        "P"
+      ],
+      [
+        "M",
+        "R",
+        "S"
+      ],
+      [
+        ",n",
+        ",P",
+        ",n",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "R",
+      "P",
+      "n"
+    ],
+    "avarohi_nyas": [
+      "n",
+      "P",
+      "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "R",
+    "thaat": "Kalyan",
+    "prahar": "day 2nd"
+  },
+  "dhanashree (bhairavi ang)": {
+    "name": "Dhanashree (Bhairavi Ang)",
+    "aaroha": [
+      ",n",
+      "S",
+      "g",
+      "m",
+      "P",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "d",
+      "P",
+      "m",
+      "P",
+      "g",
+      "m",
+      "g",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S"
+      ],
+      [
+        "g",
+        "m",
+        "P",
+        "n",
+        "d",
+        "P"
+      ],
+      [
+        "P",
+        "d",
+        "m",
+        "P",
+        "g"
+      ],
+      [
+        "m",
+        "g",
+        "r",
+        "S"
+      ],
+      [
+        "g",
+        "m",
+        "P",
+        "g",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "g"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Bhairavi",
+    "prahar": "day 3rd"
+  },
+  "dhani": {
+    "name": "Dhani",
+    "aaroha": [
+      "S",
+      "g",
+      "m",
+      "P",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "P",
+      "m",
+      "g",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",n",
+        "S",
+        "g"
+      ],
+      [
+        "S",
+        "g",
+        "m",
+        "P",
+        "g"
+      ],
+      [
+        "n",
+        "P",
+        "g",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "g",
+      "n"
+    ],
+    "avarohi_nyas": [
+      "g",
+      "n"
+    ],
+    "vaadi": "g",
+    "samvaadi": "n",
+    "thaat": "Kafi",
+    "prahar": "day 3rd"
+  },
+  "durga": {
+    "name": "Durga",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "P",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "D",
+      "P",
+      "D",
+      "m",
+      "R",
+      "S",
+      ",D",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "m",
+        "P",
+        "D"
+      ],
+      [
+        "m",
+        "R",
+        ",D",
+        "S"
+      ],
+      [
+        "R",
+        "R",
+        "P"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "R",
+      "P",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "D",
+      "m",
+      "R"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bilawal",
+    "prahar": "day 2nd"
+  },
+  "gaud malhar": {
+    "name": "Gaud Malhar",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "m",
+      "R",
+      "P",
+      "m",
+      "P",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "n",
+      "P",
+      "m",
+      "G",
+      "R",
+      "G",
+      "R",
+      "S",
+      "R",
+      "G",
+      "m"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "R",
+        "G",
+        "m"
+      ],
+      [
+        "R",
+        "G",
+        "m",
+        "G",
+        "m"
+      ],
+      [
+        "G",
+        "R",
+        "G",
+        "R",
+        "S"
+      ],
+      [
+        "m",
+        "P",
+        "D",
+        "n",
+        "P"
+      ],
+      [
+        "m",
+        "P",
+        "D",
+        "N",
+        "`S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "m"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bilawal",
+    "prahar": "night 2nd"
+  },
+  "gaud sarang": {
+    "name": "Gaud Sarang",
+    "aaroha": [
+      "S",
+      "G",
+      "R",
+      "m",
+      "G",
+      "D",
+      "P",
+      "N",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "P",
+      "D",
+      "P",
+      "G",
+      "R",
+      "m",
+      "G",
+      "P",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "G",
+        "R",
+        "m",
+        "G",
+        "P",
+        "R",
+        "S"
+      ],
+      [
+        "m",
+        "G",
+        "P"
+      ],
+      [
+        "D",
+        "P",
+        "`S"
+      ],
+      [
+        "`S",
+        "D",
+        "P",
+        "m",
+        "G"
+      ],
+      [
+        "G",
+        "R",
+        "m",
+        "G",
+        "P",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "G",
+      "P",
+      "`S"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "G"
+    ],
+    "vaadi": "G",
+    "samvaadi": "D",
+    "thaat": "Kalyan",
+    "prahar": "day 3rd"
+  },
+  "gauri (bhairav ang)": {
+    "name": "Gauri (Bhairav Ang)",
+    "aaroha": [
+      "S",
+      "r",
+      ",N",
+      "S",
+      "S",
+      "r",
+      "G",
+      "m",
+      "P",
+      "d",
+      "P",
+      "P",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "P",
+      "m",
+      "G",
+      "r",
+      "G",
+      "m",
+      "G",
+      "r",
+      "S",
+      "r",
+      ",N",
+      "S",
+      ",d",
+      ",N",
+      ",d",
+      "S",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "r",
+        "S",
+        ",N",
+        "S",
+        "G",
+        "r"
+      ],
+      [
+        "m",
+        "G",
+        "r",
+        "S",
+        "r",
+        ",N",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [],
+    "avarohi_nyas": [],
+    "vaadi": "r",
+    "samvaadi": "P",
+    "thaat": "Bhairav",
+    "prahar": "day 4th"
+  },
+  "gopika basant": {
+    "name": "Gopika Basant",
+    "aaroha": [
+      "S",
+      "g",
+      "m",
+      "P",
+      "m",
+      "g",
+      "g",
+      "m",
+      "d",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "d",
+      "m",
+      "P",
+      "g",
+      "m",
+      "P",
+      "m",
+      "g",
+      "S",
+      ",d",
+      ",n",
+      "S",
+      "g",
+      "m",
+      "g",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",d",
+        ",n",
+        "S",
+        "g",
+        "m",
+        "P"
+      ],
+      [
+        "n",
+        "d",
+        "m",
+        "P",
+        "g",
+        "m",
+        "g",
+        "S"
+      ],
+      [
+        "g",
+        "m",
+        "d",
+        "n",
+        "d",
+        "P"
+      ],
+      [
+        "d",
+        "m",
+        "P",
+        "g",
+        "m",
+        "g",
+        "S"
+      ],
+      [
+        ",d",
+        ",n",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "g"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Asawari",
+    "prahar": "day 1st"
+  },
+  "gorakh kalyan": {
+    "name": "Gorakh Kalyan",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "m",
+      "R",
+      "S",
+      ",n",
+      ",n",
+      ",D",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "R",
+        "m"
+      ],
+      [
+        "R",
+        "m",
+        "R",
+        "S",
+        ",n"
+      ],
+      [
+        ",n",
+        "D",
+        "S"
+      ],
+      [
+        "R",
+        "m",
+        "D",
+        "n",
+        "D",
+        "`S"
+      ],
+      [
+        "`S",
+        "n",
+        "D",
+        "m",
+        "R"
+      ],
+      [
+        "m",
+        "R",
+        "S",
+        ",n"
+      ],
+      [
+        ",n",
+        ",D",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "D",
+      "m",
+      "R",
+      ",n"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Khamaj",
+    "prahar": "day 2nd"
+  },
+  "gunkali": {
+    "name": "Gunkali",
+    "aaroha": [
+      "S",
+      "r",
+      "m",
+      "P",
+      "d",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "d",
+      "P",
+      "m",
+      "r",
+      "r",
+      "S",
+      ",d",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "r",
+        "m",
+        "P",
+        "d"
+      ],
+      [
+        "P",
+        "d",
+        "m",
+        "r"
+      ],
+      [
+        "r",
+        "S",
+        ",d",
+        "S"
+      ],
+      [
+        "m",
+        "P",
+        "d",
+        "d",
+        "`S"
+      ],
+      [
+        "d",
+        "P",
+        "d",
+        "m"
+      ],
+      [
+        "P",
+        "m",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "r",
+      "d"
+    ],
+    "avarohi_nyas": [
+      "d",
+      "r",
+      "S"
+    ],
+    "vaadi": "d",
+    "samvaadi": "r",
+    "thaat": "Bhairav",
+    "prahar": "day 1st"
+  },
+  "gurjari todi": {
+    "name": "Gurjari Todi",
+    "aaroha": [
+      "S",
+      "r",
+      "g",
+      "M",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "M",
+      "d",
+      "M",
+      "g",
+      "r",
+      "g",
+      "r",
+      "S",
+      ",d",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "r",
+        ",N",
+        ",d",
+        "S"
+      ],
+      [
+        "r",
+        "g",
+        "M",
+        "d"
+      ],
+      [
+        "M",
+        "d",
+        "N",
+        "d"
+      ],
+      [
+        "N",
+        "d",
+        "M",
+        "g",
+        "r"
+      ],
+      [
+        "g",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "r",
+      "g",
+      "d",
+      "`S"
+    ],
+    "avarohi_nyas": [
+      "r",
+      "g",
+      "d",
+      "`S"
+    ],
+    "vaadi": "d",
+    "samvaadi": "r",
+    "thaat": "Todi",
+    "prahar": "day 2nd"
+  },
+  "hameer": {
+    "name": "Hameer",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "D",
+      "N",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "P",
+      "D",
+      "P",
+      "G",
+      "m",
+      "P",
+      "G",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "N",
+        "D"
+      ],
+      [
+        "D",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "P",
+        "G",
+        "m",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "D",
+      "`S"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "D",
+      "P",
+      "R"
+    ],
+    "vaadi": "D",
+    "samvaadi": "G",
+    "thaat": "Kalyan",
+    "prahar": "day 2nd"
+  },
+  "hans dhwani": {
+    "name": "Hans Dhwani",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "P",
+      "G",
+      "R",
+      "S",
+      ",N",
+      ",P",
+      ",N",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",N",
+        "R",
+        "G",
+        "P",
+        "G",
+        "R",
+        "G",
+        "P",
+        "N",
+        "`S"
+      ],
+      [
+        "`S",
+        "N",
+        "P",
+        "G",
+        "R",
+        "G",
+        "P",
+        "G",
+        "R",
+        "S"
+      ]
+    ],
+    "aarohi_nyas": [
+      "G",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "N",
+      "P",
+      "G"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Bilawal",
+    "prahar": "day 2nd"
+  },
+  "hans kinkini": {
+    "name": "Hans Kinkini",
+    "aaroha": [
+      ",N",
+      "S",
+      "G",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "P",
+      "G",
+      "m",
+      "P",
+      "g",
+      "R",
+      "S",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "m",
+        "D",
+        "P"
+      ],
+      [
+        "m",
+        "P",
+        "g",
+        "R",
+        "S"
+      ],
+      [
+        ",N",
+        "S",
+        "G",
+        "m",
+        "P",
+        "P"
+      ],
+      [
+        "m",
+        "P"
+      ],
+      [
+        "m",
+        "n",
+        "D",
+        "P"
+      ],
+      [
+        "D",
+        "P",
+        "m",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "D",
+        "P",
+        "g",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "R",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "N",
+      "P",
+      "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 3rd"
+  },
+  "harikauns": {
+    "name": "Harikauns",
+    "aaroha": [
+      "S",
+      "g",
+      "M",
+      "D",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "M",
+      "g",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        ",D",
+        ",n",
+        "S"
+      ],
+      [
+        "g",
+        "M",
+        "g",
+        "S"
+      ],
+      [
+        "g",
+        "M",
+        "D",
+        "n",
+        "`S"
+      ],
+      [
+        "`S",
+        "n",
+        "D",
+        "M",
+        "g",
+        "S"
+      ],
+      [
+        "g",
+        "M",
+        "g",
+        "S",
+        ",n",
+        "S",
+        ",D",
+        ",n",
+        "g",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "g",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "D",
+      "g",
+      "S"
+    ],
+    "vaadi": "g",
+    "samvaadi": "n",
+    "thaat": "Kafi",
+    "prahar": "day 2nd"
+  },
+  "hemant": {
+    "name": "Hemant",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "m",
+      "G",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "m",
+        "D",
+        "N",
+        "D"
+      ],
+      [
+        "m",
+        "P",
+        "m"
+      ],
+      [
+        "N",
+        "D",
+        "P",
+        "m"
+      ],
+      [
+        "G",
+        "m",
+        "G",
+        "R",
+        "S"
+      ],
+      [
+        "G",
+        "m",
+        "D",
+        "P",
+        "m",
+        "G",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "m",
+      "D",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "S",
+      "G",
+      "m",
+      "D",
+      "N"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bilawal",
+    "prahar": "day 2nd"
+  },
+  "hemshri": {
+    "name": "Hemshri",
+    "aaroha": [
+      ",N",
+      "S",
+      "g",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "P",
+      "m",
+      "g",
+      "m",
+      "g",
+      "S",
+      ",N",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",N",
+        "S",
+        "g",
+        "m",
+        "P"
+      ],
+      [
+        "m",
+        "g",
+        "S",
+        "g",
+        ",N",
+        "S"
+      ],
+      [
+        "g",
+        "m",
+        "P",
+        "`S"
+      ],
+      [
+        "n",
+        "P"
+      ],
+      [
+        "m"
+      ],
+      [
+        "P",
+        "m",
+        "g",
+        "m",
+        "P"
+      ],
+      [
+        "g",
+        "P",
+        "m",
+        "g",
+        "S",
+        "g",
+        ",N",
+        "S"
+      ]
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "m"
+    ],
+    "vaadi": "N",
+    "samvaadi": "g",
+    "thaat": "Kafi",
+    "prahar": "night 2nd"
+  },
+  "hindol": {
+    "name": "Hindol",
+    "aaroha": [
+      "S",
+      "G",
+      "M",
+      "D",
+      "N",
+      "M",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "M",
+      "G",
+      "M",
+      "G",
+      "S",
+      ",D",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "D",
+        "D",
+        "N",
+        "M",
+        "D",
+        "`S"
+      ],
+      [
+        "D",
+        "M",
+        "G"
+      ],
+      [
+        "S",
+        ",D",
+        ",D",
+        "S"
+      ]
+    ],
+    "aarohi_nyas": [
+      "G",
+      "D",
+      "`S"
+    ],
+    "avarohi_nyas": [
+      "D",
+      "G"
+    ],
+    "vaadi": "D",
+    "samvaadi": "G",
+    "thaat": "Kalyan",
+    "prahar": "day 3rd"
+  },
+  "jaijaivanti": {
+    "name": "Jaijaivanti",
+    "aaroha": [
+      "S",
+      ",D",
+      ",n",
+      "R",
+      "R",
+      "g",
+      "R",
+      "S",
+      "G",
+      "m",
+      "P",
+      "m",
+      "G",
+      "R",
+      "R",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "G",
+      "R",
+      "g",
+      "R",
+      "S",
+      ",N",
+      "S",
+      ",D",
+      ",n",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",D",
+        ",n",
+        "R"
+      ],
+      [
+        "R",
+        "g",
+        "R",
+        "S"
+      ],
+      [
+        ",N",
+        "S"
+      ],
+      [
+        "R",
+        "m",
+        "P",
+        "N"
+      ],
+      [
+        "n",
+        "D",
+        "P"
+      ]
+    ],
+    "aarohi_nyas": [
+      "S",
+      "R",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "R"
+    ],
+    "vaadi": "R",
+    "samvaadi": "P",
+    "thaat": "Kafi",
+    "prahar": "night 2nd"
+  },
+  "jaldhar kedar": {
+    "name": "Jaldhar Kedar",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "P",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "D",
+      "P",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "R",
+        "S",
+        "m"
+      ],
+      [
+        "m",
+        "R",
+        "P",
+        "m"
+      ],
+      [
+        "m",
+        "P",
+        "D",
+        "`S"
+      ],
+      [
+        "`R",
+        "`S",
+        "D",
+        "P",
+        "m"
+      ],
+      [
+        "P",
+        "m",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "m",
+      "S"
+    ],
+    "avarohi_nyas": [
+      "m",
+      "S"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bilawal",
+    "prahar": "night 2nd"
+  },
+  "jaunpuri": {
+    "name": "Jaunpuri",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "P",
+      "d",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "d",
+      "P",
+      "m",
+      "g",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "R",
+        "m",
+        "P",
+        "d",
+        "m",
+        "P",
+        "`S"
+      ],
+      [
+        "`R",
+        "n",
+        "d",
+        "P"
+      ],
+      [
+        "m",
+        "P",
+        "n",
+        "d",
+        "P"
+      ],
+      [
+        "d",
+        "m",
+        "P",
+        "g",
+        "R",
+        "m",
+        "P"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "R",
+      "P",
+      "d",
+      "`S"
+    ],
+    "avarohi_nyas": [
+      "d",
+      "P",
+      "g",
+      "R"
+    ],
+    "vaadi": "d",
+    "samvaadi": "g",
+    "thaat": "Asawari",
+    "prahar": "day 2nd"
+  },
+  "jayat": {
+    "name": "Jayat",
+    "aaroha": [
+      "S",
+      "r",
+      "G",
+      "P",
+      "D",
+      "P",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "P",
+      "D",
+      "P",
+      "P",
+      "D",
+      "G",
+      "P",
+      "P",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "P",
+        "D",
+        "P",
+        "`S"
+      ],
+      [
+        "`S",
+        "P"
+      ],
+      [
+        "P",
+        "D",
+        "G",
+        "P"
+      ],
+      [
+        "P",
+        "G",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "S",
+      "G",
+      "P"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Marwa",
+    "prahar": "day 1st"
+  },
+  "jhinjhoti": {
+    "name": "Jhinjhoti",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "P",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "G",
+      "R",
+      "G",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",D",
+        "S",
+        "R",
+        "m",
+        "G"
+      ],
+      [
+        "R",
+        "G",
+        "S",
+        "R",
+        ",n",
+        ",D",
+        ",P",
+        ",D",
+        "S"
+      ],
+      [
+        ",P",
+        ",D",
+        "S",
+        "R",
+        "G",
+        "m",
+        "G"
+      ],
+      [
+        "m",
+        "G",
+        "R",
+        "S"
+      ],
+      [
+        "R",
+        ",n",
+        ",D",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "P",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "G"
+    ],
+    "vaadi": "G",
+    "samvaadi": "n",
+    "thaat": "Khamaj",
+    "prahar": "night 2nd"
+  },
+  "jog": {
+    "name": "Jog",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "P",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "P",
+      "m",
+      "g",
+      "S",
+      ",n",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "m",
+        "P",
+        "n",
+        "P"
+      ],
+      [
+        "P",
+        "n",
+        "P",
+        "m",
+        "G",
+        "m"
+      ],
+      [
+        "G",
+        "m",
+        "g",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "G",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "P",
+      "m",
+      "G"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "night 2nd"
+  },
+  "jogeshwari": {
+    "name": "Jogeshwari",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "D",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "m",
+      "G",
+      "m",
+      "g",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "G",
+        "m",
+        "g",
+        "S"
+      ],
+      [
+        ",n",
+        ",D"
+      ],
+      [
+        ",m",
+        ",D",
+        ",n",
+        "S"
+      ],
+      [
+        "S",
+        "G",
+        "m"
+      ],
+      [
+        "n",
+        "D",
+        "m"
+      ],
+      [
+        "D",
+        "n",
+        "`S"
+      ],
+      [
+        "`S",
+        "D"
+      ],
+      [
+        "n",
+        "m"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "m",
+        "g",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "m",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "D",
+      "m",
+      "G",
+      "S"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "night 2nd"
+  },
+  "jogiya": {
+    "name": "Jogiya",
+    "aaroha": [
+      "S",
+      "r",
+      "m",
+      "P",
+      "d",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "P",
+      "m",
+      "m",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "r",
+        "m",
+        "m"
+      ],
+      [
+        "m",
+        "P",
+        "d"
+      ],
+      [
+        "P",
+        "d",
+        "N",
+        "d",
+        "P"
+      ],
+      [
+        "P",
+        "d",
+        "m",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P",
+      "d"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "d",
+      "m",
+      "r"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bhairav",
+    "prahar": "day 1st"
+  },
+  "jogkauns": {
+    "name": "Jogkauns",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "P",
+      "m",
+      "P",
+      "d",
+      "n",
+      "d",
+      "P",
+      "m",
+      "G",
+      "m",
+      "S",
+      "g",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "m"
+      ],
+      [
+        "G",
+        "m",
+        "P",
+        "m"
+      ],
+      [
+        "G",
+        "m",
+        "d",
+        "N",
+        "`S"
+      ],
+      [
+        "`S",
+        "N",
+        "d"
+      ],
+      [
+        "P",
+        "d",
+        "n",
+        "d",
+        "m",
+        "P",
+        "m"
+      ],
+      [
+        "G",
+        "m",
+        "S",
+        "g",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m"
+    ],
+    "avarohi_nyas": [
+      "m",
+      "S"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bhairavi",
+    "prahar": "day 3rd"
+  },
+  "kafi": {
+    "name": "Kafi",
+    "aaroha": [
+      "S",
+      "R",
+      "g",
+      "m",
+      "P",
+      "D",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "g",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "g",
+        "R"
+      ],
+      [
+        "m",
+        "P"
+      ],
+      [
+        "m",
+        "P",
+        "D",
+        "P"
+      ],
+      [
+        "D",
+        "n",
+        "`S"
+      ],
+      [
+        "n",
+        "D",
+        "P"
+      ],
+      [
+        "S",
+        "R",
+        "m",
+        "P"
+      ],
+      [
+        "D",
+        "m",
+        "P",
+        "g",
+        "R"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 2nd"
+  },
+  "kalawati": {
+    "name": "Kalawati",
+    "aaroha": [
+      "S",
+      "G",
+      "P",
+      "D",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "G",
+      "P",
+      "G",
+      "S",
+      ",n",
+      ",D",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "G",
+        "P",
+        "D"
+      ],
+      [
+        "P",
+        "D",
+        "n",
+        "D"
+      ],
+      [
+        "D",
+        "P"
+      ],
+      [
+        "G",
+        "P",
+        "D",
+        "S",
+        "n"
+      ],
+      [
+        "D",
+        "n",
+        "S"
+      ],
+      [
+        "n",
+        "P"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "P",
+        "G",
+        "S"
+      ],
+      [
+        "n",
+        "D",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "G",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "D",
+      "G"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Khamaj",
+    "prahar": "night 1st"
+  },
+  "kamod": {
+    "name": "Kamod",
+    "aaroha": [
+      "S",
+      "R",
+      "P",
+      "G",
+      "m",
+      "R",
+      "S",
+      "m",
+      "R",
+      "P",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "P",
+      "D",
+      "P",
+      "G",
+      "m",
+      "P",
+      "G",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "m",
+        "R",
+        "R",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "P",
+        "G",
+        "m",
+        "R",
+        "S"
+      ],
+      [
+        "`S",
+        "`R",
+        "`S"
+      ],
+      [
+        "D",
+        "D",
+        "P"
+      ],
+      [
+        "m",
+        "R",
+        "P"
+      ],
+      [
+        "D",
+        "M",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "R",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "R",
+    "thaat": "Kalyan",
+    "prahar": "night 1st"
+  },
+  "kaushik dhwani (bhinn shadj)": {
+    "name": "Kaushik Dhwani (Bhinn Shadj)",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "m",
+      "G",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "m",
+        "D",
+        "N",
+        "D",
+        "`S"
+      ],
+      [
+        "N",
+        "`S",
+        "D"
+      ],
+      [
+        "G",
+        "m"
+      ],
+      [
+        "D",
+        "m",
+        "G",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "m",
+      "D",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "S",
+      "G",
+      "m",
+      "D",
+      "N"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bilawal",
+    "prahar": "day 2nd"
+  },
+  "kausi kanada": {
+    "name": "Kausi Kanada",
+    "aaroha": [
+      ",n",
+      "S",
+      "g",
+      "m",
+      "d",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "d",
+      "P",
+      "m",
+      "g",
+      "R",
+      "g",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "g",
+        "m",
+        "d",
+        "P"
+      ],
+      [
+        "m",
+        "g",
+        "R"
+      ],
+      [
+        "g",
+        "m",
+        "S"
+      ],
+      [
+        "g",
+        "m",
+        "P",
+        "m",
+        "g",
+        "R"
+      ],
+      [
+        "g",
+        "S",
+        ",d",
+        ",n",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "m"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Asawari",
+    "prahar": "day 1st"
+  },
+  "kedar": {
+    "name": "Kedar",
+    "aaroha": [
+      "S",
+      "M",
+      "P",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "P",
+      "D",
+      "P",
+      "m",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "m"
+      ],
+      [
+        "m",
+        "P"
+      ],
+      [
+        "M",
+        "P",
+        "D",
+        "P",
+        "m"
+      ],
+      [
+        "S",
+        "R",
+        "S"
+      ],
+      [
+        "M",
+        "P",
+        "D",
+        "P",
+        "M"
+      ],
+      [
+        "P",
+        "`S"
+      ],
+      [
+        "`S",
+        "`R",
+        "`S",
+        "`S",
+        "D",
+        "D",
+        "P"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "m"
+    ],
+    "vaadi": "M",
+    "samvaadi": "S",
+    "thaat": "Kalyan",
+    "prahar": "day 1st"
+  },
+  "keerwani": {
+    "name": "Keerwani",
+    "aaroha": [
+      "S",
+      "R",
+      "g",
+      "m",
+      "P",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "P",
+      "m",
+      "g",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "P",
+        "d",
+        "`S"
+      ],
+      [
+        "`S",
+        "N",
+        "`S",
+        "`R",
+        "`g",
+        "`R",
+        "`S",
+        "N",
+        "d",
+        "P"
+      ],
+      [
+        "d",
+        "P",
+        "m",
+        "P"
+      ],
+      [
+        "P",
+        "m",
+        "g",
+        "R"
+      ],
+      [
+        "g",
+        "m"
+      ],
+      [
+        "g",
+        "R",
+        "S",
+        ",N",
+        ",d",
+        ",N",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "R",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Not Defined",
+    "prahar": "day 2nd"
+  },
+  "khamaj": {
+    "name": "Khamaj",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "P",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "G",
+      "R",
+      "G",
+      "S",
+      ",N",
+      "S",
+      "G",
+      "m",
+      "P"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "m",
+        "P",
+        "D"
+      ],
+      [
+        "G",
+        "m",
+        "G"
+      ],
+      [
+        "P",
+        "`S",
+        "N",
+        "`S"
+      ],
+      [
+        "n",
+        "D",
+        "P"
+      ],
+      [
+        "m",
+        "P",
+        "m",
+        "G"
+      ],
+      [
+        "R",
+        "S"
+      ]
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "G"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Khamaj",
+    "prahar": "day 2nd"
+  },
+  "khambavati": {
+    "name": "Khambavati",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "P",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "D",
+      "m",
+      "P",
+      "G",
+      "m",
+      "S",
+      "R",
+      ",n",
+      ",D",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "R",
+        "m",
+        "G",
+        "m",
+        "S"
+      ],
+      [
+        "R",
+        "m",
+        "P",
+        "D"
+      ],
+      [
+        "n",
+        "n",
+        "D",
+        "P",
+        "D",
+        "P"
+      ],
+      [
+        "m",
+        "P",
+        "D",
+        "`S"
+      ],
+      [
+        "P",
+        "D",
+        "`S",
+        "`R",
+        "`G",
+        "`S"
+      ],
+      [
+        "`R",
+        "n",
+        "D",
+        "`S"
+      ],
+      [
+        "D",
+        "m",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "S"
+      ],
+      [
+        "R",
+        ",n",
+        ",D",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "D",
+      "P",
+      "G",
+      "S"
+    ],
+    "vaadi": "G",
+    "samvaadi": "D",
+    "thaat": "Khamaj",
+    "prahar": "night 2nd"
+  },
+  "komal rishabh asawari": {
+    "name": "Komal Rishabh Asawari",
+    "aaroha": [
+      "S",
+      "r",
+      "m",
+      "P",
+      "d",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "`r",
+      "n",
+      "d",
+      "m",
+      "P",
+      "d",
+      "m",
+      "g",
+      "r",
+      "g",
+      "r",
+      ",n",
+      ",d",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "m",
+        "P",
+        "d",
+        "`S"
+      ],
+      [
+        "`r",
+        "n",
+        "d",
+        "m",
+        "g",
+        "r"
+      ],
+      [
+        "g",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P",
+      "d"
+    ],
+    "avarohi_nyas": [
+      "d",
+      "m",
+      "r"
+    ],
+    "vaadi": "d",
+    "samvaadi": "r",
+    "thaat": "Bhairavi",
+    "prahar": "day 2nd"
+  },
+  "lalit": {
+    "name": "Lalit",
+    "aaroha": [
+      ",N",
+      "r",
+      "G",
+      "M",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "M",
+      "d",
+      "M",
+      "m",
+      "G",
+      "M",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",N",
+        "r",
+        "G",
+        "m",
+        "M",
+        "m",
+        "G",
+        "r",
+        "S"
+      ],
+      [
+        "G",
+        "M",
+        "d",
+        "N",
+        "d",
+        "M",
+        "m"
+      ],
+      [
+        "`r",
+        "N",
+        "d",
+        "M",
+        "m"
+      ],
+      [
+        "G",
+        "m",
+        "M",
+        "m"
+      ],
+      [
+        "G"
+      ],
+      [
+        "M",
+        "G",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "m"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "m",
+      "G"
+    ],
+    "vaadi": "S",
+    "samvaadi": "S",
+    "thaat": "Poorvi",
+    "prahar": "night 4th"
+  },
+  "lanka dahan sarang": {
+    "name": "Lanka Dahan Sarang",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "P",
+      "D",
+      "P",
+      "g",
+      "R",
+      "g",
+      "R",
+      "S",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "m",
+        "P",
+        "`S"
+      ],
+      [
+        "n",
+        "P"
+      ],
+      [
+        "m",
+        "P"
+      ],
+      [
+        "R",
+        "g",
+        "R",
+        "S"
+      ],
+      [
+        ",n",
+        ",P",
+        ",m",
+        ",P",
+        ",N",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "R",
+      "P",
+      "`S"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "R"
+    ],
+    "vaadi": "S",
+    "samvaadi": "m",
+    "thaat": "Kafi",
+    "prahar": "day 2nd"
+  },
+  "madhukauns": {
+    "name": "Madhukauns",
+    "aaroha": [
+      "S",
+      "g",
+      "M",
+      "P",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "P",
+      "M",
+      "g",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "g",
+        "M"
+      ],
+      [
+        "P",
+        "M",
+        "g",
+        "M",
+        "P"
+      ],
+      [
+        "M",
+        "P",
+        "n",
+        "`S"
+      ],
+      [
+        "`S",
+        "n",
+        "P",
+        "M"
+      ],
+      [
+        "g",
+        "M",
+        "g",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "M",
+      "P",
+      "`S"
+    ],
+    "avarohi_nyas": [
+      "P",
+      "M",
+      "S"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 2nd"
+  },
+  "madhumad sarang": {
+    "name": "Madhumad Sarang",
+    "aaroha": [
+      ",n",
+      "S",
+      "R",
+      "m",
+      "P",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "P",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",n",
+        "S",
+        "R"
+      ],
+      [
+        "m",
+        "R"
+      ],
+      [
+        "P",
+        "m",
+        "R"
+      ],
+      [
+        "n",
+        "P",
+        "m",
+        "R"
+      ],
+      [
+        "P",
+        "m",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P"
+    ],
+    "vaadi": "R",
+    "samvaadi": "P",
+    "thaat": "Kafi",
+    "prahar": "day 1st"
+  },
+  "madhuvanti": {
+    "name": "Madhuvanti",
+    "aaroha": [
+      ",N",
+      "S",
+      "g",
+      "M",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "g",
+      "M",
+      "g",
+      "R",
+      "S",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",N",
+        "S",
+        "M",
+        "g",
+        "M",
+        "P"
+      ],
+      [
+        "M",
+        "g",
+        "S",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "g",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "N",
+      "P",
+      "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Todi",
+    "prahar": "day 4th"
+  },
+  "malgunji": {
+    "name": "Malgunji",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "m",
+      "D",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "G",
+      "R",
+      "G",
+      "m",
+      "g",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "m",
+        "g",
+        "R",
+        "S"
+      ],
+      [
+        ",n",
+        "S"
+      ],
+      [
+        ",D",
+        ",n",
+        "S",
+        "R",
+        "G",
+        "m"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m"
+    ],
+    "avarohi_nyas": [
+      "m",
+      "S"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 3rd"
+  },
+  "malhar": {
+    "name": "Malhar",
+    "aaroha": [
+      ",N",
+      "S",
+      "m",
+      "R",
+      "P",
+      "g",
+      "m",
+      "R",
+      "S",
+      "m",
+      "R",
+      "P",
+      "n",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "n",
+      "P",
+      "m",
+      "P",
+      "g",
+      "g",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "R"
+      ],
+      [
+        "R",
+        "P"
+      ],
+      [
+        "g",
+        "g",
+        "m",
+        "R",
+        "S"
+      ],
+      [
+        ",n",
+        "D",
+        ",N",
+        ",N",
+        "S"
+      ]
+    ],
+    "aarohi_nyas": [
+      "S",
+      "R",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 2nd"
+  },
+  "malkauns": {
+    "name": "Malkauns",
+    "aaroha": [
+      "S",
+      "g",
+      "m",
+      "d",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "d",
+      "m",
+      "g",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",d",
+        ",n",
+        "S",
+        "g",
+        "m"
+      ],
+      [
+        "g",
+        "m",
+        "n",
+        "d",
+        "m"
+      ],
+      [
+        "d",
+        "n",
+        "`S"
+      ],
+      [
+        "`g",
+        "`S",
+        "n",
+        "d"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "g",
+      "m"
+    ],
+    "avarohi_nyas": [
+      "m",
+      "g",
+      "S"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bhairavi",
+    "prahar": "day 3rd"
+  },
+  "mand": {
+    "name": "Mand",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "m",
+      "P",
+      "D",
+      "N",
+      "P",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "m",
+      "G",
+      "R",
+      "G",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "m",
+        "P",
+        "D",
+        "`S",
+        "N",
+        "D"
+      ],
+      [
+        "D",
+        "P",
+        "m"
+      ],
+      [
+        "m",
+        "P",
+        "G",
+        "R",
+        "G",
+        "S"
+      ]
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "D",
+      "m",
+      "G"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Bilawal",
+    "prahar": "day 2nd"
+  },
+  "maru bihag": {
+    "name": "Maru Bihag",
+    "aaroha": [
+      "S",
+      "G",
+      "M",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "G",
+      "M",
+      "G",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "M",
+        "G"
+      ],
+      [
+        "M",
+        "G",
+        "R",
+        "S"
+      ],
+      [
+        "S",
+        ",N",
+        "S"
+      ],
+      [
+        "m",
+        "G",
+        "P"
+      ],
+      [
+        "M",
+        "G",
+        "M",
+        "G",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "G",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "D",
+      "P",
+      "G",
+      "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Kalyan",
+    "prahar": "day 2nd"
+  },
+  "marwa": {
+    "name": "Marwa",
+    "aaroha": [
+      "S",
+      ",D",
+      ",N",
+      "r",
+      "G",
+      "M",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "M",
+      "G",
+      "r",
+      "S",
+      ",N",
+      ",D",
+      "S",
+      ",N",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S"
+      ],
+      [
+        ",N",
+        ",D",
+        "S",
+        ",N",
+        "r"
+      ],
+      [
+        "r",
+        "G",
+        "M",
+        "D"
+      ],
+      [
+        "D",
+        "M",
+        "G",
+        "r"
+      ],
+      [
+        ",N",
+        ",D",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "r",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "D",
+      "r"
+    ],
+    "vaadi": "r",
+    "samvaadi": "D",
+    "thaat": "Marwa",
+    "prahar": "day 4th"
+  },
+  "megh malhar": {
+    "name": "Megh Malhar",
+    "aaroha": [
+      "S",
+      "m",
+      "R",
+      "m",
+      "P",
+      ",n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "P",
+      "m",
+      "R",
+      "S",
+      "R",
+      ",n",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",n",
+        "S",
+        "R",
+        "P",
+        "m",
+        "R"
+      ],
+      [
+        "m",
+        "P",
+        "m",
+        "R"
+      ],
+      [
+        "m",
+        "P"
+      ],
+      [
+        "P",
+        "m",
+        "n",
+        "P",
+        "m",
+        "R"
+      ],
+      [
+        "R",
+        "R",
+        "P",
+        "m",
+        "R",
+        "R",
+        "S",
+        ",n",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "P",
+      "m",
+      "R"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 1st"
+  },
+  "mohankauns": {
+    "name": "Mohankauns",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "d",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "d",
+      "m",
+      "g",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "G",
+        "m",
+        "g",
+        "S"
+      ],
+      [
+        ",n",
+        ",d"
+      ],
+      [
+        ",n",
+        "S"
+      ],
+      [
+        "S",
+        "m",
+        "G"
+      ],
+      [
+        "m",
+        "d",
+        "n",
+        "d",
+        "m",
+        "G"
+      ],
+      [
+        "m",
+        "G",
+        "g",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "m",
+      "d",
+      "n"
+    ],
+    "avarohi_nyas": [
+      "n",
+      "d",
+      "m",
+      "S"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bhairavi",
+    "prahar": "day 2nd"
+  },
+  "multani": {
+    "name": "Multani",
+    "aaroha": [
+      ",N",
+      "S",
+      "g",
+      "M",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "P",
+      "M",
+      "g",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",N",
+        "S"
+      ],
+      [
+        "M",
+        "g"
+      ],
+      [
+        "M",
+        "g",
+        "P"
+      ],
+      [
+        "M",
+        "g",
+        "M",
+        "g",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "g",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "N",
+      "P",
+      "g",
+      "S"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Todi",
+    "prahar": "day 3rd"
+  },
+  "nand": {
+    "name": "Nand",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "D",
+      "P",
+      "R",
+      "S",
+      "G",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "S",
+      "D",
+      "N",
+      "P",
+      "D",
+      "M",
+      "P",
+      "G",
+      "G",
+      "m",
+      "D",
+      "P",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "G",
+        "m",
+        "D",
+        "P",
+        "R",
+        "S"
+      ],
+      [
+        "G",
+        "m",
+        "P",
+        "D",
+        "N"
+      ],
+      [
+        "D",
+        "P"
+      ],
+      [
+        "P",
+        "D",
+        "P",
+        "m",
+        "m",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "D",
+        "P",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "P",
+      "m",
+      "G",
+      "S"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Kalyan",
+    "prahar": "day 2nd"
+  },
+  "narayani": {
+    "name": "Narayani",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "P",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "R",
+        ",n",
+        ",D",
+        ",P"
+      ],
+      [
+        ",m",
+        ",P",
+        ",D",
+        "S"
+      ],
+      [
+        "m",
+        "R"
+      ],
+      [
+        "m",
+        "R",
+        "S"
+      ],
+      [
+        "S",
+        "R",
+        "P"
+      ],
+      [
+        "m",
+        "P",
+        "n",
+        "D",
+        "D",
+        "P"
+      ],
+      [
+        "D",
+        "P",
+        "m",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "P",
+      "S"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Khamaj",
+    "prahar": "day 2nd"
+  },
+  "nayaki kanada": {
+    "name": "Nayaki Kanada",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "g",
+      "m",
+      "P",
+      "n",
+      "P",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "P",
+      "n",
+      "P",
+      "m",
+      "P",
+      "m",
+      "g",
+      "g",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "R",
+        ",n",
+        "S",
+        "R",
+        "P",
+        "m",
+        "g"
+      ],
+      [
+        "g",
+        "m",
+        "P",
+        "m",
+        "R",
+        "S",
+        "R",
+        "S"
+      ],
+      [
+        "g",
+        "m",
+        "n",
+        "P"
+      ],
+      [
+        "n",
+        "m",
+        "P",
+        "m",
+        "g",
+        "m",
+        "P",
+        "m",
+        "R",
+        "S",
+        "R",
+        "R",
+        "S"
+      ],
+      [
+        "m",
+        "P",
+        "n",
+        "P",
+        "`S"
+      ],
+      [
+        "P",
+        "n",
+        "P"
+      ],
+      [
+        "g",
+        "m",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "R",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "P",
+      "m",
+      "R"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 2nd"
+  },
+  "nut-bhairav": {
+    "name": "Nut-Bhairav",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "m",
+      "P",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "P",
+      "m",
+      "G",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "R",
+        "G",
+        "m",
+        "d",
+        "P"
+      ],
+      [
+        "m",
+        "G",
+        "R"
+      ],
+      [
+        "G",
+        "m",
+        "R",
+        "S",
+        ",N",
+        ",d",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "R",
+      "m",
+      "d"
+    ],
+    "avarohi_nyas": [
+      "d",
+      "m",
+      "R"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bhairav",
+    "prahar": "day 1st"
+  },
+  "pancham jogeshwari": {
+    "name": "Pancham Jogeshwari",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "D",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "m",
+      "G",
+      "m",
+      "P",
+      "m",
+      "g",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "G",
+        "m",
+        "g",
+        "S"
+      ],
+      [
+        ",n",
+        ",D"
+      ],
+      [
+        ",m",
+        ",D",
+        ",n",
+        "S"
+      ],
+      [
+        "S",
+        "G",
+        "m"
+      ],
+      [
+        "m",
+        "P",
+        "m",
+        "g",
+        "S"
+      ],
+      [
+        "n",
+        "D",
+        "m"
+      ],
+      [
+        "D",
+        "n",
+        "`S"
+      ],
+      [
+        "`S",
+        "D"
+      ],
+      [
+        "n",
+        "D"
+      ],
+      [
+        "D",
+        "m"
+      ],
+      [
+        "P",
+        "m",
+        "g",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "m",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "D",
+      "m",
+      "G",
+      "S"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "night 2nd"
+  },
+  "parameshwari": {
+    "name": "Parameshwari",
+    "aaroha": [
+      "S",
+      "r",
+      "g",
+      "m",
+      "D",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "m",
+      "g",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "r",
+        "g",
+        "m",
+        "D",
+        "m"
+      ],
+      [
+        "g",
+        "m",
+        "D",
+        "m",
+        "g",
+        "r"
+      ],
+      [
+        "g",
+        "r",
+        ",n",
+        ",d"
+      ],
+      [
+        ",d",
+        ",n",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "r",
+      "m",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "D",
+      "m",
+      "r"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Not Defined",
+    "prahar": "day 2nd"
+  },
+  "patdeep": {
+    "name": "Patdeep",
+    "aaroha": [
+      ",N",
+      "S",
+      "g",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "m",
+      "g",
+      "R",
+      "S",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "g",
+        "m",
+        "P",
+        "N",
+        "`S",
+        "D",
+        "P"
+      ],
+      [
+        "m",
+        "g",
+        "m",
+        "P",
+        "N",
+        "N",
+        "N",
+        "`S"
+      ],
+      [
+        "D",
+        "P",
+        "m",
+        "g",
+        "m",
+        "P"
+      ],
+      [
+        "P",
+        "g",
+        "m"
+      ],
+      [
+        "g",
+        "R",
+        "S",
+        ",N",
+        ",N",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "g",
+      "P",
+      "N",
+      "D",
+      "P",
+      "R"
+    ],
+    "avarohi_nyas": [
+      "g",
+      "P",
+      "N",
+      "D",
+      "P",
+      "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 3rd"
+  },
+  "pilu": {
+    "name": "Pilu",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "g",
+      "R",
+      "S",
+      ",N",
+      "S",
+      "g",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "m",
+        "P",
+        "N",
+        "`S"
+      ],
+      [
+        "n",
+        "D",
+        "P"
+      ],
+      [
+        "m",
+        "P",
+        "N",
+        "d",
+        "P"
+      ],
+      [
+        "m",
+        "g",
+        "R",
+        "S"
+      ],
+      [
+        "P",
+        "g",
+        "R",
+        "S",
+        ",N"
+      ],
+      [
+        "S",
+        "g",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "n",
+      "P",
+      "g"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Kafi",
+    "prahar": "day 3rd"
+  },
+  "poorvi": {
+    "name": "Poorvi",
+    "aaroha": [
+      "S",
+      "r",
+      "G",
+      "M",
+      "P",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "P",
+      "M",
+      "G",
+      "m",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "r",
+        "G"
+      ],
+      [
+        "M",
+        "G",
+        "m",
+        "G"
+      ],
+      [
+        "M",
+        "d",
+        "P"
+      ],
+      [
+        "N",
+        "d",
+        "P"
+      ],
+      [
+        "G",
+        "M",
+        "P"
+      ],
+      [
+        "M",
+        "G",
+        "m",
+        "G",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "G"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Poorvi",
+    "prahar": "day 4th"
+  },
+  "puriya": {
+    "name": "Puriya",
+    "aaroha": [
+      ",N",
+      "r",
+      "G",
+      "M",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "M",
+      "G",
+      "M",
+      "D",
+      "G",
+      "M",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "N",
+        "R",
+        "G"
+      ],
+      [
+        "G",
+        "M",
+        "D",
+        "G",
+        "M",
+        "G"
+      ],
+      [
+        "N",
+        "M",
+        "G"
+      ],
+      [
+        "G",
+        "M",
+        "G",
+        "r",
+        "S"
+      ],
+      [
+        ",N",
+        ",M",
+        ",D",
+        "S"
+      ],
+      [
+        ",N",
+        "r",
+        "G",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "G",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "N",
+      "G"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Marwa",
+    "prahar": "day 2nd"
+  },
+  "puriya dhanashri": {
+    "name": "Puriya Dhanashri",
+    "aaroha": [
+      ",N",
+      "r",
+      "S",
+      ",N",
+      "r",
+      "G",
+      "M",
+      "P",
+      "M",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "P",
+      "M",
+      "G",
+      "M",
+      "r",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",N",
+        "r",
+        "G",
+        "M",
+        "P"
+      ],
+      [
+        "P",
+        "M",
+        "G",
+        "M",
+        "r",
+        "G"
+      ],
+      [
+        "M",
+        "d",
+        "P"
+      ],
+      [
+        "M",
+        "d",
+        "N",
+        "`S"
+      ],
+      [
+        "N",
+        "`r"
+      ],
+      [
+        "N",
+        "d",
+        "P"
+      ],
+      [
+        "P",
+        "d",
+        "P",
+        "P",
+        "M",
+        "G",
+        "M",
+        "r",
+        "G"
+      ],
+      [
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "G",
+      "r"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Poorvi",
+    "prahar": "day 4th"
+  },
+  "puriya kalyan": {
+    "name": "Puriya Kalyan",
+    "aaroha": [
+      "S",
+      "r",
+      "G",
+      "M",
+      "P",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "G",
+      "r",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",N",
+        "r",
+        "G",
+        "M",
+        "P",
+        "M",
+        "r",
+        "G",
+        "r",
+        "S"
+      ],
+      [
+        "M",
+        "D",
+        "P"
+      ],
+      [
+        "M",
+        "D",
+        "N",
+        "`S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "G",
+      "M",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "N",
+      "P",
+      "G",
+      "r"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Marwa",
+    "prahar": "day 4th"
+  },
+  "rageshree": {
+    "name": "Rageshree",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "D",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "m",
+      "G",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",n",
+        ",D",
+        ",n",
+        "S"
+      ],
+      [
+        "G",
+        "m",
+        "R",
+        "S"
+      ],
+      [
+        "G",
+        "m",
+        "D",
+        "n",
+        "D",
+        "m"
+      ],
+      [
+        "G",
+        "m",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "G",
+      "m",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "G",
+      "m",
+      "D"
+    ],
+    "vaadi": "G",
+    "samvaadi": "n",
+    "thaat": "Khamaj",
+    "prahar": "day 2nd"
+  },
+  "ramdasi malhar": {
+    "name": "Ramdasi Malhar",
+    "aaroha": [
+      ",N",
+      "S",
+      "R",
+      "G",
+      "m",
+      "P",
+      "G",
+      "m",
+      "R",
+      "P",
+      "m",
+      "P",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "n",
+      "P",
+      "D",
+      "P",
+      "m",
+      "G",
+      "m",
+      "P",
+      "g",
+      "g",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "R",
+        "G",
+        "m"
+      ],
+      [
+        "m",
+        "R",
+        "P"
+      ],
+      [
+        "P",
+        "G",
+        "m"
+      ],
+      [
+        "P",
+        "g",
+        "g",
+        "m",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "S",
+      "m",
+      "P"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 1st"
+  },
+  "ramkali": {
+    "name": "Ramkali",
+    "aaroha": [
+      "S",
+      "r",
+      "G",
+      "m",
+      "P",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "P",
+      "M",
+      "P",
+      "d",
+      "n",
+      "d",
+      "P",
+      "M",
+      "P",
+      "G",
+      "m",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "M",
+        "P",
+        "d",
+        "n",
+        "d",
+        "P"
+      ],
+      [
+        "M",
+        "P",
+        "G",
+        "m",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "r"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Bhairav",
+    "prahar": "day 1st"
+  },
+  "saalag varali": {
+    "name": "Saalag Varali",
+    "aaroha": [
+      "S",
+      "r",
+      "g",
+      "P",
+      "D",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "g",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "g",
+        "P",
+        "D",
+        "n",
+        "D",
+        "P"
+      ],
+      [
+        "D",
+        "n",
+        "D",
+        "`S"
+      ],
+      [
+        "`S",
+        "n",
+        "D",
+        "P"
+      ],
+      [
+        "D",
+        "n",
+        "D",
+        "P"
+      ],
+      [
+        "r",
+        "g",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "g",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "S",
+      "g",
+      "P"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Todi",
+    "prahar": "day 2nd"
+  },
+  "sarang (brindavani sarang)": {
+    "name": "Sarang (Brindavani Sarang)",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "P",
+      "m",
+      "R",
+      "S",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "R",
+        "m"
+      ],
+      [
+        "P",
+        "R"
+      ],
+      [
+        "m",
+        "R",
+        ",N",
+        "S"
+      ],
+      [
+        "m",
+        "P",
+        "n",
+        "P",
+        "m",
+        "R",
+        ",N",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "R",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "R"
+    ],
+    "vaadi": "R",
+    "samvaadi": "P",
+    "thaat": "Kafi",
+    "prahar": "day 1st"
+  },
+  "saraswati": {
+    "name": "Saraswati",
+    "aaroha": [
+      "S",
+      "R",
+      "M",
+      "P",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "M",
+      "P",
+      "M",
+      "R",
+      "S",
+      ",n",
+      ",D",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "R",
+        "M",
+        "P",
+        "D",
+        "n",
+        "D"
+      ],
+      [
+        "P",
+        "M",
+        "D",
+        "P"
+      ],
+      [
+        "M",
+        "R",
+        "M",
+        "P"
+      ],
+      [
+        "D",
+        "`S",
+        "n",
+        "D"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "R",
+      "P",
+      "`S"
+    ],
+    "avarohi_nyas": [
+      "D",
+      "P",
+      "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "R",
+    "thaat": "Kalyan",
+    "prahar": "day 2nd"
+  },
+  "saraswati kedar": {
+    "name": "Saraswati Kedar",
+    "aaroha": [
+      "S",
+      "R",
+      "M",
+      "P",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "M",
+      "P",
+      "D",
+      "P",
+      "M",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "R",
+        "M",
+        "P",
+        "D",
+        "P"
+      ],
+      [
+        "M",
+        "P",
+        "m",
+        "R",
+        "S"
+      ],
+      [
+        "M",
+        "P",
+        "D",
+        "n",
+        "D",
+        "P",
+        "D",
+        "`S"
+      ],
+      [
+        "`S",
+        "n",
+        "D",
+        "P",
+        "M",
+        "m",
+        "R"
+      ],
+      [
+        "S",
+        ",n",
+        ",D",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "M",
+      "P",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "m",
+      "R"
+    ],
+    "vaadi": "M",
+    "samvaadi": "S",
+    "thaat": "Kalyan",
+    "prahar": "night 2nd"
+  },
+  "shahana kanada": {
+    "name": "Shahana Kanada",
+    "aaroha": [
+      ",n",
+      "S",
+      "R",
+      "g",
+      "m",
+      "P",
+      "m",
+      "g",
+      "m",
+      "D",
+      "n",
+      "P",
+      "m",
+      "P",
+      "D",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "D",
+      "n",
+      "P",
+      "m",
+      "P",
+      "g",
+      "m",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "P",
+        "m",
+        "g",
+        "m",
+        "D"
+      ],
+      [
+        "D",
+        "n",
+        "P"
+      ],
+      [
+        "`S",
+        "D",
+        "n",
+        "P"
+      ],
+      [
+        "D",
+        "m",
+        "P",
+        "g",
+        "m",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "P",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "D",
+      "P",
+      "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 3rd"
+  },
+  "shankara": {
+    "name": "Shankara",
+    "aaroha": [
+      "S",
+      "G",
+      "P",
+      "N",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "P",
+      "G",
+      "P",
+      "D",
+      "P",
+      "G",
+      "P",
+      "R",
+      "G",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "P",
+        "N",
+        "D",
+        "`S",
+        "N"
+      ],
+      [
+        "D",
+        "P",
+        "G",
+        "P"
+      ],
+      [
+        "R",
+        "G",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "N",
+      "P",
+      "G",
+      "S"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Bilawal",
+    "prahar": "night 2nd"
+  },
+  "shivranjani": {
+    "name": "Shivranjani",
+    "aaroha": [
+      "S",
+      "R",
+      "g",
+      "P",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "D",
+      "P",
+      "g",
+      "R",
+      "S",
+      "R",
+      ",D",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "R",
+        "g",
+        "P"
+      ],
+      [
+        "D",
+        "P",
+        "g",
+        "R"
+      ],
+      [
+        "g",
+        "S",
+        "R",
+        "D",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "P",
+      "`S"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "night 1st"
+  },
+  "shree": {
+    "name": "Shree",
+    "aaroha": [
+      "S",
+      "r",
+      "M",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "`r",
+      "N",
+      "d",
+      "P",
+      "M",
+      "P",
+      "d",
+      "M",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        ",N",
+        "r"
+      ],
+      [
+        "r",
+        "r",
+        "P"
+      ],
+      [
+        "M",
+        "P",
+        "d",
+        "M",
+        "G",
+        "r",
+        "G",
+        "r",
+        "S"
+      ],
+      [
+        "M",
+        "P",
+        "N",
+        "`S",
+        "`r"
+      ],
+      [
+        "`r",
+        "N",
+        "d",
+        "P"
+      ],
+      [
+        "M",
+        "d",
+        "M",
+        "G",
+        "r"
+      ],
+      [
+        "G",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "r",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "P",
+      "r",
+      "S"
+    ],
+    "vaadi": "r",
+    "samvaadi": "P",
+    "thaat": "Poorvi",
+    "prahar": "day 4th"
+  },
+  "shuddha kalyan": {
+    "name": "Shuddha Kalyan",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "P",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "G",
+      "R",
+      "S",
+      "G",
+      "R",
+      "G",
+      "P",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "R",
+        "G"
+      ],
+      [
+        "R",
+        "S"
+      ],
+      [
+        ",N",
+        ",D",
+        ",P"
+      ],
+      [
+        "G",
+        "R",
+        "S"
+      ],
+      [
+        "G",
+        "R",
+        "G"
+      ],
+      [
+        "P",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "P",
+      "G",
+      "S"
+    ],
+    "vaadi": "G",
+    "samvaadi": "D",
+    "thaat": "Kalyan",
+    "prahar": "day 1st"
+  },
+  "shuddha sarang": {
+    "name": "Shuddha Sarang",
+    "aaroha": [
+      ",N",
+      "S",
+      "R",
+      "M",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "P",
+      "M",
+      "m",
+      "R",
+      "S",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",N",
+        "S",
+        "R",
+        "M",
+        "M",
+        "P"
+      ],
+      [
+        "M",
+        "P",
+        "M",
+        "m",
+        "R"
+      ],
+      [
+        "R",
+        ",N",
+        ",N",
+        "S"
+      ],
+      [
+        ",N",
+        ",D",
+        "S",
+        ",N",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      ",N",
+      "R",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "N",
+      "P",
+      "R"
+    ],
+    "vaadi": "R",
+    "samvaadi": "P",
+    "thaat": "Kalyan",
+    "prahar": "day 2nd"
+  },
+  "shyam kalyan": {
+    "name": "Shyam Kalyan",
+    "aaroha": [
+      ",N",
+      "S",
+      "R",
+      "M",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "P",
+      "D",
+      "P",
+      "G",
+      "m",
+      "P",
+      "G",
+      "m",
+      "R",
+      "S",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "R",
+        ",N",
+        "S",
+        "m",
+        "R"
+      ],
+      [
+        "R",
+        "M",
+        "M",
+        "P"
+      ],
+      [
+        "P",
+        "G",
+        "m",
+        "R"
+      ],
+      [
+        "M",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "R"
+      ],
+      [
+        ",N",
+        "S",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "R",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "N",
+      "P",
+      "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Kalyan",
+    "prahar": "day 1st"
+  },
+  "sindhura": {
+    "name": "Sindhura",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "P",
+      "D",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "g",
+      "R",
+      "m",
+      "g",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "R",
+        "m",
+        "P",
+        "D"
+      ],
+      [
+        "n",
+        "D",
+        "P",
+        "`S"
+      ],
+      [
+        "`R",
+        "`g",
+        "`R",
+        "`S"
+      ],
+      [
+        "n",
+        "D",
+        "P",
+        "m",
+        "g",
+        "R"
+      ],
+      [
+        "m",
+        "g",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "P",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "D",
+      "P",
+      "g"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Kafi",
+    "prahar": "day 4th"
+  },
+  "sohani": {
+    "name": "Sohani",
+    "aaroha": [
+      "S",
+      "G",
+      "M",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "N",
+      "D",
+      "M",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "M",
+        "D",
+        "N",
+        "`S",
+        "`r",
+        "`S"
+      ],
+      [
+        "N",
+        "D",
+        "N",
+        "D"
+      ],
+      [
+        "`S",
+        "`r",
+        "`S",
+        "`r",
+        "N",
+        "`S",
+        "N",
+        "D",
+        "G",
+        "M",
+        "G"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "G",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "D",
+      "G"
+    ],
+    "vaadi": "D",
+    "samvaadi": "G",
+    "thaat": "Marwa",
+    "prahar": "day 4th"
+  },
+  "sundarkauns": {
+    "name": "Sundarkauns",
+    "aaroha": [
+      "S",
+      "g",
+      "m",
+      "D",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "m",
+      "g",
+      "m",
+      "g",
+      "S",
+      ",n",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",n",
+        ",n",
+        ",D"
+      ],
+      [
+        ",D",
+        ",n",
+        "S"
+      ],
+      [
+        "g",
+        "m",
+        "g",
+        "S"
+      ],
+      [
+        "g",
+        "m",
+        "D"
+      ],
+      [
+        "n",
+        "D"
+      ],
+      [
+        "m",
+        "D",
+        "n",
+        "`S"
+      ],
+      [
+        "`S",
+        "D",
+        "n",
+        "D",
+        "m",
+        "g",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "m",
+      "D"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "D",
+      "m"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "prahar": "night 2nd",
+    "thaat": "Not Defined"
+  },
+  "surdasi malhar": {
+    "name": "Surdasi Malhar",
+    "aaroha": [
+      "S",
+      "R",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "m",
+      "D",
+      "P",
+      "n",
+      "D",
+      "P",
+      "m",
+      "R",
+      ",N",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "m",
+        "R",
+        ",N",
+        "S"
+      ],
+      [
+        "`S"
+      ],
+      [
+        "n",
+        "D",
+        "m",
+        "P",
+        "n",
+        "D",
+        "P"
+      ],
+      [
+        "m",
+        "R",
+        "P",
+        "m",
+        "D",
+        "P"
+      ],
+      [
+        "m",
+        "R",
+        ",N",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "R",
+      "m",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "P",
+      "m",
+      "R"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 1st"
+  },
+  "tilak kamod": {
+    "name": "Tilak Kamod",
+    "aaroha": [
+      ",P",
+      ",N",
+      "S",
+      "R",
+      "G",
+      "S",
+      "S",
+      "R",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "P",
+      "D",
+      "m",
+      "G",
+      "S",
+      "R",
+      "G",
+      "S",
+      ",N",
+      ",P",
+      ",N",
+      "S",
+      "R",
+      "G",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",P",
+        ",N",
+        "S",
+        "R",
+        "G",
+        "S"
+      ],
+      [
+        "R",
+        "P",
+        "m",
+        "G"
+      ],
+      [
+        "S",
+        "R",
+        "G",
+        "S",
+        ",N"
+      ],
+      [
+        "S",
+        "R",
+        "m",
+        "P",
+        "`S"
+      ],
+      [
+        "`S",
+        "`R",
+        "`G",
+        "`S"
+      ],
+      [
+        "`S",
+        "P",
+        "D",
+        "m",
+        "G"
+      ],
+      [
+        "S",
+        "R",
+        "m",
+        "G"
+      ],
+      [
+        "S",
+        "R",
+        "G",
+        "S",
+        ",N"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      ",N",
+      "P",
+      "`S"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "G",
+      "S"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Khamaj",
+    "prahar": "day 2nd"
+  },
+  "tilang": {
+    "name": "Tilang",
+    "aaroha": [
+      "S",
+      "G",
+      "m",
+      "P",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "P",
+      "m",
+      "G",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "G",
+        "m",
+        "P",
+        "n",
+        "P",
+        "m",
+        "G"
+      ],
+      [
+        "n",
+        "P",
+        "G",
+        "m",
+        "G"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "P",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "S",
+      "P",
+      "G",
+      "S"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Khamaj",
+    "prahar": "day 2nd"
+  },
+  "todi": {
+    "name": "Todi",
+    "aaroha": [
+      "S",
+      "r",
+      "g",
+      "M",
+      "P",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "P",
+      "M",
+      "g",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",d"
+      ],
+      [
+        ",N",
+        "S",
+        "r",
+        "g"
+      ],
+      [
+        "M",
+        "r",
+        "g"
+      ],
+      [
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "g",
+      "d"
+    ],
+    "avarohi_nyas": [
+      "d",
+      "g",
+      "S"
+    ],
+    "vaadi": "d",
+    "samvaadi": "g",
+    "thaat": "Todi",
+    "prahar": "day 2nd"
+  },
+  "vachaspati": {
+    "name": "Vachaspati",
+    "aaroha": [
+      "S",
+      "G",
+      "M",
+      "P",
+      "n",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "n",
+      "D",
+      "P",
+      "M",
+      "G",
+      "R",
+      "S",
+      ",n",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",n",
+        "S",
+        "G",
+        "M"
+      ],
+      [
+        "P",
+        "D",
+        "P"
+      ],
+      [
+        "M",
+        "G",
+        "R",
+        "S"
+      ],
+      [
+        "R",
+        ",n",
+        "S"
+      ],
+      [
+        "M",
+        "G",
+        "R",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "G",
+      "P",
+      "n"
+    ],
+    "avarohi_nyas": [
+      "D",
+      "P",
+      "G",
+      "R"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Carnatic Music System",
+    "prahar": "day 4th"
+  },
+  "vibhas": {
+    "name": "Vibhas",
+    "aaroha": [
+      "S",
+      "r",
+      "G",
+      "P",
+      "d",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "d",
+      "P",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "P",
+        "d",
+        "d",
+        "P"
+      ],
+      [
+        "G",
+        "P",
+        "G",
+        "r",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "r",
+      "P",
+      "d"
+    ],
+    "avarohi_nyas": [
+      "r",
+      "P",
+      "d"
+    ],
+    "vaadi": "d",
+    "samvaadi": "r",
+    "thaat": "Bhairav",
+    "prahar": "day 1st"
+  },
+  "yaman": {
+    "name": "Yaman",
+    "aaroha": [
+      ",N",
+      "R",
+      "G",
+      "M",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "G",
+      "R",
+      "S",
+      ",N",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        ",N",
+        "R",
+        "G"
+      ],
+      [
+        ",N",
+        "R",
+        "M",
+        "G"
+      ],
+      [
+        "M",
+        "P"
+      ],
+      [
+        "M",
+        "D",
+        "P",
+        "N",
+        "D",
+        "P",
+        "M",
+        "R",
+        "G",
+        "R"
+      ],
+      [
+        ",N",
+        "R",
+        ",D",
+        ",N",
+        "S"
+      ],
+      []
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "N"
+    ],
+    "avarohi_nyas": [
+      "`S",
+      "N",
+      "P",
+      "G"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Kalyan",
+    "prahar": "night 1st"
+  }
+}

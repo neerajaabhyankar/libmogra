@@ -27,7 +27,7 @@ def test_ratios():
     assert tn.ratio_to_coord(1) == (0, 0)
     assert tn.ratio_to_coord(Fraction(5, 4)) == (0, 1)
     assert tn.ratio_to_coord(Fraction(48, 9)) == (-1, 0)
-    
+
     tn.set_color_scheme("daylight")
     assert tn.get_node_color((0, 0)) == "#2d992d"
     assert tn.get_node_color((-1, -1)) == "#179992"
