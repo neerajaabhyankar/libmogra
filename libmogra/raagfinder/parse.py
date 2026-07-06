@@ -5,7 +5,7 @@ import rapidfuzz
 import libmogra as lm
 
 
-""" setup """
+RAAG_DB = lm.raagdb
 
 
 def index_by_set(raag_db):
@@ -25,17 +25,7 @@ def index_by_set(raag_db):
     return raag_db_by_set
 
 
-def read_pickle():
-    raag_db = pickle.load(
-        open(os.path.join(os.path.dirname(__file__), "raags.pkl"), "rb")
-    )
-    return raag_db, index_by_set(raag_db)
-
-
-RAAG_DB, RAAG_DB_BY_SWAR = read_pickle()
-
-
-""" functions """
+RAAG_DB_BY_SWAR = index_by_set(RAAG_DB)
 
 
 def best_match(raag_name):
