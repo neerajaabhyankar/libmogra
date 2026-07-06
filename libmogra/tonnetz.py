@@ -271,6 +271,7 @@ class Tonnetz:
                     textposition="middle center",
                     textfont=dict(size=DOT_LABEL_SIZE, color="white"),
                     showlegend=False,
+                    hovertemplate="(%{x}, %{y})<br>%{text}<extra></extra>",
                 ),
             ]
         )
