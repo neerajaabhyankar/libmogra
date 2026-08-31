@@ -4,7 +4,9 @@ import io
 from PIL import Image
 import kaleido
 import asyncio
-import libmogra as lm
+
+from libmogra.datatypes import Swar
+from libmogra.tonnetz import Tonnetz
 from libmogra.raagfinder.parse import RAAG_DB, RAAG_DB_BY_SWAR, best_match, print_table
 
 IMAGE_SCALE = 1.5
@@ -18,7 +20,7 @@ def info(raag, theme, show_tonnetz=False):
     print_table(RAAG_DB[raag_name])
 
     if show_tonnetz != "none":
-        tn = lm.tonnetz.Tonnetz()
+        tn = Tonnetz()
         figure = tn.plot_raag(raag_name, show_ratios=False, show_chords=True, theme=theme)
         if figure is None:
             return
@@ -44,8 +46,8 @@ def info(raag, theme, show_tonnetz=False):
 
 
 def search(swar):
-    swar_set = [char for char in swar if char in lm.datatypes.Swar._member_names_]
-    swar_set = sorted(swar_set, key=lambda x: lm.datatypes.Swar[x].value)
+    swar_set = [char for char in swar if char in Swar._member_names_]
+    swar_set = sorted(swar_set, key=lambda x: Swar[x].value)
     swar_set = list(dict.fromkeys(swar_set))
     print("Looking for raags with notes", " ".join(swar_set), " ...")
     results = RAAG_DB_BY_SWAR.get(tuple(swar_set), [])

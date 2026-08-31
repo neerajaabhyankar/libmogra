@@ -1,4 +1,4 @@
-import libmogra.raagdb as raagdb
+from libmogra.raagdb import RAAG_DB as raagdb
 
 
 def test_parse():

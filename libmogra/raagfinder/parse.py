@@ -2,10 +2,9 @@ import os, sys
 import pickle
 from rich import print, table
 import rapidfuzz
-import libmogra as lm
 
-
-RAAG_DB = lm.raagdb
+from libmogra.datatypes import SSwar
+from libmogra.raagdb import RAAG_DB
 
 
 def index_by_set(raag_db):
@@ -14,7 +13,7 @@ def index_by_set(raag_db):
     raag_db_by_set = {}
     for raag_name, raag_entry in raag_db.items():
         swar_set = raag_entry["aaroha"] + raag_entry["avaroha"]
-        swar_set = [lm.datatypes.SSwar.from_string(sw).swar for sw in swar_set]
+        swar_set = [SSwar.from_string(sw).swar for sw in swar_set]
         swar_set = [sw.name for sw in sorted(swar_set, key=lambda x: x.value)]
         swar_set = list(dict.fromkeys(swar_set))
         if tuple(swar_set) in raag_db_by_set:
