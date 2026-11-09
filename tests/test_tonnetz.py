@@ -47,3 +47,10 @@ def test_node_assignments():
 
     assert tn.get_swar_options("S") == [(0, 0)]
     assert tn.get_swar_options("M") == [(-2, -1), (2, 1)]
+
+
+def test_tonnetz_keys_in_raagdb():
+    from libmogra.raagdb import RAAG_DB
+    from libmogra.tonnetz import GT_NODES
+
+    assert set(GT_NODES) - set(RAAG_DB) == {"all", "none", "prateeksha"}

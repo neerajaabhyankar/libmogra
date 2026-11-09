@@ -27,9 +27,28 @@ def index_by_set(raag_db):
 RAAG_DB_BY_SWAR = index_by_set(RAAG_DB)
 
 
+def fold(name):
+    """ "Nut-Bhairav" -> "nutbhairav", so case, spaces and punctuation don't matter """
+    return "".join(ch for ch in name.lower() if ch.isalnum())
+
+
+def index_by_alias(raag_db):
+    # every key, display name, and alt name/spelling, folded, mapped to its raag's key
+    raag_db_by_alias = {}
+    for raag_name, raag_entry in raag_db.items():
+        aliases = [raag_name, raag_entry["display_name"]] + raag_entry["alt_names"]
+        for alias in aliases:
+            raag_db_by_alias[fold(alias)] = raag_name
+    return raag_db_by_alias
+
+
+RAAG_DB_BY_ALIAS = index_by_alias(RAAG_DB)
+
+
 def best_match(raag_name):
-    best_match = rapidfuzz.process.extractOne(raag_name, RAAG_DB.keys())
-    return best_match[0]
+    folded = fold(raag_name)
+    best_match = rapidfuzz.process.extractOne(folded, RAAG_DB_BY_ALIAS.keys())
+    return RAAG_DB_BY_ALIAS[best_match[0]]
 
 
 def print_table(raag_entry):
