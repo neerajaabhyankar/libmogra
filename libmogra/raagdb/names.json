@@ -2,7 +2,9 @@
   "abhogi": {
     "display_name": "Abhogi",
     "alt_names": [
-      "Abhogi Kanada"
+      "Abhogi Kanada",
+      "Abhogi Kannada",
+      "Abogi"
     ],
     "mr_names": [
       "अभोगी",
@@ -10,13 +12,17 @@
     ],
     "hi_names": [
       "अभोगी",
-      "अभोगी कानड़ा"
+      "अभोगी कानड़ा",
+      "अभोगी कान्हड़ा"
     ],
     "tanarang_key": "abhogi kanada"
   },
   "adana": {
     "display_name": "Adana",
-    "alt_names": [],
+    "alt_names": [
+      "Adaana",
+      "Adhana"
+    ],
     "mr_names": [
       "अडाणा"
     ],
@@ -26,9 +32,14 @@
   },
   "aheer-bhairav": {
     "display_name": "Aheer Bhairav",
-    "alt_names": [],
+    "alt_names": [
+      "Ahir Bhairav",
+      "Aheer Bhairava",
+      "Ahir Bhairab"
+    ],
     "mr_names": [
-      "अहीर भैरव"
+      "अहीर भैरव",
+      "अहिर भैरव"
     ],
     "hi_names": [
       "अहीर भैरव"
@@ -36,17 +47,24 @@
   },
   "alhaiya-bilawal": {
     "display_name": "Alhaiya Bilawal",
-    "alt_names": [],
+    "alt_names": [
+      "Alhayia Bilaval",
+      "Alahiya"
+    ],
     "mr_names": [
       "अल्हैय्या बिलावल"
     ],
     "hi_names": [
-      "अल्हैय्या बिलावल"
+      "अल्हैय्या बिलावल",
+      "अल्हैया बिलावल"
     ]
   },
   "bageshree": {
     "display_name": "Bageshree",
-    "alt_names": [],
+    "alt_names": [
+      "Bageshri",
+      "Bageshwari"
+    ],
     "mr_names": [
       "बागेश्री"
     ],
@@ -56,7 +74,11 @@
   },
   "bahar": {
     "display_name": "Bahar",
-    "alt_names": [],
+    "alt_names": [
+      "Bahaar",
+      "Bahar Kanada",
+      "Bahari"
+    ],
     "mr_names": [
       "बहार"
     ],
@@ -67,7 +89,9 @@
   "bairagi": {
     "display_name": "Bairagi",
     "alt_names": [
-      "Bairagi Bhairav"
+      "Bairagi Bhairav",
+      "Bairaga",
+      "Bairagi Bhairon"
     ],
     "mr_names": [
       "बैरागी",
@@ -90,7 +114,10 @@
   },
   "basant": {
     "display_name": "Basant",
-    "alt_names": [],
+    "alt_names": [
+      "Vasant",
+      "Vasantha"
+    ],
     "mr_names": [
       "बसंत"
     ],
@@ -100,7 +127,11 @@
   },
   "basant-mukhari": {
     "display_name": "Basant Mukhari",
-    "alt_names": [],
+    "alt_names": [
+      "Vasant Mukhari",
+      "Vasanthamukhari",
+      "Vativasanta Bhairavi"
+    ],
     "mr_names": [
       "बसंत मुखारी"
     ],
@@ -110,7 +141,12 @@
   },
   "bhairav": {
     "display_name": "Bhairav",
-    "alt_names": [],
+    "alt_names": [
+      "Bhairava",
+      "Bhairau",
+      "Bhairab",
+      "Bhairon"
+    ],
     "mr_names": [
       "भैरव"
     ],
@@ -120,7 +156,9 @@
   },
   "bhairavi": {
     "display_name": "Bhairavi",
-    "alt_names": [],
+    "alt_names": [
+      "Bhairabi"
+    ],
     "mr_names": [
       "भैरवी"
     ],
@@ -130,7 +168,12 @@
   },
   "bhatiyar": {
     "display_name": "Bhatiyar",
-    "alt_names": [],
+    "alt_names": [
+      "Bhatiar",
+      "Bhatiyaar",
+      "Bhatiyari",
+      "Bhattihari"
+    ],
     "mr_names": [
       "भटियार"
     ],
@@ -140,7 +183,9 @@
   },
   "bheem": {
     "display_name": "Bheem",
-    "alt_names": [],
+    "alt_names": [
+      "Bhim"
+    ],
     "mr_names": [
       "भीम"
     ],
@@ -151,11 +196,14 @@
   "bheempalasi": {
     "display_name": "Bheempalasi",
     "alt_names": [
-      "Bheempalas"
+      "Bheempalas",
+      "Bhimpalasi",
+      "Bhimpalas"
     ],
     "mr_names": [
       "भीमपलास",
-      "भीमपलासी"
+      "भीमपलासी",
+      "भिमपलास"
     ],
     "hi_names": [
       "भीमपलासी",
@@ -165,7 +213,10 @@
   "bhoopali": {
     "display_name": "Bhoopali",
     "alt_names": [
-      "Bhoop"
+      "Bhoop",
+      "Bhupali",
+      "Bhupal",
+      "Bhopali"
     ],
     "mr_names": [
       "भूपाळी",
@@ -178,7 +229,11 @@
   },
   "bhupal-todi": {
     "display_name": "Bhupal Todi",
-    "alt_names": [],
+    "alt_names": [
+      "Bhupali Todi",
+      "Bhoopali Thodi",
+      "Bhoopala"
+    ],
     "mr_names": [
       "भूपाल तोडी"
     ],
@@ -188,7 +243,10 @@
   },
   "bihag": {
     "display_name": "Bihag",
-    "alt_names": [],
+    "alt_names": [
+      "Bihaag",
+      "Behag"
+    ],
     "mr_names": [
       "बिहाग"
     ],
@@ -198,12 +256,20 @@
   },
   "bihagda": {
     "display_name": "Bihagda",
-    "alt_names": [],
+    "alt_names": [
+      "Bihagada",
+      "Behagda",
+      "Khokar",
+      "Khokhar",
+      "Kokar"
+    ],
     "mr_names": [
-      "बिहागडा"
+      "बिहागडा",
+      "खोखर"
     ],
     "hi_names": [
-      "बिहागड़ा"
+      "बिहागड़ा",
+      "खोखर"
     ]
   },
   "bilaskhani-todi": {
@@ -218,17 +284,24 @@
   },
   "chandrakauns": {
     "display_name": "Chandrakauns",
-    "alt_names": [],
+    "alt_names": [
+      "Chandrakaus"
+    ],
     "mr_names": [
       "चंद्रकंस"
     ],
     "hi_names": [
-      "चंद्रकंस"
+      "चंद्रकंस",
+      "चंद्रकौंस"
     ]
   },
   "charukeshi": {
     "display_name": "Charukeshi",
-    "alt_names": [],
+    "alt_names": [
+      "Charukesi",
+      "Carukesi",
+      "Chaarokeshi"
+    ],
     "mr_names": [
       "चारुकेशी"
     ],
@@ -239,7 +312,10 @@
   "chhayanat": {
     "display_name": "Chhayanat",
     "alt_names": [
-      "Chhayanut"
+      "Chhayanut",
+      "Chayanat",
+      "Chaya Nata",
+      "Chaya Nut"
     ],
     "mr_names": [
       "छायानट"
@@ -251,17 +327,24 @@
   },
   "darbari-kanada": {
     "display_name": "Darbari Kanada",
-    "alt_names": [],
+    "alt_names": [
+      "Darbari",
+      "Durbari Kanhra"
+    ],
     "mr_names": [
       "दरबारी कानडा"
     ],
     "hi_names": [
-      "दरबारी कानड़ा"
+      "दरबारी कानड़ा",
+      "दरबारी",
+      "दरबारी कान्हड़ा"
     ]
   },
   "des": {
     "display_name": "Des",
-    "alt_names": [],
+    "alt_names": [
+      "Desh"
+    ],
     "mr_names": [
       "देस"
     ],
@@ -285,7 +368,10 @@
   },
   "desi": {
     "display_name": "Desi",
-    "alt_names": [],
+    "alt_names": [
+      "Deshi",
+      "Desi Todi"
+    ],
     "mr_names": [
       "देसी"
     ],
@@ -295,28 +381,38 @@
   },
   "dev-gandhar": {
     "display_name": "Dev Gandhar",
-    "alt_names": [],
+    "alt_names": [
+      "Dvigandhar",
+      "Dwigandhar"
+    ],
     "mr_names": [
       "देव गांधार"
     ],
     "hi_names": [
-      "देव गांधार"
+      "देव गांधार",
+      "देव गंधार"
     ]
   },
   "devgiri-bilawal": {
     "display_name": "Devgiri Bilawal",
-    "alt_names": [],
+    "alt_names": [
+      "Dev Giri Bilaval",
+      "Devagiri"
+    ],
     "mr_names": [
       "देवगिरी बिलावल"
     ],
     "hi_names": [
-      "देवगिरी बिलावल"
+      "देवगिरी बिलावल",
+      "देवगिरि बिलावल"
     ]
   },
   "devashree": {
     "display_name": "Devashree",
     "alt_names": [
-      "Devshree"
+      "Devshree",
+      "Devshri",
+      "Devashri"
     ],
     "mr_names": [
       "देवश्री"
@@ -328,7 +424,9 @@
   },
   "dhanashree-bhairavi-ang": {
     "display_name": "Dhanashree (Bhairavi Ang)",
-    "alt_names": [],
+    "alt_names": [
+      "Dhanashri (Bhairavi Ang)"
+    ],
     "mr_names": [
       "धनाश्री (भैरवी अंग)"
     ],
@@ -338,7 +436,10 @@
   },
   "dhani": {
     "display_name": "Dhani",
-    "alt_names": [],
+    "alt_names": [
+      "Dhanee",
+      "Dhauni"
+    ],
     "mr_names": [
       "धानी"
     ],
@@ -348,7 +449,9 @@
   },
   "durga": {
     "display_name": "Durga",
-    "alt_names": [],
+    "alt_names": [
+      "Doorga"
+    ],
     "mr_names": [
       "दुर्गा"
     ],
@@ -358,7 +461,10 @@
   },
   "gaud-malhar": {
     "display_name": "Gaud Malhar",
-    "alt_names": [],
+    "alt_names": [
+      "Gaur Malhar",
+      "Gormalhar"
+    ],
     "mr_names": [
       "गौड मल्हार"
     ],
@@ -368,7 +474,11 @@
   },
   "gaud-sarang": {
     "display_name": "Gaud Sarang",
-    "alt_names": [],
+    "alt_names": [
+      "Gaud",
+      "Gaur Sarang",
+      "Din ki Bihag"
+    ],
     "mr_names": [
       "गौड सारंग"
     ],
@@ -378,17 +488,24 @@
   },
   "gauri-bhairav-ang": {
     "display_name": "Gauri (Bhairav Ang)",
-    "alt_names": [],
+    "alt_names": [
+      "Gauri",
+      "Gari"
+    ],
     "mr_names": [
       "गौरी (भैरव अंग)"
     ],
     "hi_names": [
-      "गौरी (भैरव अंग)"
+      "गौरी (भैरव अंग)",
+      "गौरी"
     ]
   },
   "gopika-basant": {
     "display_name": "Gopika Basant",
-    "alt_names": [],
+    "alt_names": [
+      "Gopi Basant",
+      "Gopikavasant"
+    ],
     "mr_names": [
       "गोपिका बसंत"
     ],
@@ -398,7 +515,10 @@
   },
   "gorakh-kalyan": {
     "display_name": "Gorakh Kalyan",
-    "alt_names": [],
+    "alt_names": [
+      "Gorakha Kalyan",
+      "Gorakh"
+    ],
     "mr_names": [
       "गोरख कल्याण"
     ],
@@ -408,30 +528,40 @@
   },
   "gunkali": {
     "display_name": "Gunkali",
-    "alt_names": [],
+    "alt_names": [
+      "Gunakali",
+      "Gunakari",
+      "Gunkeli"
+    ],
     "mr_names": [
       "गुणकली"
     ],
     "hi_names": [
-      "गुनकली"
+      "गुनकली",
+      "गुणकली"
     ]
   },
   "gujari-todi": {
     "display_name": "Gujari Todi",
     "alt_names": [
-      "Gurjari Todi"
+      "Gurjari Todi",
+      "Gujiri Todi"
     ],
     "mr_names": [
       "गुजरी तोडी"
     ],
     "hi_names": [
-      "गुजरी तोड़ी"
+      "गुजरी तोड़ी",
+      "गुर्जरी तोड़ी"
     ],
     "tanarang_key": "gurjari todi"
   },
   "hameer": {
     "display_name": "Hameer",
-    "alt_names": [],
+    "alt_names": [
+      "Hamir",
+      "Hameer Kalyan"
+    ],
     "mr_names": [
       "हमीर"
     ],
@@ -441,22 +571,33 @@
   },
   "hans-dhwani": {
     "display_name": "Hans Dhwani",
-    "alt_names": [],
+    "alt_names": [
+      "Hansadhwani",
+      "Hamsadhwani",
+      "Haunsadhwani",
+      "Hansdhuni"
+    ],
     "mr_names": [
       "हंसध्वनी"
     ],
     "hi_names": [
-      "हंसध्वनि"
+      "हंसध्वनि",
+      "हंसध्वनी"
     ]
   },
   "hans-kinkini": {
     "display_name": "Hans Kinkini",
-    "alt_names": [],
+    "alt_names": [
+      "Hanshakankani",
+      "Hams Kankani",
+      "Hamskankini"
+    ],
     "mr_names": [
       "हंस किंकिणी"
     ],
     "hi_names": [
-      "हंस किंकिनी"
+      "हंस किंकिनी",
+      "हंसकिंकिणी"
     ]
   },
   "harikauns": {
@@ -466,7 +607,8 @@
       "हरिकंस"
     ],
     "hi_names": [
-      "हरिकंस"
+      "हरिकंस",
+      "हरिकौंस"
     ]
   },
   "hemant": {
@@ -479,19 +621,26 @@
       "हेमंत"
     ]
   },
-  "hemshri": {
-    "display_name": "Hemshri",
-    "alt_names": [],
+  "hemashree": {
+    "display_name": "Hemashree",
+    "alt_names": [
+      "Hemshri",
+      "Hemshree",
+      "Hemashri"
+    ],
     "mr_names": [
       "हेमश्री"
     ],
     "hi_names": [
       "हेमश्री"
-    ]
+    ],
+    "tanarang_key": "hemshri"
   },
   "hindol": {
     "display_name": "Hindol",
-    "alt_names": [],
+    "alt_names": [
+      "Hindoli"
+    ],
     "mr_names": [
       "हिंडोल"
     ],
@@ -501,7 +650,12 @@
   },
   "jaijaivanti": {
     "display_name": "Jaijaivanti",
-    "alt_names": [],
+    "alt_names": [
+      "Jaijaiwanti",
+      "Jaijaiawanti",
+      "Jaijaiavanti",
+      "Jaijavani"
+    ],
     "mr_names": [
       "जयजयवंती"
     ],
@@ -511,7 +665,9 @@
   },
   "jaldhar-kedar": {
     "display_name": "Jaldhar Kedar",
-    "alt_names": [],
+    "alt_names": [
+      "Jaladhar Kedara"
+    ],
     "mr_names": [
       "जलधर केदार"
     ],
@@ -521,7 +677,11 @@
   },
   "jaunpuri": {
     "display_name": "Jaunpuri",
-    "alt_names": [],
+    "alt_names": [
+      "Jonpuri",
+      "Jivanpuri",
+      "Jeevanpuri"
+    ],
     "mr_names": [
       "जौनपुरी"
     ],
@@ -531,7 +691,11 @@
   },
   "jayat": {
     "display_name": "Jayat",
-    "alt_names": [],
+    "alt_names": [
+      "Jait",
+      "Jeth",
+      "Jetha"
+    ],
     "mr_names": [
       "जयत"
     ],
@@ -541,7 +705,11 @@
   },
   "jhinjhoti": {
     "display_name": "Jhinjhoti",
-    "alt_names": [],
+    "alt_names": [
+      "Jhinjoti",
+      "Jinjoti",
+      "Jhinjyoti"
+    ],
     "mr_names": [
       "झिंझोटी"
     ],
@@ -551,7 +719,11 @@
   },
   "jog": {
     "display_name": "Jog",
-    "alt_names": [],
+    "alt_names": [
+      "Joga",
+      "Yog",
+      "Yoga"
+    ],
     "mr_names": [
       "जोग"
     ],
@@ -571,7 +743,10 @@
   },
   "jogiya": {
     "display_name": "Jogiya",
-    "alt_names": [],
+    "alt_names": [
+      "Jogia",
+      "Jogi"
+    ],
     "mr_names": [
       "जोगिया"
     ],
@@ -586,12 +761,16 @@
       "जोगकंस"
     ],
     "hi_names": [
-      "जोगकंस"
+      "जोगकंस",
+      "जोगकौंस"
     ]
   },
   "kafi": {
     "display_name": "Kafi",
-    "alt_names": [],
+    "alt_names": [
+      "Kafee",
+      "Qafi"
+    ],
     "mr_names": [
       "काफी"
     ],
@@ -601,7 +780,10 @@
   },
   "kalawati": {
     "display_name": "Kalawati",
-    "alt_names": [],
+    "alt_names": [
+      "Kalavati",
+      "Kalavatee"
+    ],
     "mr_names": [
       "कलावती"
     ],
@@ -611,7 +793,9 @@
   },
   "kamod": {
     "display_name": "Kamod",
-    "alt_names": [],
+    "alt_names": [
+      "Kamoda"
+    ],
     "mr_names": [
       "कामोद"
     ],
@@ -624,7 +808,14 @@
     "alt_names": [
       "Kaushik Dhwani",
       "Bhinn Shadj",
-      "Bhinn Shadaj"
+      "Bhinn Shadaj",
+      "Bhinan Shatraj",
+      "Bhukosh",
+      "Bhookosh",
+      "Bhavkosh",
+      "Bhavkauns",
+      "Kausikdwani",
+      "Kaushikdhuni"
     ],
     "mr_names": [
       "भिन्नषड्ज",
@@ -638,17 +829,25 @@
   },
   "kausi-kanada": {
     "display_name": "Kausi Kanada",
-    "alt_names": [],
+    "alt_names": [
+      "Kaunsi Kanada",
+      "Kaushiki Kanada",
+      "Kousikanda",
+      "Kaunsi Kanhra"
+    ],
     "mr_names": [
       "कौशी कानडा"
     ],
     "hi_names": [
-      "कौसी कानड़ा"
+      "कौसी कानड़ा",
+      "कौसी कान्हड़ा"
     ]
   },
   "kedar": {
     "display_name": "Kedar",
-    "alt_names": [],
+    "alt_names": [
+      "Kedara"
+    ],
     "mr_names": [
       "केदार"
     ],
@@ -658,17 +857,25 @@
   },
   "keerwani": {
     "display_name": "Keerwani",
-    "alt_names": [],
+    "alt_names": [
+      "Kirwani",
+      "Kirvani"
+    ],
     "mr_names": [
       "कीरवाणी"
     ],
     "hi_names": [
-      "कीरवानी"
+      "कीरवानी",
+      "कीरवाणी"
     ]
   },
   "khamaj": {
     "display_name": "Khamaj",
-    "alt_names": [],
+    "alt_names": [
+      "Kamaj",
+      "Khammaj",
+      "Khambaz"
+    ],
     "mr_names": [
       "खमाज"
     ],
@@ -678,7 +885,10 @@
   },
   "khambavati": {
     "display_name": "Khambavati",
-    "alt_names": [],
+    "alt_names": [
+      "Kambavati",
+      "Khamba Vatee"
+    ],
     "mr_names": [
       "खंबावती"
     ],
@@ -698,9 +908,13 @@
   },
   "lalit": {
     "display_name": "Lalit",
-    "alt_names": [],
+    "alt_names": [
+      "Lalat",
+      "Lalitha"
+    ],
     "mr_names": [
-      "ललित"
+      "ललित",
+      "ललत"
     ],
     "hi_names": [
       "ललित"
@@ -718,19 +932,28 @@
   },
   "madhukauns": {
     "display_name": "Madhukauns",
-    "alt_names": [],
+    "alt_names": [
+      "Madhukans",
+      "Madhukos"
+    ],
     "mr_names": [
       "मधुकंस"
     ],
     "hi_names": [
-      "मधुकंस"
+      "मधुकंस",
+      "मधुकौंस"
     ]
   },
   "madhumad-sarang": {
     "display_name": "Madhumad Sarang",
-    "alt_names": [],
+    "alt_names": [
+      "Madhmat Sarang",
+      "Madhyamadi Saranga",
+      "Madhmad Sarang"
+    ],
     "mr_names": [
-      "मधुमाद सारंग"
+      "मधुमाद सारंग",
+      "मधमाद सारंग"
     ],
     "hi_names": [
       "मधुमाद सारंग"
@@ -738,7 +961,10 @@
   },
   "madhuvanti": {
     "display_name": "Madhuvanti",
-    "alt_names": [],
+    "alt_names": [
+      "Madhuvani",
+      "Ambika"
+    ],
     "mr_names": [
       "मधुवंती"
     ],
@@ -758,27 +984,46 @@
   },
   "malhar": {
     "display_name": "Malhar",
-    "alt_names": [],
+    "alt_names": [
+      "Miyan ki Malhar",
+      "Mian ki Malhar",
+      "Miya Malhar",
+      "Miyan Mallara",
+      "Tanseni Malhar"
+    ],
     "mr_names": [
-      "मल्हार"
+      "मल्हार",
+      "मियाँ मल्हार"
     ],
     "hi_names": [
-      "मल्हार"
+      "मल्हार",
+      "मियाँ मल्हार"
     ]
   },
   "malkauns": {
     "display_name": "Malkauns",
-    "alt_names": [],
+    "alt_names": [
+      "Malkosh",
+      "Malkos",
+      "Malkaus",
+      "Malakosh",
+      "Malavakauns",
+      "Malawa Kosh",
+      "Mal-Kaushik"
+    ],
     "mr_names": [
       "मालकंस"
     ],
     "hi_names": [
-      "मालकंस"
+      "मालकंस",
+      "मालकौंस"
     ]
   },
   "mand": {
     "display_name": "Mand",
-    "alt_names": [],
+    "alt_names": [
+      "Maand"
+    ],
     "mr_names": [
       "मांड"
     ],
@@ -788,17 +1033,24 @@
   },
   "maru-bihag": {
     "display_name": "Maru Bihag",
-    "alt_names": [],
+    "alt_names": [
+      "Meru-Bihag"
+    ],
     "mr_names": [
       "मारुबिहाग"
     ],
     "hi_names": [
-      "मारुबिहाग"
+      "मारुबिहाग",
+      "मारू बिहाग"
     ]
   },
   "marwa": {
     "display_name": "Marwa",
-    "alt_names": [],
+    "alt_names": [
+      "Marva",
+      "Marava",
+      "Maruva"
+    ],
     "mr_names": [
       "मारवा"
     ],
@@ -809,7 +1061,8 @@
   "megh": {
     "display_name": "Megh",
     "alt_names": [
-      "Megh Malhar"
+      "Megh Malhar",
+      "Meghamallar"
     ],
     "mr_names": [
       "मेघ",
@@ -823,27 +1076,39 @@
   },
   "mohankauns": {
     "display_name": "Mohankauns",
-    "alt_names": [],
+    "alt_names": [
+      "Komal Jog"
+    ],
     "mr_names": [
       "मोहनकंस"
     ],
     "hi_names": [
-      "मोहनकंस"
+      "मोहनकंस",
+      "मोहनकौंस"
     ]
   },
   "multani": {
     "display_name": "Multani",
-    "alt_names": [],
+    "alt_names": [
+      "Multan",
+      "Mooltani"
+    ],
     "mr_names": [
       "मुलतानी"
     ],
     "hi_names": [
-      "मुल्तानी"
+      "मुल्तानी",
+      "मुलतानी"
     ]
   },
   "nand": {
     "display_name": "Nand",
-    "alt_names": [],
+    "alt_names": [
+      "Naand",
+      "Anand",
+      "Anandi",
+      "Ananda Kalyan"
+    ],
     "mr_names": [
       "नंद"
     ],
@@ -853,28 +1118,36 @@
   },
   "narayani": {
     "display_name": "Narayani",
-    "alt_names": [],
+    "alt_names": [
+      "Narayana"
+    ],
     "mr_names": [
       "नारायणी"
     ],
     "hi_names": [
-      "नारायनी"
+      "नारायनी",
+      "नारायणी"
     ]
   },
   "nayaki-kanada": {
     "display_name": "Nayaki Kanada",
-    "alt_names": [],
+    "alt_names": [
+      "Nayaki Kannada"
+    ],
     "mr_names": [
       "नायकी कानडा"
     ],
     "hi_names": [
-      "नायकी कानड़ा"
+      "नायकी कानड़ा",
+      "नायकी कान्हड़ा"
     ]
   },
   "nat-bhairav": {
     "display_name": "Nat Bhairav",
     "alt_names": [
-      "Nut Bhairav"
+      "Nut Bhairav",
+      "Nata Bhairava",
+      "Sarasangi"
     ],
     "mr_names": [
       "नट भैरव"
@@ -896,7 +1169,9 @@
   },
   "parameshwari": {
     "display_name": "Parameshwari",
-    "alt_names": [],
+    "alt_names": [
+      "Paramesvari"
+    ],
     "mr_names": [
       "परमेश्वरी"
     ],
@@ -906,7 +1181,9 @@
   },
   "patdeep": {
     "display_name": "Patdeep",
-    "alt_names": [],
+    "alt_names": [
+      "Patdip"
+    ],
     "mr_names": [
       "पटदीप"
     ],
@@ -916,7 +1193,9 @@
   },
   "pilu": {
     "display_name": "Pilu",
-    "alt_names": [],
+    "alt_names": [
+      "Piloo"
+    ],
     "mr_names": [
       "पिलू"
     ],
@@ -926,7 +1205,11 @@
   },
   "poorvi": {
     "display_name": "Poorvi",
-    "alt_names": [],
+    "alt_names": [
+      "Purvi",
+      "Purava",
+      "Purvagauda"
+    ],
     "mr_names": [
       "पूर्वी"
     ],
@@ -936,29 +1219,43 @@
   },
   "puriya": {
     "display_name": "Puriya",
-    "alt_names": [],
+    "alt_names": [
+      "Puria",
+      "Pooriya"
+    ],
     "mr_names": [
-      "पुरिया"
+      "पुरिया",
+      "पुरीया"
     ],
     "hi_names": [
       "पूरिया"
     ]
   },
-  "puriya-dhanashri": {
-    "display_name": "Puriya Dhanashri",
-    "alt_names": [],
+  "puriya-dhanashree": {
+    "display_name": "Puriya Dhanashree",
+    "alt_names": [
+      "Puriya Dhanashri",
+      "Puria Dhanashri",
+      "Pooriya Dhanasari"
+    ],
     "mr_names": [
-      "पुरिया धनाश्री"
+      "पुरिया धनाश्री",
+      "पुरीया धनाश्री"
     ],
     "hi_names": [
       "पूरिया धनाश्री"
-    ]
+    ],
+    "tanarang_key": "puriya dhanashri"
   },
   "puriya-kalyan": {
     "display_name": "Puriya Kalyan",
-    "alt_names": [],
+    "alt_names": [
+      "Puria Kalyan",
+      "Pooriya Kalyana"
+    ],
     "mr_names": [
-      "पुरिया कल्याण"
+      "पुरिया कल्याण",
+      "पुरीया कल्याण"
     ],
     "hi_names": [
       "पूरिया कल्याण"
@@ -966,7 +1263,10 @@
   },
   "rageshree": {
     "display_name": "Rageshree",
-    "alt_names": [],
+    "alt_names": [
+      "Rageshri",
+      "Rageshwari"
+    ],
     "mr_names": [
       "रागेश्री"
     ],
@@ -986,7 +1286,10 @@
   },
   "ramkali": {
     "display_name": "Ramkali",
-    "alt_names": [],
+    "alt_names": [
+      "Ramakali",
+      "Ramkhali"
+    ],
     "mr_names": [
       "रामकली"
     ],
@@ -996,7 +1299,11 @@
   },
   "saalag-varali": {
     "display_name": "Saalag Varali",
-    "alt_names": [],
+    "alt_names": [
+      "Salagavarali",
+      "Salag Varali",
+      "Salagbarali"
+    ],
     "mr_names": [
       "सालग वराळी"
     ],
@@ -1008,7 +1315,8 @@
     "display_name": "Vrindavani Sarang",
     "alt_names": [
       "Sarang",
-      "Brindavani Sarang"
+      "Brindavani Sarang",
+      "Brindabani Sarang"
     ],
     "mr_names": [
       "वृंदावनी सारंग",
@@ -1016,13 +1324,18 @@
     ],
     "hi_names": [
       "वृंदावनी सारंग",
-      "सारंग"
+      "सारंग",
+      "बृंदावनी सारंग"
     ],
     "tanarang_key": "sarang (brindavani sarang)"
   },
   "saraswati": {
     "display_name": "Saraswati",
-    "alt_names": [],
+    "alt_names": [
+      "Saraswati Kalyan",
+      "Saraswatee",
+      "Sarasvati"
+    ],
     "mr_names": [
       "सरस्वती"
     ],
@@ -1042,17 +1355,25 @@
   },
   "shahana-kanada": {
     "display_name": "Shahana Kanada",
-    "alt_names": [],
+    "alt_names": [
+      "Shahana",
+      "Sahana"
+    ],
     "mr_names": [
-      "शाहणा कानडा"
+      "शाहणा कानडा",
+      "शहाणा कानडा"
     ],
     "hi_names": [
-      "शाहना कानड़ा"
+      "शाहना कानड़ा",
+      "शहाना",
+      "शाहना कान्हड़ा"
     ]
   },
   "shankara": {
     "display_name": "Shankara",
-    "alt_names": [],
+    "alt_names": [
+      "Sankara"
+    ],
     "mr_names": [
       "शंकरा"
     ],
@@ -1062,7 +1383,9 @@
   },
   "shivranjani": {
     "display_name": "Shivranjani",
-    "alt_names": [],
+    "alt_names": [
+      "Sivranjani"
+    ],
     "mr_names": [
       "शिवरंजनी"
     ],
@@ -1072,7 +1395,10 @@
   },
   "shree": {
     "display_name": "Shree",
-    "alt_names": [],
+    "alt_names": [
+      "Shri",
+      "Sri"
+    ],
     "mr_names": [
       "श्री"
     ],
@@ -1082,7 +1408,12 @@
   },
   "shuddha-kalyan": {
     "display_name": "Shuddha Kalyan",
-    "alt_names": [],
+    "alt_names": [
+      "Suddha Kalyaan",
+      "Bhoop Kalyan",
+      "Bhupkalian",
+      "Shuddh Kalyan"
+    ],
     "mr_names": [
       "शुद्ध कल्याण"
     ],
@@ -1092,7 +1423,11 @@
   },
   "shuddha-sarang": {
     "display_name": "Shuddha Sarang",
-    "alt_names": [],
+    "alt_names": [
+      "Suddha Sarang",
+      "Soodha Sarang",
+      "Shuddh Sarang"
+    ],
     "mr_names": [
       "शुद्ध सारंग"
     ],
@@ -1102,9 +1437,15 @@
   },
   "shyam-kalyan": {
     "display_name": "Shyam Kalyan",
-    "alt_names": [],
+    "alt_names": [
+      "Syam Kalyan",
+      "Shamkalyan",
+      "Shyaam Kalyaan",
+      "Shyama"
+    ],
     "mr_names": [
-      "श्याम कल्याण"
+      "श्याम कल्याण",
+      "शाम कल्याण"
     ],
     "hi_names": [
       "श्याम कल्याण"
@@ -1112,9 +1453,14 @@
   },
   "sindhura": {
     "display_name": "Sindhura",
-    "alt_names": [],
+    "alt_names": [
+      "Saindhavi",
+      "Singhora",
+      "Sindora"
+    ],
     "mr_names": [
-      "सिंधुरा"
+      "सिंधुरा",
+      "सिंदोरा"
     ],
     "hi_names": [
       "सिंधुरा"
@@ -1122,9 +1468,13 @@
   },
   "sohani": {
     "display_name": "Sohani",
-    "alt_names": [],
+    "alt_names": [
+      "Sohini",
+      "Sohni"
+    ],
     "mr_names": [
-      "सोहनी"
+      "सोहनी",
+      "सोहोनी"
     ],
     "hi_names": [
       "सोहनी"
@@ -1132,19 +1482,26 @@
   },
   "sundarkauns": {
     "display_name": "Sundarkauns",
-    "alt_names": [],
+    "alt_names": [
+      "Sundarkausi",
+      "Sunderkauns"
+    ],
     "mr_names": [
       "सुंदरकंस"
     ],
     "hi_names": [
-      "सुंदरकंस"
+      "सुंदरकंस",
+      "सुंदरकौंस"
     ]
   },
   "surdasi-malhar": {
     "display_name": "Surdasi Malhar",
-    "alt_names": [],
+    "alt_names": [
+      "Sur Malhar"
+    ],
     "mr_names": [
-      "सूरदासी मल्हार"
+      "सूरदासी मल्हार",
+      "सूर मल्हार"
     ],
     "hi_names": [
       "सूरदासी मल्हार"
@@ -1152,7 +1509,10 @@
   },
   "tilak-kamod": {
     "display_name": "Tilak Kamod",
-    "alt_names": [],
+    "alt_names": [
+      "Tilak Kamodh",
+      "Tilakamod"
+    ],
     "mr_names": [
       "तिलक कामोद"
     ],
@@ -1162,7 +1522,11 @@
   },
   "tilang": {
     "display_name": "Tilang",
-    "alt_names": [],
+    "alt_names": [
+      "Thilang",
+      "Tilangi",
+      "Tailang"
+    ],
     "mr_names": [
       "तिलंग"
     ],
@@ -1172,9 +1536,14 @@
   },
   "todi": {
     "display_name": "Todi",
-    "alt_names": [],
+    "alt_names": [
+      "Miyan ki Todi",
+      "Mian ki Todi",
+      "Darbari Todi"
+    ],
     "mr_names": [
-      "तोडी"
+      "तोडी",
+      "मियाँ की तोडी"
     ],
     "hi_names": [
       "तोड़ी"
@@ -1182,19 +1551,26 @@
   },
   "vachaspati": {
     "display_name": "Vachaspati",
-    "alt_names": [],
+    "alt_names": [
+      "Vachaspatee",
+      "Wachaspati"
+    ],
     "mr_names": [
       "वाचस्पती"
     ],
     "hi_names": [
-      "वाचस्पति"
+      "वाचस्पति",
+      "वाचस्पती"
     ]
   },
   "vibhas": {
     "display_name": "Vibhas",
-    "alt_names": [],
+    "alt_names": [
+      "Bibhas"
+    ],
     "mr_names": [
-      "विभास"
+      "विभास",
+      "बिभास"
     ],
     "hi_names": [
       "विभास"
@@ -1202,12 +1578,1113 @@
   },
   "yaman": {
     "display_name": "Yaman",
-    "alt_names": [],
+    "alt_names": [
+      "Iman",
+      "Eman",
+      "Aiman"
+    ],
     "mr_names": [
       "यमन"
     ],
     "hi_names": [
       "यमन"
+    ]
+  },
+  "ahiri": {
+    "display_name": "Ahiri",
+    "alt_names": [
+      "Aheer",
+      "Aheeri",
+      "Aahiri"
+    ],
+    "mr_names": [
+      "आहीरी"
+    ],
+    "hi_names": [
+      "आहीरी"
+    ]
+  },
+  "ambika-sarang": {
+    "display_name": "Ambika Sarang",
+    "alt_names": [],
+    "mr_names": [
+      "अंबिका सारंग"
+    ],
+    "hi_names": [
+      "अंबिका सारंग"
+    ]
+  },
+  "amirkhani-kauns": {
+    "display_name": "Amirkhani Kauns",
+    "alt_names": [
+      "Marukauns",
+      "Khan-i Kauns",
+      "Amirkauns",
+      "Ameerkauns"
+    ],
+    "mr_names": [
+      "अमीरखानी कंस"
+    ],
+    "hi_names": [
+      "अमीरखानी कंस",
+      "अमीरखानी कौंस"
+    ]
+  },
+  "amritvarshini": {
+    "display_name": "Amritvarshini",
+    "alt_names": [
+      "Amrutvarshini",
+      "Amrit-Varshani"
+    ],
+    "mr_names": [
+      "अमृतवर्षिणी"
+    ],
+    "hi_names": [
+      "अमृतवर्षिणी"
+    ]
+  },
+  "anand-bhairav": {
+    "display_name": "Anand Bhairav",
+    "alt_names": [
+      "Anand Bhairava"
+    ],
+    "mr_names": [
+      "आनंद भैरव"
+    ],
+    "hi_names": [
+      "आनंद भैरव"
+    ]
+  },
+  "antardhwani": {
+    "display_name": "Antardhwani",
+    "alt_names": [
+      "Anthardhwani"
+    ],
+    "mr_names": [
+      "अंतर्ध्वनी"
+    ],
+    "hi_names": [
+      "अंतर्ध्वनि"
+    ]
+  },
+  "asawari": {
+    "display_name": "Asawari",
+    "alt_names": [
+      "Asavari",
+      "Shuddha Rishabh Asawari",
+      "Asawari Todi",
+      "Asavaree",
+      "Shuddh Rishabh Asawari"
+    ],
+    "mr_names": [
+      "आसावरी"
+    ],
+    "hi_names": [
+      "आसावरी"
+    ]
+  },
+  "badhans-sarang": {
+    "display_name": "Badhans Sarang",
+    "alt_names": [
+      "Badhamsa Saranga",
+      "Badahamsa",
+      "Barhans",
+      "Vadahamsa"
+    ],
+    "mr_names": [
+      "बडहंस सारंग"
+    ],
+    "hi_names": [
+      "बड़हंस सारंग",
+      "बदहमसा सारंग"
+    ]
+  },
+  "bahaduri-todi": {
+    "display_name": "Bahaduri Todi",
+    "alt_names": [],
+    "mr_names": [
+      "बहादुरी तोडी"
+    ],
+    "hi_names": [
+      "बहादुरी तोड़ी"
+    ]
+  },
+  "bangal-bhairav": {
+    "display_name": "Bangal Bhairav",
+    "alt_names": [
+      "Bengal Bhairav",
+      "Bhairav Banghal"
+    ],
+    "mr_names": [
+      "बंगाल भैरव"
+    ],
+    "hi_names": [
+      "बंगाल भैरव"
+    ]
+  },
+  "barwa": {
+    "display_name": "Barwa",
+    "alt_names": [
+      "Barava"
+    ],
+    "mr_names": [
+      "बरवा"
+    ],
+    "hi_names": [
+      "बरवा"
+    ]
+  },
+  "basant-bahar": {
+    "display_name": "Basant Bahar",
+    "alt_names": [
+      "Basant Baahar"
+    ],
+    "mr_names": [
+      "बसंत बहार"
+    ],
+    "hi_names": [
+      "बसंत बहार"
+    ]
+  },
+  "bhankar": {
+    "display_name": "Bhankar",
+    "alt_names": [
+      "Bhankhar"
+    ],
+    "mr_names": [
+      "भांकर"
+    ],
+    "hi_names": [
+      "भांकर"
+    ]
+  },
+  "chatuswari-bhavani": {
+    "display_name": "Chatuswari Bhavani",
+    "alt_names": [
+      "Bhavani",
+      "Chatu Bhavanee"
+    ],
+    "mr_names": [
+      "चतुस्वरी भवानी"
+    ],
+    "hi_names": [
+      "चतुस्वरी भवानी",
+      "भवानी"
+    ]
+  },
+  "bilawal": {
+    "display_name": "Bilawal",
+    "alt_names": [
+      "Shuddha Bilawal",
+      "Bilaval",
+      "Bilaawal",
+      "Shuddha Bilawala",
+      "Shuddh Bilawal",
+      "Shuddh Bilawala"
+    ],
+    "mr_names": [
+      "बिलावल"
+    ],
+    "hi_names": [
+      "बिलावल"
+    ]
+  },
+  "chandraprabha": {
+    "display_name": "Chandraprabha",
+    "alt_names": [
+      "Chandraphrapbha"
+    ],
+    "mr_names": [
+      "चंद्रप्रभा"
+    ],
+    "hi_names": [
+      "चंद्रप्रभा"
+    ]
+  },
+  "shuddha-chhaya": {
+    "display_name": "Shuddha Chhaya",
+    "alt_names": [
+      "Chhaya",
+      "Chaya",
+      "Shuddha Chaya",
+      "Suddha Chhaya",
+      "Shuddh Chhaya",
+      "Shuddh Chaya"
+    ],
+    "mr_names": [
+      "शुद्ध छाया"
+    ],
+    "hi_names": [
+      "शुद्ध छाया",
+      "छाया"
+    ]
+  },
+  "dagori": {
+    "display_name": "Dagori",
+    "alt_names": [
+      "Daguri",
+      "Deepaki",
+      "Dipaki"
+    ],
+    "mr_names": [
+      "दगोरी"
+    ],
+    "hi_names": [
+      "दगोरी"
+    ]
+  },
+  "deepak": {
+    "display_name": "Deepak",
+    "alt_names": [
+      "Dipak",
+      "Dipaka"
+    ],
+    "mr_names": [
+      "दीपक"
+    ],
+    "hi_names": [
+      "दीपक"
+    ]
+  },
+  "deepavali": {
+    "display_name": "Deepavali",
+    "alt_names": [
+      "Deepawali",
+      "Deepvali"
+    ],
+    "mr_names": [
+      "दीपावली"
+    ],
+    "hi_names": [
+      "दीपावली"
+    ]
+  },
+  "dhanashree": {
+    "display_name": "Dhanashree",
+    "alt_names": [
+      "Dhanashri",
+      "Dhanyashri",
+      "Dhanyasi",
+      "Dhannasika"
+    ],
+    "mr_names": [
+      "धनाश्री"
+    ],
+    "hi_names": [
+      "धनाश्री"
+    ]
+  },
+  "dhavalashree": {
+    "display_name": "Dhavalashree",
+    "alt_names": [
+      "Dhavalshree",
+      "Dhavalshri",
+      "Dhaulashree",
+      "Dhavalashri"
+    ],
+    "mr_names": [
+      "धवलश्री"
+    ],
+    "hi_names": [
+      "धवलश्री"
+    ]
+  },
+  "din-ki-puriya": {
+    "display_name": "Din ki Puriya",
+    "alt_names": [
+      "Dinki Puria",
+      "Dinkapuriya"
+    ],
+    "mr_names": [
+      "दिन की पुरिया",
+      "दिन की पुरीया"
+    ],
+    "hi_names": [
+      "दिन की पूरिया",
+      "दिन की पुरिया"
+    ]
+  },
+  "gaoti": {
+    "display_name": "Gaoti",
+    "alt_names": [
+      "Gawati",
+      "Gawoti"
+    ],
+    "mr_names": [
+      "गावती"
+    ],
+    "hi_names": [
+      "गावती"
+    ]
+  },
+  "gara": {
+    "display_name": "Gara",
+    "alt_names": [
+      "Gaara",
+      "Ghara"
+    ],
+    "mr_names": [
+      "गारा"
+    ],
+    "hi_names": [
+      "गारा"
+    ]
+  },
+  "gaudgiri-malhar": {
+    "display_name": "Gaudgiri Malhar",
+    "alt_names": [
+      "Gaur Gori Malhar"
+    ],
+    "mr_names": [
+      "गौडगिरी मल्हार"
+    ],
+    "hi_names": [
+      "गौड़गिरि मल्हार"
+    ]
+  },
+  "gunji-kanada": {
+    "display_name": "Gunji Kanada",
+    "alt_names": [
+      "Gunji Kannada"
+    ],
+    "mr_names": [
+      "गुंजी कानडा"
+    ],
+    "hi_names": [
+      "गुंजी कानड़ा",
+      "गूंजी कानड़ा",
+      "गुंजी कान्हड़ा",
+      "गूंजी कान्हड़ा"
+    ]
+  },
+  "hemavati": {
+    "display_name": "Hemavati",
+    "alt_names": [
+      "Hemvati"
+    ],
+    "mr_names": [
+      "हेमावती"
+    ],
+    "hi_names": [
+      "हेमावती"
+    ]
+  },
+  "hussaini-kanada": {
+    "display_name": "Hussaini Kanada",
+    "alt_names": [
+      "Hussainee Kannada"
+    ],
+    "mr_names": [
+      "हुसैनी कानडा",
+      "हुसेनी कानडा"
+    ],
+    "hi_names": [
+      "हुसैनी कानड़ा",
+      "हुसैनी कान्हड़ा"
+    ]
+  },
+  "hussaini-todi": {
+    "display_name": "Hussaini Todi",
+    "alt_names": [
+      "Husseini Todi",
+      "Huseni Todi"
+    ],
+    "mr_names": [
+      "हुसैनी तोडी"
+    ],
+    "hi_names": [
+      "हुसैनी तोड़ी"
+    ]
+  },
+  "imratkauns": {
+    "display_name": "Imratkauns",
+    "alt_names": [],
+    "mr_names": [
+      "इमरतकंस"
+    ],
+    "hi_names": [
+      "इमरतकंस",
+      "इमरतकौंस"
+    ]
+  },
+  "jait-kalyan": {
+    "display_name": "Jait Kalyan",
+    "alt_names": [
+      "Jeth Kalyan",
+      "Jayat Kalyan"
+    ],
+    "mr_names": [
+      "जयत कल्याण"
+    ],
+    "hi_names": [
+      "जयत कल्याण"
+    ]
+  },
+  "jaitashree": {
+    "display_name": "Jaitashree",
+    "alt_names": [
+      "Jaitshree",
+      "Jaitasiri",
+      "Jaishree",
+      "Jayantashree",
+      "Jetasree",
+      "Jaitashri"
+    ],
+    "mr_names": [
+      "जैतश्री"
+    ],
+    "hi_names": [
+      "जैतश्री"
+    ]
+  },
+  "jaivanti-todi": {
+    "display_name": "Jaivanti Todi",
+    "alt_names": [
+      "Jaiwanti Todi",
+      "Jayawanti Todi"
+    ],
+    "mr_names": [
+      "जयवंती तोडी"
+    ],
+    "hi_names": [
+      "जयवंती तोड़ी",
+      "जयवंति तोड़ी"
+    ]
+  },
+  "jansammohini": {
+    "display_name": "Jansammohini",
+    "alt_names": [
+      "Janasammohini",
+      "Janasanmodini",
+      "Siva Kalyan"
+    ],
+    "mr_names": [
+      "जनसम्मोहिनी"
+    ],
+    "hi_names": [
+      "जनसम्मोहिनी"
+    ]
+  },
+  "japaniya": {
+    "display_name": "Japaniya",
+    "alt_names": [
+      "Japaneeya"
+    ],
+    "mr_names": [
+      "जपनीय"
+    ],
+    "hi_names": [
+      "जपनीय"
+    ]
+  },
+  "jayant-malhar": {
+    "display_name": "Jayant Malhar",
+    "alt_names": [
+      "Jai Malhar",
+      "Jaijaiwanti Malhar",
+      "Jayantha Malhara"
+    ],
+    "mr_names": [
+      "जयंत मल्हार"
+    ],
+    "hi_names": [
+      "जयंत मल्हार"
+    ]
+  },
+  "kalingada": {
+    "display_name": "Kalingada",
+    "alt_names": [
+      "Kalingda"
+    ],
+    "mr_names": [
+      "कालिंगडा"
+    ],
+    "hi_names": [
+      "कालिंगड़ा"
+    ]
+  },
+  "kambhoji": {
+    "display_name": "Kambhoji",
+    "alt_names": [
+      "Khamboji",
+      "Kamboji"
+    ],
+    "mr_names": [
+      "कंभोजी"
+    ],
+    "hi_names": [
+      "कंभोजी"
+    ]
+  },
+  "khat": {
+    "display_name": "Khat",
+    "alt_names": [
+      "Kat"
+    ],
+    "mr_names": [
+      "खट"
+    ],
+    "hi_names": [
+      "खट"
+    ]
+  },
+  "khem-kalyan": {
+    "display_name": "Khem Kalyan",
+    "alt_names": [
+      "Khemkalyani"
+    ],
+    "mr_names": [
+      "खेम कल्याण"
+    ],
+    "hi_names": [
+      "खेम कल्याण"
+    ]
+  },
+  "komal-ramkali": {
+    "display_name": "Komal Ramkali",
+    "alt_names": [
+      "Komal Raamkali",
+      "Komal Raamkeli"
+    ],
+    "mr_names": [
+      "कोमल रामकली"
+    ],
+    "hi_names": [
+      "कोमल रामकली"
+    ]
+  },
+  "kukubh-bilawal": {
+    "display_name": "Kukubh Bilawal",
+    "alt_names": [
+      "Kukub Bilaval",
+      "Kookoobh Bilawal"
+    ],
+    "mr_names": [
+      "कुकुभ बिलावल"
+    ],
+    "hi_names": [
+      "कुकुभ बिलावल"
+    ]
+  },
+  "lakshmi-todi": {
+    "display_name": "Lakshmi Todi",
+    "alt_names": [
+      "Laksmi Todi",
+      "Laxmi Todi"
+    ],
+    "mr_names": [
+      "लक्ष्मी तोडी"
+    ],
+    "hi_names": [
+      "लक्ष्मी तोड़ी"
+    ]
+  },
+  "lalit-pancham": {
+    "display_name": "Lalit Pancham",
+    "alt_names": [
+      "Lalat Panchama"
+    ],
+    "mr_names": [
+      "ललित पंचम"
+    ],
+    "hi_names": [
+      "ललित पंचम"
+    ]
+  },
+  "madhuradhwani": {
+    "display_name": "Madhuradhwani",
+    "alt_names": [
+      "Madhuradvani"
+    ],
+    "mr_names": [
+      "मधुरध्वनी"
+    ],
+    "hi_names": [
+      "मधुरध्वनि"
+    ]
+  },
+  "madhuranjani": {
+    "display_name": "Madhuranjani",
+    "alt_names": [
+      "Madhuranjanee"
+    ],
+    "mr_names": [
+      "मधुरंजनी"
+    ],
+    "hi_names": [
+      "मधुरंजनी"
+    ]
+  },
+  "madhurkauns": {
+    "display_name": "Madhurkauns",
+    "alt_names": [
+      "Madhurkans"
+    ],
+    "mr_names": [
+      "मधुरकंस"
+    ],
+    "hi_names": [
+      "मधुरकंस",
+      "मधुरकौंस"
+    ]
+  },
+  "mangal-bhairav": {
+    "display_name": "Mangal Bhairav",
+    "alt_names": [],
+    "mr_names": [
+      "मंगल भैरव"
+    ],
+    "hi_names": [
+      "मंगल भैरव"
+    ]
+  },
+  "mangal-gujari": {
+    "display_name": "Mangal Gujari",
+    "alt_names": [
+      "Mangal Gujiri",
+      "Mangal Gurjari"
+    ],
+    "mr_names": [
+      "मंगल गुजरी"
+    ],
+    "hi_names": [
+      "मंगल गुजरी",
+      "मंगल गुर्जरी"
+    ]
+  },
+  "mangal-todi": {
+    "display_name": "Mangal Todi",
+    "alt_names": [],
+    "mr_names": [
+      "मंगल तोडी"
+    ],
+    "hi_names": [
+      "मंगल तोड़ी"
+    ]
+  },
+  "manj-khamaj": {
+    "display_name": "Manj Khamaj",
+    "alt_names": [
+      "Manjh Khammaj"
+    ],
+    "mr_names": [
+      "मांझ खमाज"
+    ],
+    "hi_names": [
+      "मांझ खमाज",
+      "मंज खमाज"
+    ]
+  },
+  "maru": {
+    "display_name": "Maru",
+    "alt_names": [
+      "Maaru",
+      "Raj Kalyan"
+    ],
+    "mr_names": [
+      "मारू",
+      "राज कल्याण"
+    ],
+    "hi_names": [
+      "मारू",
+      "राज कल्याण"
+    ]
+  },
+  "miyan-ki-sarang": {
+    "display_name": "Miyan ki Sarang",
+    "alt_names": [
+      "Mian Sarang"
+    ],
+    "mr_names": [
+      "मियाँ की सारंग"
+    ],
+    "hi_names": [
+      "मियाँ की सारंग",
+      "मियाँ सारंग"
+    ]
+  },
+  "nandakauns": {
+    "display_name": "Nandakauns",
+    "alt_names": [
+      "Nandkauns",
+      "Nandakaus",
+      "Nand Kaunsi"
+    ],
+    "mr_names": [
+      "नंदकंस"
+    ],
+    "hi_names": [
+      "नंदकंस",
+      "नंदकौंस"
+    ]
+  },
+  "nat": {
+    "display_name": "Nat",
+    "alt_names": [
+      "Nata",
+      "Nut",
+      "Shuddha Nat",
+      "Suddha Nat",
+      "Shuddh Nat"
+    ],
+    "mr_names": [
+      "नट"
+    ],
+    "hi_names": [
+      "नट"
+    ]
+  },
+  "nat-bihag": {
+    "display_name": "Nat Bihag",
+    "alt_names": [
+      "Nut Behag",
+      "Nut Bihag"
+    ],
+    "mr_names": [
+      "नट बिहाग"
+    ],
+    "hi_names": [
+      "नट बिहाग"
+    ]
+  },
+  "nat-kamod": {
+    "display_name": "Nat Kamod",
+    "alt_names": [
+      "Nut Kamod"
+    ],
+    "mr_names": [
+      "नट कामोद"
+    ],
+    "hi_names": [
+      "नट कामोद"
+    ]
+  },
+  "pahadi": {
+    "display_name": "Pahadi",
+    "alt_names": [
+      "Pahari"
+    ],
+    "mr_names": [
+      "पहाडी"
+    ],
+    "hi_names": [
+      "पहाड़ी"
+    ]
+  },
+  "palas": {
+    "display_name": "Palas",
+    "alt_names": [
+      "Palasi",
+      "Palasri",
+      "Palasree",
+      "Palashree"
+    ],
+    "mr_names": [
+      "पलास"
+    ],
+    "hi_names": [
+      "पलास"
+    ]
+  },
+  "paraj": {
+    "display_name": "Paraj",
+    "alt_names": [
+      "Paraji",
+      "Paraju",
+      "Peraj"
+    ],
+    "mr_names": [
+      "परज"
+    ],
+    "hi_names": [
+      "परज"
+    ]
+  },
+  "prabhateshwari": {
+    "display_name": "Prabhateshwari",
+    "alt_names": [
+      "Prabhatashwaree"
+    ],
+    "mr_names": [
+      "प्रभातेश्वरी"
+    ],
+    "hi_names": [
+      "प्रभातेश्वरी"
+    ]
+  },
+  "rajeshwari": {
+    "display_name": "Rajeshwari",
+    "alt_names": [
+      "Rajeshwaree",
+      "Rajeshvari"
+    ],
+    "mr_names": [
+      "राजेश्वरी"
+    ],
+    "hi_names": [
+      "राजेश्वरी"
+    ]
+  },
+  "reva": {
+    "display_name": "Reva",
+    "alt_names": [
+      "Rewa",
+      "Riva"
+    ],
+    "mr_names": [
+      "रेवा"
+    ],
+    "hi_names": [
+      "रेवा"
+    ]
+  },
+  "saheli-todi": {
+    "display_name": "Saheli Todi",
+    "alt_names": [
+      "Sahali Todi"
+    ],
+    "mr_names": [
+      "सहेली तोडी"
+    ],
+    "hi_names": [
+      "सहेली तोड़ी"
+    ]
+  },
+  "sampurna-malkauns": {
+    "display_name": "Sampurna Malkauns",
+    "alt_names": [
+      "Malkos Sampurna"
+    ],
+    "mr_names": [
+      "संपूर्ण मालकंस"
+    ],
+    "hi_names": [
+      "संपूर्ण मालकंस",
+      "संपूर्ण मालकौंस"
+    ]
+  },
+  "sarangkauns": {
+    "display_name": "Sarangkauns",
+    "alt_names": [],
+    "mr_names": [
+      "सारंगकंस"
+    ],
+    "hi_names": [
+      "सारंगकंस",
+      "सारंग कौंस"
+    ]
+  },
+  "saraswati-sarang": {
+    "display_name": "Saraswati Sarang",
+    "alt_names": [
+      "Sarasvatee Sarang"
+    ],
+    "mr_names": [
+      "सरस्वती सारंग"
+    ],
+    "hi_names": [
+      "सरस्वती सारंग"
+    ]
+  },
+  "savani": {
+    "display_name": "Savani",
+    "alt_names": [
+      "Savini"
+    ],
+    "mr_names": [
+      "सावनी"
+    ],
+    "hi_names": [
+      "सावनी"
+    ]
+  },
+  "shobhawari": {
+    "display_name": "Shobhawari",
+    "alt_names": [
+      "Shobhavari",
+      "Shobwari"
+    ],
+    "mr_names": [
+      "शोभावरी"
+    ],
+    "hi_names": [
+      "शोभावरी"
+    ]
+  },
+  "shuddha-basant": {
+    "display_name": "Shuddha Basant",
+    "alt_names": [
+      "Suddha Vasanta",
+      "Sudh Vasant",
+      "Shuddh Basant"
+    ],
+    "mr_names": [
+      "शुद्ध बसंत"
+    ],
+    "hi_names": [
+      "शुद्ध बसंत"
+    ]
+  },
+  "sindhi-bhairavi": {
+    "display_name": "Sindhi Bhairavi",
+    "alt_names": [
+      "Sindhu Bhairavi",
+      "Sindh Bhairavi"
+    ],
+    "mr_names": [
+      "सिंधी भैरवी"
+    ],
+    "hi_names": [
+      "सिंधी भैरवी"
+    ]
+  },
+  "sohani-pancham": {
+    "display_name": "Sohani Pancham",
+    "alt_names": [
+      "Sohini Pancham",
+      "Sohni Panchama"
+    ],
+    "mr_names": [
+      "सोहनी पंचम"
+    ],
+    "hi_names": [
+      "सोहनी पंचम"
+    ]
+  },
+  "sughrai": {
+    "display_name": "Sughrai",
+    "alt_names": [
+      "Sugharai",
+      "Sugharyee",
+      "Sugrai Kanada"
+    ],
+    "mr_names": [
+      "सुघराई"
+    ],
+    "hi_names": [
+      "सुघराई"
+    ]
+  },
+  "suha-kanada": {
+    "display_name": "Suha Kanada",
+    "alt_names": [
+      "Suha",
+      "Suhakanhara"
+    ],
+    "mr_names": [
+      "सुहा कानडा"
+    ],
+    "hi_names": [
+      "सुहा कानड़ा",
+      "सुहा",
+      "सुहा कान्हड़ा"
+    ]
+  },
+  "sundarkali": {
+    "display_name": "Sundarkali",
+    "alt_names": [
+      "Sundarkhali"
+    ],
+    "mr_names": [
+      "सुंदरकली"
+    ],
+    "hi_names": [
+      "सुंदरकली"
+    ]
+  },
+  "yaman-kalyan": {
+    "display_name": "Yaman Kalyan",
+    "alt_names": [
+      "Eman Kalyan",
+      "Jaimini Kalyan"
+    ],
+    "mr_names": [
+      "यमन कल्याण"
+    ],
+    "hi_names": [
+      "यमन कल्याण"
+    ]
+  },
+  "zeelaf": {
+    "display_name": "Zeelaf",
+    "alt_names": [
+      "Zilaf",
+      "Zilafa",
+      "Zilapha"
+    ],
+    "mr_names": [
+      "झीलफ"
+    ],
+    "hi_names": [
+      "ज़ीलफ़",
+      "झिलफ"
+    ]
+  },
+  "yamani-bilawal": {
+    "display_name": "Yamani Bilawal",
+    "alt_names": [
+      "Yamani Bilaval",
+      "Yamni Bilawal"
+    ],
+    "mr_names": [
+      "यमनी बिलावल"
+    ],
+    "hi_names": [
+      "यमनी बिलावल"
+    ]
+  },
+  "shivmat-bhairav": {
+    "display_name": "Shivmat Bhairav",
+    "alt_names": [
+      "Shivamat Bhairav",
+      "Shiv Bhairav",
+      "Shiva Bhairav",
+      "Shree Bhairav"
+    ],
+    "mr_names": [
+      "शिवमत भैरव"
+    ],
+    "hi_names": [
+      "शिवमत भैरव"
+    ]
+  },
+  "shuddha-baradi": {
+    "display_name": "Shuddha Baradi",
+    "alt_names": [
+      "Shuddh Baradi",
+      "Shuddha Barari",
+      "Shuddh Barari"
+    ],
+    "mr_names": [
+      "शुद्ध बराडी"
+    ],
+    "hi_names": [
+      "शुद्ध बराड़ी"
+    ]
+  },
+  "prateeksha": {
+    "display_name": "Prateeksha",
+    "alt_names": [
+      "Pratiksha",
+      "Bhoopeshwari",
+      "Bhoopkali",
+      "Krishnaranjani",
+      "Vasanti"
+    ],
+    "mr_names": [
+      "प्रतीक्षा",
+      "प्रतिक्षा",
+      "भूपेश्वरी",
+      "भूपकली",
+      "कृष्णरंजनी",
+      "वसंती"
+    ],
+    "hi_names": [
+      "प्रतीक्षा",
+      "भूपेश्वरी",
+      "भूपकली",
+      "कृष्णरंजनी",
+      "वसंती"
     ]
   }
 }

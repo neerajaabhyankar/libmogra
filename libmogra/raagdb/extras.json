@@ -1,0 +1,197 @@
+{
+  "yamani-bilawal": {
+    "name": "Yamani Bilawal",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "m",
+      "G",
+      "P",
+      "M",
+      "P",
+      "G",
+      "m",
+      "R",
+      "G",
+      "G",
+      "P",
+      "N",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "M",
+      "P",
+      "D",
+      "M",
+      "P",
+      "G",
+      "m",
+      "G",
+      "R",
+      "G",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [
+      [
+        "S",
+        "R",
+        "G"
+      ],
+      [
+        "G",
+        "R",
+        "G",
+        "P"
+      ],
+      [
+        "G",
+        "m",
+        "D"
+      ],
+      [
+        "P"
+      ],
+      [
+        "M",
+        "P",
+        "G",
+        "m",
+        "R",
+        "G"
+      ],
+      [
+        "P",
+        "m",
+        "G",
+        "R",
+        "S"
+      ]
+    ],
+    "aarohi_nyas": [
+      "S",
+      "G",
+      "P"
+    ],
+    "avarohi_nyas": [
+      "S",
+      "G",
+      "P"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Bilawal",
+    "prahar": "day 1st"
+  },
+  "shivmat-bhairav": {
+    "name": "Shivmat Bhairav",
+    "aaroha": [
+      "S",
+      "r",
+      "G",
+      "m",
+      "P",
+      "d",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "d",
+      "P",
+      "P",
+      "d",
+      "n",
+      "d",
+      "P",
+      "m",
+      "G",
+      "m",
+      "r",
+      "g",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [],
+    "aarohi_nyas": [],
+    "avarohi_nyas": [],
+    "vaadi": "d",
+    "samvaadi": "r",
+    "thaat": "Bhairav",
+    "prahar": "day 1st"
+  },
+  "shuddha-baradi": {
+    "name": "Shuddha Baradi",
+    "aaroha": [
+      "S",
+      "r",
+      "G",
+      "P",
+      "D",
+      "N",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "N",
+      "D",
+      "P",
+      "G",
+      "r",
+      "S"
+    ],
+    "mukhyanga": [],
+    "aarohi_nyas": [],
+    "avarohi_nyas": [],
+    "vaadi": null,
+    "samvaadi": null,
+    "thaat": null,
+    "prahar": null
+  },
+  "prateeksha": {
+    "name": "Prateeksha",
+    "aaroha": [
+      "S",
+      "R",
+      "G",
+      "P",
+      "d",
+      "`S"
+    ],
+    "avaroha": [
+      "`S",
+      "d",
+      "P",
+      "G",
+      "R",
+      "S"
+    ],
+    "mukhyanga": [],
+    "aarohi_nyas": [
+      "S",
+      "R",
+      "G",
+      "P",
+      "d"
+    ],
+    "avarohi_nyas": [
+      "d",
+      "P",
+      "G",
+      "R",
+      "S"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Not Defined",
+    "prahar": "day 1st"
+  }
+}

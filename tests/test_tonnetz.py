@@ -53,4 +53,4 @@ def test_tonnetz_keys_in_raagdb():
     from libmogra.raagdb import RAAG_DB
     from libmogra.tonnetz import GT_NODES
 
-    assert set(GT_NODES) - set(RAAG_DB) == {"all", "none", "prateeksha"}
+    assert set(GT_NODES) - set(RAAG_DB) == {"all", "none"}

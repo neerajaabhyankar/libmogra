@@ -6,6 +6,8 @@ The raag database, merged from:
                     Keyed by the display name slugified; "tanarang_key" links a raag
                     whose tanarang key slugifies to something else
     tanarang.json   scraped from tanarang.com + notebook cleanup; never edited by hand
+    junglism.json   raags not on tanarang, from ragajunglism.org's list; aaroha/avaroha from
+                    ragajunglism.org or elsewhere, other fields null / [] where unknown
     extras.json     hand-added raags, same fields as tanarang entries (optional)
 
 into raags.pkl. After editing any of these, rebuild it with
@@ -21,7 +23,7 @@ import re
 
 RAAGDB_DIR = os.path.dirname(__file__)
 NAMES_FILE = "names.json"
-SOURCE_FILES = ["tanarang.json", "extras.json"]
+SOURCE_FILES = ["tanarang.json", "junglism.json", "extras.json"]
 PICKLE_PATH = os.path.join(RAAGDB_DIR, "raags.pkl")
 
 
