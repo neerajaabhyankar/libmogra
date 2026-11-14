@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Build output
+dist/
+
+# Local scratch / backups
+kalefix.patch
+libmogra/raagdb/temp/
+libmogra/raagfinder/raags.bkp.pkl
