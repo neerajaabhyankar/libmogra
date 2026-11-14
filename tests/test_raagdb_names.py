@@ -18,6 +18,15 @@ def test_names_master_list():
             assert name == unicodedata.normalize("NFC", name), f"{key}: {name} is not NFC"
 
 
+def test_prahar():
+    times = {f"{dn} {n}" for dn in ("day", "night") for n in ("1st", "2nd", "3rd", "4th")}
+    for key, entry in raagdb.items():
+        parts = entry["prahar"].split(", ") if entry["prahar"] else []
+        assert not any(p in times for p in parts[1:]), f"{key}: time of day must come first, once"
+    assert raagdb["basant-bahar"]["prahar"] == "night 2nd, spring anytime"
+    assert raagdb["gaudgiri-malhar"]["prahar"] == "monsoon anytime"
+
+
 def test_aliases_unique():
     seen = {}
     for key, entry in raagdb.items():

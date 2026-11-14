@@ -9,8 +9,12 @@ The raag database, merged from:
     junglism.json   raags not on tanarang, from ragajunglism.org's list; aaroha/avaroha from
                     ragajunglism.org or elsewhere, other fields null / [] where unknown
     extras.json     hand-added raags, same fields as tanarang entries (optional)
+    prahar_tags.json  extra, non-time-of-day tags (seasons: "spring anytime", "monsoon
+                    anytime", ...) appended to a raag's prahar, keyed like names.json (optional)
 
-into raags.pkl. After editing any of these, rebuild it with
+into raags.pkl. "prahar" is a comma-separated string: the time of day ("day 1st" ...
+"night 4th") first if known, then any tags, e.g. "night 2nd, spring anytime".
+After editing any of these, rebuild it with After editing any of these, rebuild it with
 
     python -m libmogra.raagdb
 """
@@ -24,6 +28,7 @@ import re
 RAAGDB_DIR = os.path.dirname(__file__)
 NAMES_FILE = "names.json"
 SOURCE_FILES = ["tanarang.json", "junglism.json", "extras.json"]
+PRAHAR_TAGS_FILE = "prahar_tags.json"
 PICKLE_PATH = os.path.join(RAAGDB_DIR, "raags.pkl")
 
 
@@ -60,6 +65,10 @@ def build():
         assert source_key in sources, f"no source data for {key}"
         source = {field: value for field, value in sources[source_key].items() if field != "name"}
         raag_db[key] = {"name": key, **entry_names, **source}
+
+    for key, tags in read_json(PRAHAR_TAGS_FILE).items():
+        assert key in raag_db, f"prahar tags for unknown raag {key}"
+        raag_db[key]["prahar"] = ", ".join(filter(None, [raag_db[key]["prahar"], *tags]))
     return raag_db
 
 
